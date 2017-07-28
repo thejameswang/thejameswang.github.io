@@ -1,0 +1,711 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.James-Wang-Home{
+  font-family: 'BioRhyme', serif;
+  padding-left: 3em;
+  font-size: 1.5em;
+}
+
+.padding-style1 {
+  padding: 100px 0;
+}
+
+
+.navbar-brand {
+  font-family: 'BioRhyme', serif;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  opacity: 0;
+  margin: 0;
+}
+
+#home {
+  background-image: url("https://c1.staticflickr.com/9/8529/28113938684_4873d33485_c.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  margin: 0;
+}
+
+#home h3 {
+  text-align: center;
+  color: #DDD;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: 'BioRhyme', serif;
+  font-weight: bold;
+  background: #222;
+  position: relative;
+  top: 150px;
+}
+
+#home h4 {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  position: relative;
+  top: 150px;
+}
+
+.about .section-title {
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 24px;
+  font-family: 'BioRhyme', serif;
+}
+
+.about-container{
+  background-color: #AAAAAA;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap:wrap;
+  flex-direction:row;
+  height: 650px;
+}
+
+.about-me{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: -50px;
+}
+
+.about-img-1{
+  border-radius: 50%;
+}
+
+.column-1, .column-2, .column-3{
+  margin: auto 10px;
+}
+
+.column-1{
+  width: 29%;
+}
+
+.column-2{
+  font-size: 1.15em;
+  width: 41%;
+}
+
+.column-2 h3{
+  padding-bottom: 25px;
+}
+
+.column-2 p{
+  margin-bottom: 20px;
+}
+
+.column-3{
+  width: 29%;
+  padding-left: 30px;
+  font-size: 1.05em;
+}
+
+.column-3 h3{
+  padding-bottom: 20px;
+}
+.column-3 h4{
+  margin-bottom: 10px;
+}
+
+.about-text h3,
+.about-skills h3{
+  font-weight: bold;
+}
+
+.about-skills-list h4 {
+  font-weight: bold;
+
+}
+
+.about-skills-list {
+  list-style-type: none;
+}
+
+.about-skills-list li{
+  margin: 10px auto;
+}
+
+.about-skills-list h4, .about-skills-list p, .about-skills-list a{
+  display: flex;
+  flex-direction: horizontal;
+}
+
+.resume-button{
+  color: black;
+  border-style: hidden;
+  border-radius: 25px;
+  background-color: #aaabbb;
+  margin-top: 20px;
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+}
+
+.resume-button:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resume-button:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+.resume-button:active{
+  color: lightblue;
+}
+
+.about-text p,{
+  padding-top: 10px;
+}
+
+.about-skills p{
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+.experience{
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.experience-container{
+  justify-content:flex-start;
+  padding-top: 30px;
+  flex-direction: column;
+  display: flex;
+  width: 88%;
+  min-height: inherit;
+  padding-bottom: 50px;
+}
+
+.experience-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.experience-header{
+  display: flex;
+  justify-content: center;
+}
+
+.experience-header h1{
+  font-weight: bold;
+  font-size: 3.25em;
+  font-family: 'BioRhyme', serif;;
+}
+
+.rows{
+  display: flex;
+}
+
+.mass-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: inherit;
+}
+
+.e-i-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 85%;
+  min-height: inherit;
+}
+
+.experience-items{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 25px 0px;
+}
+
+.experience-image{
+  margin: 10px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.experience-description{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.experience-description h2{
+  color: darkblue;
+}
+
+.experience-description h3{
+  color: tan;
+  font-size: 1.43em;
+  margin-top: 15px;
+}
+
+.experience-description p{
+  margin-top: 20px;
+  font-size: 1.15em;
+}
+
+
+.Projects {
+  background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19143062_10155473584593024_4230826121792434164_o.jpg?oh=0e8f981e7bd22c0ad1d02504faad91a7&oe=59E75B97");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  min-height: 700px;
+}
+
+.Projects-Header-Container {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 48px;
+  margin-top: -30px;
+}
+
+.Hobbies-Header-Container {
+  text-align: center;
+  font-size: 58px;
+  padding: 20px;
+}
+
+.IMG{
+  margin-bottom: 40px;
+}
+.my-work-content-head ul li {
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 14px;
+  font-weight: 700px;
+  color: black;
+  margin: 0px 10px;
+  font-size: 16px;
+}
+
+.my-work-content-items {
+  margin: 5px 15px 5px 5px;
+}
+
+#work-title {
+  font-family: 'BioRhyme', serif;
+}
+
+figure.card-content {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  text-align: left;
+  margin: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border-color: white;
+  border-width: 20px;
+}
+
+figure.card-content * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+figure.card-content img {
+  max-width: 100%;
+  -webkit-transform: scale (1.1);
+  transform: scale(1.1);
+  vertical-align: top;
+}
+
+figure.card-content figcaption {
+  position: absolute;
+  padding: 40px 25px;
+  top: 0;
+  left: 0;
+}
+
+figure.card-content button,
+figure.card-content h2,
+figure.card-content p {
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+figure.card-content h2 {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 100;
+  font-size: 1.8em;
+}
+
+figure.card-content p {
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.4em;
+}
+
+figure.card-content button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #white;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  opacity: 0;
+}
+
+figure.card-content:hover {
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+figure.card-content:active {
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+figure.card-content:hover img,
+figure.card-content.hover img {
+  opacity: 0;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.card-content:active img,
+figure.card-content.active img {
+  opacity: 0;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.card-content:hover h2,
+figure.card-content.hover h2 {
+  opacity: 1;
+}
+
+figure.card-content:active h2,
+figure.card-content.active h2 {
+  opacity: 1;
+}
+
+figure.card-content:hover p,
+figure.card-content.hover p {
+  opacity: 1;
+}
+
+figure.card-content:active p,
+figure.card-content.active p {
+  opacity: 1;
+}
+
+figure.card-content:hover button,
+figure.card-content.hover button {
+  opacity: 1;
+}
+
+figure.card-content:active button,
+figure.card-content.active button {
+  opacity: 1;
+}
+
+#slider-img {
+  opacity: 1;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reco-title {
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+
+.reco-img {
+  height: 200px;
+  width: 200px;
+  padding-bottom: 220px;
+  margin: auto;
+  display: block;
+}
+
+.reco-text {
+  text-align: center;
+}
+
+.fun-facts-header .section-title {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 48px;
+}
+
+
+
+.section-second-title {
+  text-align: center;
+  font-size: 32px;
+  font-family:  'BioRhyme', serif;
+  padding-bottom: 20px;
+}
+
+#work-card {
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.my-work-content-head {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.animate {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.info-card {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+.info-card1{
+  height: 200px;
+}
+
+.info-card .info-card-details,
+.info-card .info-card-details .info-card-header  {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  padding: 0 15px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+.info-card .info-card-details::-webkit-scrollbar {
+  width: 8px;
+}
+.info-card .info-card-details::-webkit-scrollbar-button {
+  width: 8px;
+  height: 0px;
+}
+.info-card .info-card-details::-webkit-scrollbar-track {
+  background: transparent;
+}
+.info-card .info-card-details::-webkit-scrollbar-thumb {
+  background: rgb(160, 160, 160);
+}
+.info-card .info-card-details::-webkit-scrollbar-thumb:hover {
+  background: rgb(130, 130, 130);
+}
+
+.info-card .info-card-details .info-card-header {
+  height: auto;
+  bottom: 100%;
+  padding: 20px 5px;
+}
+.info-card:hover .info-card-details {
+  bottom: 0px;
+  overflow: auto;
+  padding-bottom: 25px;
+}
+.info-card:hover .info-card-details .info-card-header {
+  position: relative;
+  bottom: 0px;
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+.info-card .info-card-details .info-card-header h1 {
+  color: rgb(62, 62, 62);
+  font-size:  20px;
+  font-family:  'BioRhyme', serif;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.info-card .info-card-details .info-card-detail .social {
+  list-style: none;
+  padding: 0px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.info-card-detail p {
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+}
+
+.info-card .info-card-details .info-card-detail .social a {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+  padding: 10px 0px;
+  margin: 20px 5px;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(215, 215, 215);
+  border-radius: 40px;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=20);
+    opacity: 0.7;
+}
+
+.modal-content {
+    background: none;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+
+.modal-body {
+    padding: 0 25px 25px 25px;
+}
+
+.modal-header {
+    padding: 25px 25px 15px 25px;padd
+    text-align: right;
+}
+
+.modal-header, .modal-footer {
+    border: 0;
+}
+
+.modal-header .close {
+    float: none;
+    margin: 0;
+    font-size: 36px;
+    color: black;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.community li{
+  list-style-type: none;
+}
+
+.info-card p{
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  min-height: 600px;
+  background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/19875299_10155564233298024_2773562034564159794_n.jpg?oh=476ba616d68ab446d4270940da6fdfcc&oe=59FD059E");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.contact-header{
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+  height: inherit;
+}
+.contact-header h1,
+.contact-header h2{
+  margin-bottom: 5px;
+  font-size: 4em;
+}
+.contact-logo-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.contact-logo{
+  display: flex;
+}
