@@ -59,6 +59,9 @@
   top: 150px;
 }
 
+body{
+  overflow-x: hidden;
+}
 .about .section-title {
   text-align: center;
 }
