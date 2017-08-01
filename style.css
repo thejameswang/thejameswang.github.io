@@ -83,12 +83,8 @@ body{
   height: inherit;
 }
 
-.vcenter img{
-  width: 50%;
-}
 .box{
   height: auto !important;
-  border: 2px solid red;
   text-align: center;
 }
 
@@ -97,6 +93,9 @@ body{
   margin: 0px;
   background-color: #AAAAAA;
   padding: 30px 0px;
+}
+.about-container h2{
+  padding: 20px 0px;
 }
 
 ul{
@@ -107,99 +106,35 @@ ul{
 }
 
 .experience{
-  background-color: #EEEEEE;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding: 50px 70px;
 }
-
-.experience-container{
-  justify-content:flex-start;
-  padding-top: 30px;
-  flex-direction: column;
-  display: flex;
-  width: 88%;
-  min-height: inherit;
-  padding-bottom: 50px;
+.experience p{
+  margin: 20px 0px;
 }
-
-.experience-header-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 5px;
-  margin-top: 10px;
+.experience img{
+  padding: 10px 0px;
+  display: block;
 }
-
-.experience-header{
-  display: flex;
-  justify-content: center;
+.experience h1{
+  padding: 20px 0px;
+  padding-bottom: 40px;
 }
-
-.experience-header h1{
-  font-weight: bold;
-  font-size: 3.25em;
-  font-family: 'BioRhyme', serif;;
-}
-
-.rows{
-  display: flex;
-}
-
-.mass-container{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  min-height: inherit;
-}
-
-.e-i-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  width: 85%;
-  min-height: inherit;
-}
-
-.experience-items{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  margin: 25px 0px;
-}
-
-.experience-image{
-  margin: 10px 40px;
-  display: flex;
-  align-items: center;
-}
-
-.experience-description{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.experience-description h2{
+.experience h2{
   color: darkblue;
 }
-
-.experience-description h3{
+.experience h3{
   color: tan;
-  font-size: 1.43em;
-  margin-top: 15px;
+}
+.myGen-img {
+  padding: 20px 0px;
 }
 
-.experience-description p{
-  margin-top: 20px;
-  font-size: 1.15em;
+.tech{
+  padding: 40px 0px;
 }
-
-
+.spectrum{
+  padding: 10px 0px;
+}
 .Projects {
   background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19143062_10155473584593024_4230826121792434164_o.jpg?oh=0e8f981e7bd22c0ad1d02504faad91a7&oe=59E75B97");
   background-size: cover;
@@ -600,7 +535,7 @@ figure.card-content.active button {
 .contact{
   text-align: center;
   padding: 50px;
-  padding-bottom: 70px; 
+  padding-bottom: 70px;
   background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/19875299_10155564233298024_2773562034564159794_n.jpg?oh=476ba616d68ab446d4270940da6fdfcc&oe=59FD059E");
   background-size: cover;
   background-position: center;
