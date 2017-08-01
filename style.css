@@ -42,13 +42,16 @@ img{
   margin: 0;
 }
 
+.dumb{
+  padding: 40px 20px;
+}
 #home {
   background-image: url("https://c1.staticflickr.com/9/8529/28113938684_4873d33485_c.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 550px;
   margin: 0;
 }
 
@@ -86,6 +89,7 @@ body{
 .box{
   height: auto !important;
   text-align: center;
+  padding: 40px 0px;
 }
 
 .about-container{
@@ -96,8 +100,15 @@ body{
 }
 .about-container h2{
   padding: 20px 0px;
+  font-size: 2.5em;
 }
 
+.about-container h4{
+  padding: 10px 0px;
+}
+.about-container p{
+  font-size: 1.15em;
+}
 ul{
   list-style-type: none;
 }
@@ -109,32 +120,44 @@ ul{
   padding: 50px 70px;
   margin: auto;
 }
+
 .experience p{
   margin: 20px 0px;
 }
+
 .experience img{
   padding: 10px 0px;
   display: block;
 }
+
 .experience h1{
   padding: 20px 0px;
   padding-bottom: 40px;
 }
+
 .experience h2{
   color: darkblue;
 }
+
 .experience h3{
   color: tan;
 }
+
 .myGen-img {
   padding: 60px 0px;
 }
 
 .tech{
-  padding: 40px 0px;
+  padding: 50px 0px;
 }
+
 .spectrum{
   padding: 20px 0px;
+}
+
+.resume-button{
+  border: 1px hidden;
+  background-color:
 }
 .Projects {
   background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19143062_10155473584593024_4230826121792434164_o.jpg?oh=0e8f981e7bd22c0ad1d02504faad91a7&oe=59E75B97");
