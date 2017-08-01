@@ -107,6 +107,7 @@ ul{
 
 .experience{
   padding: 50px 70px;
+  margin: auto;
 }
 .experience p{
   margin: 20px 0px;
@@ -126,14 +127,14 @@ ul{
   color: tan;
 }
 .myGen-img {
-  padding: 20px 0px;
+  padding: 60px 0px;
 }
 
 .tech{
   padding: 40px 0px;
 }
 .spectrum{
-  padding: 10px 0px;
+  padding: 20px 0px;
 }
 .Projects {
   background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19143062_10155473584593024_4230826121792434164_o.jpg?oh=0e8f981e7bd22c0ad1d02504faad91a7&oe=59E75B97");
