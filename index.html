@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <link href="https://blackrockdigital.github.io/startbootstrap-scrolling-nav/css/bootstrap.min.css" rel="stylesheet"/>
     <!--Necessary for viewing on mobile devices -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link href = "style.css" type = "text/css" rel = "stylesheet"/>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/images/Favicon/favicon-16x16.png" type="img/png"/>
@@ -15,7 +15,7 @@
     <!--Navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
-        <div class="navbar-header">
+        <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -26,11 +26,11 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Hobbies">Hobbies</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class = "page-scroll" href="#about-me">About Me</a></li>
+            <li><a class = "page-scroll" href="#Experience">Experience</a></li>
+            <li><a class = "page-scroll" href="#Projects">Projects</a></li>
+            <li><a class = "page-scroll" href="#Hobbies">Hobbies</a></li>
+            <li><a class = "page-scroll" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -39,10 +39,10 @@
   <div class="wrapper home" style="opacity: 1;">
   <!-- Home Page -->
     <div class="row">
-      <div class="col-xs-12">
-        <div class="jumbotron" id="home">
-          <div class="container-fluid">
-            <div class="row">
+      <div class="">
+        <div class="" id="home">
+          <div class="">
+            <div class="">
               <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-12">
                 <h3>James Wang</h3>
                 <h4>Poser Everyday</h4>
@@ -55,98 +55,78 @@
       </div>
     </div>
   </div>
-  <div class = "about-container" id = "about-me">
-    <div class = "about-me">
-      <div class = "column-1 about-img">
-        <img class = "about-img-1"src = "https://c1.staticflickr.com/5/4330/35143727864_c7e0899f97.jpg" alt = "James Portrait">
-      </div>
-      <div class = "column-2 about-text">
-        <h3>Who am I?</h3>
-        <p> I'd like to think I'm a funny and chill person. I am a freshman at the Georgia Institute of Technology, a beginner at coding, and most of all, a crappy writer. I'm using my freetime to try and find passions that inspire me, and boy, do I have a lot of freetime. I love to learn more about the person next to me, so don't be a stranger!</p>
-        <p> My goals are to eventually be a very impressive full stack developer, and I hope to work at one of the largest Technology companies, eventually. Wish me luck because everyone knows I'll need it.</p>
-      </div>
-      <div class = "column-3 about-skills">
-        <h3>Skills</h3>
-        <ul class = "about-skills-list">
-          <li><h4>Programming</h4> <p>Basic Java, Matlab, HTML &amp; CSS</p> </li>
-          <li><h4>Languages</h4> <p>Chinese and Latin</p> </li>
-          <li><h4>Sports</h4> <p>Table Tennis, Tennis, and Swimming</p> </li>
+  <div class = "row about-container" id = "about-me">
+    <div class = "col-xs-12">
+        <div class = "col-xs-12 col-md-4 text-center">
+          <div class="box">
+            <img class = "about-img-1 text-center" src = "https://c1.staticflickr.com/5/4330/35143727864_c7e0899f97.jpg" alt = "James Portrait">
+          </div>
+        </div>
+        <div class = "col-xs-12 col-md-4 text-center">
+          <div class="box">
+            <h3><strong>Who am I?</strong></h3>
+            <p> I'd like to think I'm a funny and chill person. I am a freshman at the Georgia Institute of Technology, a beginner at coding, and most of all, a crappy writer. I'm using my freetime to try and find passions that inspire me, and boy, do I have a lot of freetime. I love to learn more about the person next to me, so don't be a stranger!</p>
+            <p> My goals are to eventually be a very impressive full stack developer, and I hope to work at one of the largest Technology companies, eventually. Wish me luck because everyone knows I'll need it.</p>
+          </div>
+        </div>
+        <div class = "box col-xs-12 col-md-4 text-center">
+          <h3><strong>Skills</strong></h3>
+          <ul class = "about-skills-list">
+          <li><h4><strong>Programming</strong></h4> <p>Basic Java, Matlab, HTML &amp; CSS</p> </li>
+          <li><h4><strong>Languages</strong></h4> <p>Chinese and Latin</p> </li>
+          <li><h4><strong>Sports</strong></h4> <p>Table Tennis, Tennis, and Swimming</p> </li>
           <a class = "resume-button" href="PDF/Wang_James_Resume.pdf" download>Resume Download</a>
       </div>
-    </div>
   </div>
-  <section class = "experience" id = "Experience">
-    <div class="experience-container">
-      <div class="experience-header-container">
-        <div class = "experience-header">
-          <h1><strong>Experience</strong></h1>
-        </div>
-      </div>
-      <div class = "mass-container">
-        <div class="e-i-container">
-          <div class = "rows Emory-rows">
-            <div class = "experience-items Emory-items">
-              <div class = "experience-image Emory-image">
-                <img src="images/Eshield/jpg&#38;png/Eshield_2801.png" alt="Emory">
-              </div>
-              <div class = "experience-description Emory-description">
-                <h2><strong>Emory University Research</strong></h2><h3><strong>Research Intern/Volunteer, <em>Since</em> May 2017</strong></h3>
-                <p>I am presently working in Doctor Dieter Jaeger's Parkinson's lab under Doctor Li Su. Under his guidance, I'm improving my coding abilities in Matlab.</p>
-                <p>Using Matlab, I code data organization programs to improve data search efficiency, conduct video analysis on mice behavior, and attempt to help postdoctoral researchers and graduate researchers. </p>
-              </div>
-            </div>
-          </div>
-          <div class = "rows myGenomic-rows">
-            <div class = "experience-items SIM-items">
-              <div class = "experience-description SIM-description">
-                <h2><strong>myGenomics LLC</strong></h2><h3><strong>Intern <em>From</em> January 2017 to May 2017</strong></h3>
-                <p>myGenomics is a highly specialized next generation sequencing(NGS) service provider. The lab consists of entirely PhD scientists with over fifteen years of research experience in genetics and NGS.</p>
-                <p>As an intern, I was tasked to Extracted, fragmented, purified, amplified, and sequenced DNA, organize samples and give QC(Quality Control) reports to clients. I was mentored by fouder of myGenomics Dr.Shoeb Ahmad for over 80 hours.</p>
-              </div>
-              <div class = "experience-image SIM-image">
-                <img src="images/myGenomics/myGenomics.png" alt="myGenomics">
-              </div>
-            </div>
-          </div>
-          <div class = "rows SIM-rows">
-            <div class = "experience-items SIM-items">
-              <div class = "experience-image SIM-image">
-                <img src="images/SIM/SIM-logo.jpg" alt="SIM">
-              </div>
-              <div class = "experience-description SIM-description">
-                <h2><strong>Spectrum Internal Medicine</strong></h2><h3><strong>Intern <em>From</em> August 2016 to January 2017</strong></h3>
-                <p>Spectrum Internal Medicine is a private physician facility founded by Doctor Julius Adebisi.</p>
-                <p>At the office, I studied diseases and disorders with an internist, Dr. Adebisi, for over 90 hours, and I learned the administrative process for medical assistants around a private practice.</p>
-              </div>
-            </div>
-          </div>
-          <div class = "rows GT-rows">
-            <div class = "experience-items GT-items">
-              <div class = "experience-description GT-description">
-                <h2><strong>Georgia Institute of Technology </strong></h2><h3><strong>Incoming Freshman <em>Since</em> August 2017</strong></h3>
-                <p>The Georgia Institute of Technology provides one of the best Computer Science programs in the world along with the diversity and caring environment needed for a rounded college experience. My understanding and experience with Georiga Tech excites me for the future opportunties possible.</p>
-                <p>My experience will be filled with passionate students and teachers who will keep me engaged and humble throughout the process. I hope to use this chance to propell my understanding of the computer science field.</p>
-              </div>
-              <div class = "experience-image GT-image">
-                <img src="images/GT/GT-logo2.png" alt="GT">
-              </div>
-            </div>
-          </div>
-          <div class = "rows SIM-rows">
-            <div class = "experience-items SIM-items">
-              <div class = "experience-image SIM-image">
-                <img src="images/GHP/GHP.png" alt="GHP">
-              </div>
-              <div class = "experience-description SIM-description">
-                <h2><strong>Governor's Honor Program</strong></h2><h3><strong>Finalist <em>From</em> May 2016 to July 2016</strong></h3>
-                <p>The Georgia Governor's Honors Program (GHP) is a residential summer program for gifted and talented high school students in the State of Georgia.</p>
-                <p>As a finalist, I worked as both a Mathematics major and a Journalism minor. The program consisted of perpetual projects from Mathematic Research projects to press conferences as a journalist. As a mathematics major, my partner and I created a traffic simulator using Netlogo, and as a journalism minor, I created Gonzo and editorials for the Valdosta GHP campus.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+</div>
+  <section class = "row stuff" id = "Experience">
+    <div class = "col-xs-12 text-center">
+      <h1><strong>Experience</strong></h1>
     </div>
+      <div class="col-xs-12 col-md-6 center-block img-responsive">
+        <img src="images/Eshield/jpg&#38;png/Eshield_2801.png" alt="Emory">
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <h2><strong>Emory University Research</strong></h2><h3><strong>Research Intern/Volunteer, <em>Since</em> May 2017</strong></h3>
+        <p>I am presently working in Doctor Dieter Jaeger's Parkinson's lab under Doctor Li Su. Under his guidance, I'm improving my coding abilities in Matlab.</p>
+        <p>Using Matlab, I code data organization programs to improve data search efficiency, conduct video analysis on mice behavior, and attempt to help postdoctoral researchers and graduate researchers. asdlfkjas;ldfkjas;dlfkjas;ldfkja;sdlfkja;lsdkfja;sldkfja;lsdfkja;sldfkja;sldfkja;lsdfkja;ldfkja;lsdfkja;lsdkfja;sldkfja;sldkfjas;ldkfja;sldfkja;sldfkja;sdlfkjas;dlfkjas;ldfkj asldkfjas;ldkfja;sldfkjas;ldfkj asdl;fkjas;ldkfja;sldfkja;sldfkjasldkfja;sldkfjas;ldfkj a;sldfkj alsdfjkasldfkj as;ldkfj asdlfkj asdlfkj as;ldfkj as;ldfkj as;ldfkj a;sldkfj a;sldkjf a;lsdkjf </p>
+      </div>
+      <hr>
+      <div class="col-xs-12 col-md-6">
+        <h2><strong>myGenomics LLC</strong></h2><h3><strong>Intern <em>From</em> January 2017 to May 2017</strong></h3>
+        <p>myGenomics is a highly specialized next generation sequencing(NGS) service provider. The lab consists of entirely PhD scientists with over fifteen years of research experience in genetics and NGS.</p>
+        <p>As an intern, I was tasked to Extracted, fragmented, purified, amplified, and sequenced DNA, organize samples and give QC(Quality Control) reports to clients. I was mentored by fouder of myGenomics Dr.Shoeb Ahmad for over 80 hours.</p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <img src="images/myGenomics/myGenomics.png" alt="myGenomics">
+      </div>
+      <hr>
+      <div class="col-xs-12 col-md-6">
+        <img src="images/SIM/SIM-logo.jpg" alt="SIM">
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <h2><strong>Spectrum Internal Medicine</strong></h2><h3><strong>Intern <em>From</em> August 2016 to January 2017</strong></h3>
+        <p>Spectrum Internal Medicine is a private physician facility founded by Doctor Julius Adebisi.</p>
+        <p>At the office, I studied diseases and disorders with an internist, Dr. Adebisi, for over 90 hours, and I learned the administrative process for medical assistants around a private practice.</p>
+      </div>
+      <hr>
+      <div class="col-xs-12 col-md-6">
+        <h2><strong>Georgia Institute of Technology </strong></h2><h3><strong>Incoming Freshman <em>Since</em> August 2017</strong></h3>
+        <p>The Georgia Institute of Technology provides one of the best Computer Science programs in the world along with the diversity and caring environment needed for a rounded college experience. My understanding and experience with Georiga Tech excites me for the future opportunties possible.</p>
+        <p>My experience will be filled with passionate students and teachers who will keep me engaged and humble throughout the process. I hope to use this chance to propell my understanding of the computer science field.</p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <img src="images/GT/GT-logo2.png" alt="GT">
+      </div>
+      <hr>
+      <div class="col-xs-12 col-md-6">
+        <img src="images/GHP/GHP.png" alt="GHP">
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <h2><strong>Governor's Honor Program</strong></h2><h3><strong>Finalist <em>From</em> May 2016 to July 2016</strong></h3>
+        <p>The Georgia Governor's Honors Program (GHP) is a residential summer program for gifted and talented high school students in the State of Georgia.</p>
+        <p>As a finalist, I worked as both a Mathematics major and a Journalism minor. The program consisted of perpetual projects from Mathematic Research projects to press conferences as a journalist. As a mathematics major, my partner and I created a traffic simulator using Netlogo, and as a journalism minor, I created Gonzo and editorials for the Valdosta GHP campus.</p>
+      </div>
   </section>
   <!--My Work Title-->
   <section class="Projects padding-style1" id="Projects">
@@ -302,34 +282,35 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
     <section class = "contact" id = "contact">
-      <div class="contact-container">
-        <div class="contact-header">
-          <h1>Let's Stay In Touch!</h1>
+      <h1>Let's Stay In Touch!</h1>
+      <div class = "row">
+        <div class="col-sm-12 col-md-4">
+          <h1>Linkedin!</h1>
+          <a class = "" href="https://www.linkedin.com/in/TheJamesWang">
+          <img src="images/Contact/linkedin.png" alt="linkedin" height = "122.4" width = "122.4">
+          </a>
         </div>
-        <div class="contact-logo-container">
-          <div class="Contact-logo column-1">
-            <h1>Linkedin!</h1>
-            <a href="https://www.linkedin.com/in/TheJamesWang">
-            <img src="images/Contact/linkedin.png" alt="linkedin" height = "122.4" width = "122.4">
-            </a>
-          </div>
-          <div class="Contact-logo column-2" >
-            <a href="mailto:j.wang5441@gmail.com">
-            <img src="images/Contact/gmail.svg" alt="Gmail" height = "375" width = "175.5">
-            </a>
-          </div>
-          <div class="Contact-logo column-3">
-            <h1>Github!</h1>
-            <a href="https://github.com/thejameswang">
-            <img src="images/Contact/Github.png" alt="github" height = "204" width = "204">
-            </a>
-          </div>
+        <div class="col-sm-12 col-md-4" >
+          <h1>Gmail!</h1>
+          <a href="mailto:j.wang5441@gmail.com">
+          <img src="images/Contact/gmail.svg" alt="Gmail" height = "375" width = "175.5">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <h1>Github!</h1>
+          <a href="https://github.com/thejameswang">
+          <img src="images/Contact/Github.png" alt="github" height = "204" width = "204">
+          </a>
         </div>
       </div>
     </section>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.6/SmoothScroll.min.js.map"></script>
+    <script> $('.box').matchHeight(); </script>
   </body>
 </html>
