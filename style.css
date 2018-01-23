@@ -3,13 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
-.James-Wang-Home {
-	font-family: 'BioRhyme', serif;
-	padding-left: 3em;
-	font-size: 1.5em;
-}
-
 .stuff {
 	vertical-align: middle;
 	padding: 30px 0px;
@@ -155,6 +148,7 @@ ul {
 
 .Emory{
 	margin-bottom: 10px;
+	padding: 40px 0;
 }
 
 .myGen-img {
