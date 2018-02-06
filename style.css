@@ -49,7 +49,7 @@ hr {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 650px;
+	min-height: 55em;
 	margin: 0;
 }
 
@@ -63,11 +63,12 @@ hr {
 	background: #222;
 	position: relative;
 	top: 200px;
+	font-size: 2em;
 }
 
 #home h4 {
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 1.6em;
 	font-family: 'Raleway', sans-serif;
 	color: rgba(255,255,255,1);
 	position: relative;
