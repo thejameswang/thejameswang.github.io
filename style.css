@@ -136,6 +136,16 @@ ul {
 	padding: auto 0px;
 }
 
+.aboutcontainer {
+	height: 100%;
+
+}
+
+.aboutbox {
+	display: flex;
+	text-align: center;
+}
+
 .experience {
 	background-color: #EEEEEE;
 	padding: 50px 70px;
