@@ -1,3 +1,4 @@
+window.sr = ScrollReveal();
 $(document).ready(function() {
   $('a').click(function(){
     $('html, body').animate({
@@ -6,3 +7,9 @@ $(document).ready(function() {
     return false;
   });
 })
+sr.reveal('.about-me')
+sr.reveal('.experience-container')
+sr.reveal('.Projects-Header-Container')
+sr.reveal('.my-work-content-items')
+sr.reveal('.Hobbies-Header-Container')
+sr.reveal('.contact')
