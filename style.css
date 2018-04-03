@@ -262,7 +262,7 @@ ul {
 }
 
 .my-work-content-items {
-	margin: 5px 15px 5px 5px;
+	margin: 5px 0px 5px 5px;
 }
 
 #work-title {
@@ -640,13 +640,18 @@ figure.card-content.active button {
 }
 
 .contact {
+	vertical-align: center;
 	text-align: center;
-	padding: 50px;
-	padding-bottom: 70px;
-	background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/19875299_10155564233298024_2773562034564159794_n.jpg?oh=476ba616d68ab446d4270940da6fdfcc&oe=59FD059E");
-	background-size: cover;
-	background-position: center;
+	/* padding: 10em; */
+	margin: 6em;
+	height: 30em;
 }
+
+/* .contact-container {
+	display: flex;
+	vertical-align: top;
+	justify-content: space-between;
+} */
 
 .contact h1 {
 	padding: 30px 0px;

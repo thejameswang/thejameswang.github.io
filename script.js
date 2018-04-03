@@ -7,12 +7,11 @@ $(document).ready(function() {
     return false;
   });
 })
+sr.reveal('.dumb')
 sr.reveal('.about-me')
 sr.reveal('.experience-container')
-sr.reveal('.Projects-Header-Container')
-sr.reveal('.my-work-content-items')
-// sr.reveal('.')
-sr.reveal('.marketing')
-sr.reveal('.projects')
-sr.reveal('.community')
-sr.reveal('.contact')
+//Project reveal
+sr.reveal('.Projects')
+sr.reveal('.reveal', {duration:1000, reset:true}, 50)
+//Contact
+sr.reveal('.contact-container', {duration: 1000}, 50)
