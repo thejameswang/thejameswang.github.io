@@ -8,6 +8,18 @@
 	padding: 30px 0px;
 }
 
+/* .dim {
+	opacity: .8;
+}
+
+.dumb h3 {
+	opacity: 1;
+}
+
+.dumb h4 {
+	opacity: 1;
+} */
+
 img {
 	max-width: 100%;
 	display: block;
@@ -60,7 +72,7 @@ hr {
 	padding: 5px;
 	font-family: 'BioRhyme', serif;
 	font-weight: bold;
-	background: #222;
+	background: rgb(2,2,2,.5);
 	position: relative;
 	top: 200px;
 	font-size: 2em;
@@ -68,9 +80,10 @@ hr {
 
 #home h4 {
 	text-align: center;
+	color: #DDD;
 	font-size: 1.6em;
 	font-family: 'Raleway', sans-serif;
-	color: rgba(255,255,255,1);
+	/* color: rgba(255,255,255,1); */
 	position: relative;
 	top: 200px;
 }
