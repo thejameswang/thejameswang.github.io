@@ -44,8 +44,8 @@ $(document).ready(function() {
     sr.reveal('.about-me')
     sr.reveal('.experience-container')
     //Project reveal
-    sr.reveal('.Projects')
-    sr.reveal('.reveal', {duration:500, reset:true}, 50)
+    // sr.reveal('.Projects')
+    sr.reveal('.reveal', {duration:500, reset:true}, 30)
     //Contact
     sr.reveal('.contact-container', {duration: 1000}, 50)
 })

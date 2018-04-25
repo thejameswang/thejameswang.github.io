@@ -33,7 +33,7 @@ hr {
 	border: 1px black solid;
 }
 .padding-style1 {
-	padding: 100px 0;
+	padding: 2em 0;
 }
 
 .navbar-brand {
@@ -162,7 +162,7 @@ ul {
 
 .experience {
 	background-color: #EEEEEE;
-	padding: 50px 70px;
+	padding: 1em 2em;
 	margin: auto;
 }
 
@@ -243,7 +243,7 @@ ul {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	margin: 0;
+	margin-bottom: 2em;
 	min-height: 700px;
 }
 
@@ -251,7 +251,8 @@ ul {
 	margin-bottom: 20px;
 	text-align: center;
 	font-size: 48px;
-	margin-top: -30px;
+    margin-top: 1em;
+	/* margin-top: -30px; */
 }
 
 .Hobbies-Header-Container {
@@ -506,14 +507,23 @@ figure.card-content.active button {
 
 .info-card {
 	width: 100%;
-	height: 250px;
+	height: 18em;
 	position: relative;
 	font-family: 'Lato', sans-serif;
 	overflow: hidden;
 }
 
 .info-card1 {
-	height: 200px;
+	height: 18em;
+}
+
+@media only screen(min-width: 2000px) {
+    .info-card {
+        height: 30em;
+    }
+    .info-card1 {
+        height: 30em;
+    }
 }
 
 .info-card .info-card-details,
@@ -523,7 +533,7 @@ figure.card-content.active button {
 	position: absolute;
 	bottom: -100%;
 	left: 0;
-	padding: 0 15px;
+	padding: 0 8px;
 	background: rgb(255, 255, 255);
 	text-align: center;
 }
@@ -657,7 +667,7 @@ figure.card-content.active button {
 	text-align: center;
 	/* padding: 10em; */
 	margin: 6em;
-	height: 30em;
+	height: 31em;
 }
 
 /* .contact-container {
