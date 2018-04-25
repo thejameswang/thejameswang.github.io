@@ -3,11 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-/* .stuff {
-	vertical-align: middle;
-	padding: 30px 0px;
-} */
-
 img {
 	max-width: 100%;
 	display: block;
@@ -71,7 +66,6 @@ hr {
 	color: #DDD;
 	font-size: 1.6em;
 	font-family: 'Raleway', sans-serif;
-	/* color: rgba(255,255,255,1); */
 	position: relative;
 	top: 200px;
 }
@@ -240,7 +234,6 @@ ul {
 	text-align: center;
 	font-size: 48px;
     margin-top: 1em;
-	/* margin-top: -30px; */
 }
 
 .Hobbies-Header-Container {
@@ -653,16 +646,9 @@ figure.card-content.active button {
 .contact {
 	vertical-align: center;
 	text-align: center;
-	/* padding: 10em; */
 	margin: 6em;
 	height: 31em;
 }
-
-/* .contact-container {
-	display: flex;
-	vertical-align: top;
-	justify-content: space-between;
-} */
 
 .contact h1 {
 	padding: 30px 0px;
