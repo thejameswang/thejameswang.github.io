@@ -3,21 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.stuff {
+/* .stuff {
 	vertical-align: middle;
 	padding: 30px 0px;
-}
-
-/* .dim {
-	opacity: .8;
-}
-
-.dumb h3 {
-	opacity: 1;
-}
-
-.dumb h4 {
-	opacity: 1;
 } */
 
 img {
@@ -67,12 +55,12 @@ hr {
 
 #home h3 {
 	text-align: center;
-	color: #DDD;
+	color: rgb(221,221,221,1);
 	border-radius: 10px;
 	padding: 5px;
 	font-family: 'BioRhyme', serif;
 	font-weight: bold;
-	background: rgb(2,2,2,.5);
+	background: rgb(2,2,2,.6);
 	position: relative;
 	top: 200px;
 	font-size: 2em;
