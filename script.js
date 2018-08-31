@@ -31,6 +31,6 @@ $(document).ready(function() {
     sr.reveal('.dumb')
     sr.reveal('.about-me')
     sr.reveal('.experience-container')
-    sr.reveal('.reveal', {duration:500, reset:true}, 30)
+    sr.reveal('.reveal', {duration:1000, reset:true}, 30)
     sr.reveal('.contact-container', {duration: 1000}, 50)
 })
