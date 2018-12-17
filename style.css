@@ -3,6 +3,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+section, h1, li, div, img {
+    -moz-transition: width .5s ease-in-out, left .5s ease-in-out;
+    -webkit-transition: width .5s ease-in-out, left .5s ease-in-out;
+    -moz-transition: width .5s ease-in-out, left .5s ease-in-out;
+    -o-transition: width .5s ease-in-out, left .5s ease-in-out;
+    transition: width .5s ease-in-out, left .5s ease-in-out;
+}
+
 img {
 	max-width: 100%;
 	display: block;
@@ -32,6 +41,10 @@ hr {
 	height: 100%;
 	opacity: 0;
 	margin: 0;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .dumb {
@@ -39,7 +52,7 @@ hr {
 }
 
 #home {
-	background-image: url("https://c1.staticflickr.com/9/8529/28113938684_4873d33485_c.jpg");
+	background: no-repeat center center fixed; 
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -89,11 +102,13 @@ body {
 }
 
 .about-container {
+	/* background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/dark-grey-background-10214.jpg"); */
 	display: block;
 	margin: 0px;
 	background-color: #CCCCCC;
 	padding: 50px 0px;
 	vertical-align: middle;
+	/* color: #EEEEEE; */
 }
 
 .about-container p:last-of-type {
@@ -106,12 +121,28 @@ body {
 }
 
 .about-container h4 {
+	color:#37c;
 	padding: 10px 0px;
 }
 
 .about-container p {
+	color: #50555c;
 	padding-bottom: 10px;
 	font-size: 1.1em;
+}
+.btn-primary {
+	padding: 10px;
+	margin: 15px 0px;
+	color: white;
+	background-color: #678;
+	border: 0px;
+}
+.btn-primary:hover {
+	padding: 10px;
+	margin: 15px 0px;
+	color: white;
+	background-color: #8095aa;
+	border: 0px;
 }
 
 ul {
@@ -128,7 +159,7 @@ ul {
 
 .about-img-1 img{
 	vertical-align: middle;
-	padding: auto 0px;
+	/* padding: auto 0px; */
 }
 
 .aboutcontainer {
@@ -143,6 +174,7 @@ ul {
 }
 
 .experience {
+	/* background-image: url("https://farm1.staticflickr.com/982/42198650551_4661568c49_o.jpg"); */
 	background-color: #EEEEEE;
 	padding: 1em 2em;
 	margin: auto;
@@ -173,37 +205,15 @@ ul {
 	margin: 20px 0;
 }
 
-.Horizons {
-	padding-top: 40px;
-	padding-bottom: 40px;
+.experience-align {
+	display: flex;
+	flex-wrap: wrap;
 }
-.Emory{
-	margin-bottom: 10px;
-	padding: 40px 0;
-}
-
-.myGen-img {
-	padding: 45px 0px;
-}
-.LBSA {
-	padding: 50px 0px;
-	padding-bottom: 30px;
-}
-.tech {
-	padding: 50px 0px;
+.experience-align-child {
+	padding: 3% 0;
+	margin: auto;
 }
 
-.spectrum {
-	padding: 50px 0px;
-}
-
-.GHP {
-	padding: 30px 0px;
-}
-
-.GHP img{
-	padding: 20px 0px;
-}
 
 .resume-button {
 	background-color: #888888;
@@ -220,26 +230,44 @@ ul {
 	margin-bottom: 10px;
 }
 
+/* <a data-flickr-embed="true"  href="https://www.flickr.com/photos/145227047@N06/42198650551/" title="DSC_0155"><img src="https://farm1.staticflickr.com/982/42198650551_4661568c49_o.jpg" width="3072" height="4608" alt="DSC_0155"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> */
 .Projects {
-	background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/19143062_10155473584593024_4230826121792434164_o.jpg?oh=0e8f981e7bd22c0ad1d02504faad91a7&oe=59E75B97");
+	background-image: linear-gradient( rgba(255,255,255,.5), rgba(255,255,255,.3) ),url("https://static1.squarespace.com/static/55071cc5e4b05f2d5180d2b2/t/57b7018303596e54256f367f/1471611280449/monocle-scene.jpg?format=2500w");
+	/* background: ; */
+	/* background-image: url("https://farm1.staticflickr.com/982/42198650551_4661568c49_o.jpg"); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin-bottom: 2em;
+	padding: 3em;
 	min-height: 700px;
+	color: black;
 }
 
+
 .Projects-Header-Container {
+	/* margin: auto; */
 	margin-bottom: 20px;
 	text-align: center;
 	font-size: 48px;
-    margin-top: 1em;
+	/* /* margin-top: 1em; */
+	/* width: 35%;
+	padding: .5%;
+	background: lightgrey;
+	border-radius: 25px; */
 }
 
 .Hobbies-Header-Container {
+	/* margin-left: auto; */
+  	/* margin-right: auto */
+	/* margin: .3em ; */
 	text-align: center;
 	font-size: 58px;
 	padding: 20px;
+	/* width: 35%;
+	padding: .5%;
+	background: lightgrey;
+	border-radius: 25px; */
 }
 
 .IMG {
@@ -616,7 +644,7 @@ figure.card-content.active button {
 
 .modal-header {
 	padding: 25px 25px 15px 25px;
-	padd text-align: right;
+	text-align: right;
 }
 
 .modal-header,
@@ -648,6 +676,7 @@ figure.card-content.active button {
 	text-align: center;
 	margin: 6em;
 	height: 31em;
+	background: white;
 }
 
 .contact h1 {

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $("#home").backstretch("https://c1.staticflickr.com/9/8529/28113938684_4873d33485_c.jpg");
     window.sr = ScrollReveal({reset: true});
     // Filters project container
     $(".filter-button1").click(function(){
@@ -32,5 +33,7 @@ $(document).ready(function() {
     sr.reveal('.about-me')
     sr.reveal('.experience-container')
     sr.reveal('.reveal', {duration:1000, reset:true}, 30)
-    sr.reveal('.contact-container', {duration: 1000}, 50)
+    sr.reveal('.contact-container', {duration: 1000}, 50)  
 })
+
+// function 
