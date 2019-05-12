@@ -205,6 +205,8 @@ ul {
   color: tan;
 }
 .experience-container {
+  display: flex;
+  align-items: center;
   margin: 20px 0;
 }
 
