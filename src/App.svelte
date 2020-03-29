@@ -1,11 +1,28 @@
 <script>
-  let name = "world";
+  import { Router, Link, Route } from "svelte-routing";
+  import Landing from "./routes/Landing.svelte";
 </script>
 
 <style>
-  h1 {
-    color: aqua;
+  nav {
+    color: white;
+  }
+  link {
+    color: #ffffff;
   }
 </style>
 
-<h1>Hello {name}!</h1>
+<Router url="">
+  <nav>
+    <Link to="/">Home</Link>
+    <Link to="/about">About 🤗</Link>
+    <Link to="/work">Work 📍</Link>
+    <Link to="/resume">Resume 📰</Link>
+    <Link to="/goodtimes">Good Times 🎇</Link>
+  </nav>
+  <div>
+    <Route path="/">
+      <Landing />
+    </Route>
+  </div>
+</Router>

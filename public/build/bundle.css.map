@@ -2,11 +2,13 @@
   "version": 3,
   "file": "bundle.css",
   "sources": [
-    "../../App.svelte"
+    "../../App.svelte",
+    "../../Landing.svelte"
   ],
   "sourcesContent": [
-    "<script>\n  let name = \"world\";\n</script>\n\n<style>\n  h1 {\n    color: aqua;\n  }\n</style>\n\n<h1>Hello {name}!</h1>\n"
+    "<script>\n  import { Router, Link, Route } from \"svelte-routing\";\n  import Landing from \"./routes/Landing.svelte\";\n</script>\n\n<style>\n  nav {\n    color: white;\n  }\n  link {\n    color: #ffffff;\n  }\n</style>\n\n<Router url=\"\">\n  <nav>\n    <Link to=\"/\">Home</Link>\n    <Link to=\"/about\">About 🤗</Link>\n    <Link to=\"/work\">Work 📍</Link>\n    <Link to=\"/resume\">Resume 📰</Link>\n    <Link to=\"/goodtimes\">Good Times 🎇</Link>\n  </nav>\n  <div>\n    <Route path=\"/\">\n      <Landing />\n    </Route>\n  </div>\n</Router>\n",
+    "<script>\n  let name = \"James Wang\";\n</script>\n\n<style>\n  h1 {\n    font-family: \"Alegreya\", serif;\n    color: #ffffff;\n  }\n\n  p {\n    font-family: \"Open Sans\", sans-serif;\n    color: #ffffff;\n  }\n\n  .highlight {\n    color: #91c0ab;\n  }\n</style>\n\n<h1>\n  👋 Hi! I'm\n  <span class=\"highlight\">{name}</span>\n</h1>\n\n<p>\n  I am an aspiring technical product manager who wants to make doing good easier\n  for everyone.\n</p>\n"
   ],
   "names": [],
-  "mappings": "AAKE,EAAE,cAAC,CAAC,AACF,KAAK,CAAE,IAAI,AACb,CAAC"
+  "mappings": "AAME,GAAG,cAAC,CAAC,AACH,KAAK,CAAE,KAAK,AACd,CAAC;ACHD,EAAE,eAAC,CAAC,AACF,WAAW,CAAE,UAAU,CAAC,CAAC,KAAK,CAC9B,KAAK,CAAE,OAAO,AAChB,CAAC,AAED,CAAC,eAAC,CAAC,AACD,WAAW,CAAE,WAAW,CAAC,CAAC,UAAU,CACpC,KAAK,CAAE,OAAO,AAChB,CAAC,AAED,UAAU,eAAC,CAAC,AACV,KAAK,CAAE,OAAO,AAChB,CAAC"
 }
