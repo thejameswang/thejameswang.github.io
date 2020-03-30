@@ -7,7 +7,13 @@
   nav {
     color: white;
     display: flex;
-    padding: 10;
+    padding: 10px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  nav :global(a) {
+    color: #ffffff;
+    text-decoration: None;
   }
 
   a {
