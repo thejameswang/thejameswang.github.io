@@ -45,7 +45,7 @@
 </style>
 
 <div class="landing-container">
-  <div class="">
+  <div>
     <div>
       <h1>
         👋 Hi! I'm

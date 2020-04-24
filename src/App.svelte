@@ -1,6 +1,12 @@
 <script>
   import { Router, Link, Route } from "svelte-routing";
   import Landing from "./routes/Landing.svelte";
+  import About from "./routes/About.svelte";
+  import Work from "./routes/Work.svelte";
+  import Resume from "./routes/Resume.svelte";
+  import Goodtimes from "./routes/Goodtimes.svelte";
+  // import { Landing, About, Work, Resume, Goodtimes } from "./routes";
+  export let url = "";
 </script>
 
 <style>
@@ -15,38 +21,25 @@
     color: #ffffff;
     text-decoration: None;
   }
-
-  a {
-    color: #ffffff;
-  }
-
-  /* a {
-    color: rgb(0, 100, 200);
-    text-decoration: none;
-  } */
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  a:visited {
-    color: rgb(0, 80, 160);
-  }
 </style>
 
-<Router url="">
+<Router {url}>
   <nav>
     <div>
       <Link to="/">Home</Link>
     </div>
     <div>
-      <Link to="/about">About 🤗</Link>
-      <Link to="/work">Work 📍</Link>
-      <Link to="/resume">Resume 📰</Link>
-      <Link to="/goodtimes">Good Times 🎇</Link>
+      <Link to="about">About 🤗</Link>
+      <Link to="work">Work 📍</Link>
+      <Link to="resume">Resume 📰</Link>
+      <Link to="goodtimes">Good Times 🎇</Link>
     </div>
   </nav>
   <div>
+    <Route path="about" component={About} />
+    <Route path="work" component={Work} />
+    <Route path="resume" component={Resume} />
+    <Route path="goodtimes" component={Goodtimes} />
     <Route path="/">
       <Landing />
     </Route>

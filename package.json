@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "dev": "sirv public --dev -single --port 3000",
     "start": "sirv public --port 3000"
   },
   "devDependencies": {
