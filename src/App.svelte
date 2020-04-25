@@ -17,9 +17,12 @@
     padding: 10px;
     justify-content: space-between;
     width: 100%;
+    /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); */
+    padding-bottom: 15px;
+    align-items: center;
   }
   nav :global(a) {
-    margin-right: 40px;
+    margin: 30px;
     position: relative;
     font-size: 25px;
   }

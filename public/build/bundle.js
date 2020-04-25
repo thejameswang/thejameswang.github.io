@@ -2850,7 +2850,7 @@ var app = (function () {
     const file$4 = "src/components/work/Project.svelte";
 
     function create_fragment$7(ctx) {
-    	let a;
+    	let div1;
     	let div0;
     	let img;
     	let img_src_value;
@@ -2858,54 +2858,56 @@ var app = (function () {
     	let h3;
     	let t1;
     	let t2;
-    	let p;
+    	let h4;
     	let t3;
-    	let div1;
+    	let t4;
+    	let p;
 
     	const block = {
     		c: function create() {
-    			a = element("a");
+    			div1 = element("div");
     			div0 = element("div");
     			img = element("img");
     			t0 = space();
     			h3 = element("h3");
     			t1 = text(/*name*/ ctx[0]);
     			t2 = space();
+    			h4 = element("h4");
+    			t3 = text(/*positionName*/ ctx[5]);
+    			t4 = space();
     			p = element("p");
-    			t3 = space();
-    			div1 = element("div");
-    			div1.textContent = "Read More";
     			if (img.src !== (img_src_value = /*src*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*alt*/ ctx[3]);
-    			attr_dev(img, "class", "svelte-6j0oj5");
-    			add_location(img, file$4, 67, 4, 1261);
-    			attr_dev(div0, "class", "img-container svelte-6j0oj5");
-    			add_location(div0, file$4, 66, 2, 1229);
-    			attr_dev(h3, "class", "svelte-6j0oj5");
-    			add_location(h3, file$4, 69, 2, 1292);
-    			attr_dev(p, "class", "svelte-6j0oj5");
-    			add_location(p, file$4, 70, 2, 1310);
-    			attr_dev(div1, "class", "learn-more svelte-6j0oj5");
-    			add_location(div1, file$4, 73, 2, 1352);
-    			attr_dev(a, "href", /*link*/ ctx[4]);
-    			attr_dev(a, "class", "container svelte-6j0oj5");
-    			add_location(a, file$4, 65, 0, 1193);
+    			attr_dev(img, "class", "svelte-1nnks89");
+    			add_location(img, file$4, 59, 4, 940);
+    			attr_dev(div0, "class", "img-container svelte-1nnks89");
+    			add_location(div0, file$4, 58, 2, 908);
+    			attr_dev(h3, "class", "svelte-1nnks89");
+    			add_location(h3, file$4, 61, 2, 971);
+    			attr_dev(h4, "class", "svelte-1nnks89");
+    			add_location(h4, file$4, 62, 2, 989);
+    			attr_dev(p, "class", "svelte-1nnks89");
+    			add_location(p, file$4, 63, 2, 1015);
+    			attr_dev(div1, "href", /*link*/ ctx[4]);
+    			attr_dev(div1, "class", "container svelte-1nnks89");
+    			add_location(div1, file$4, 57, 0, 870);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, a, anchor);
-    			append_dev(a, div0);
+    			insert_dev(target, div1, anchor);
+    			append_dev(div1, div0);
     			append_dev(div0, img);
-    			append_dev(a, t0);
-    			append_dev(a, h3);
+    			append_dev(div1, t0);
+    			append_dev(div1, h3);
     			append_dev(h3, t1);
-    			append_dev(a, t2);
-    			append_dev(a, p);
+    			append_dev(div1, t2);
+    			append_dev(div1, h4);
+    			append_dev(h4, t3);
+    			append_dev(div1, t4);
+    			append_dev(div1, p);
     			p.innerHTML = /*briefDescription*/ ctx[1];
-    			append_dev(a, t3);
-    			append_dev(a, div1);
     		},
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*src*/ 4 && img.src !== (img_src_value = /*src*/ ctx[2])) {
@@ -2917,15 +2919,16 @@ var app = (function () {
     			}
 
     			if (dirty & /*name*/ 1) set_data_dev(t1, /*name*/ ctx[0]);
+    			if (dirty & /*positionName*/ 32) set_data_dev(t3, /*positionName*/ ctx[5]);
     			if (dirty & /*briefDescription*/ 2) p.innerHTML = /*briefDescription*/ ctx[1];
     			if (dirty & /*link*/ 16) {
-    				attr_dev(a, "href", /*link*/ ctx[4]);
+    				attr_dev(div1, "href", /*link*/ ctx[4]);
     			}
     		},
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(a);
+    			if (detaching) detach_dev(div1);
     		}
     	};
 
@@ -2946,8 +2949,9 @@ var app = (function () {
     	let { src = "" } = $$props;
     	let { alt = "" } = $$props;
     	let { link = "#" } = $$props;
+    	let { positionName = "" } = $$props;
     	console.log(src);
-    	const writable_props = ["name", "briefDescription", "src", "alt", "link"];
+    	const writable_props = ["name", "briefDescription", "src", "alt", "link", "positionName"];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn(`<Project> was created with unknown prop '${key}'`);
@@ -2962,9 +2966,17 @@ var app = (function () {
     		if ("src" in $$props) $$invalidate(2, src = $$props.src);
     		if ("alt" in $$props) $$invalidate(3, alt = $$props.alt);
     		if ("link" in $$props) $$invalidate(4, link = $$props.link);
+    		if ("positionName" in $$props) $$invalidate(5, positionName = $$props.positionName);
     	};
 
-    	$$self.$capture_state = () => ({ name, briefDescription, src, alt, link });
+    	$$self.$capture_state = () => ({
+    		name,
+    		briefDescription,
+    		src,
+    		alt,
+    		link,
+    		positionName
+    	});
 
     	$$self.$inject_state = $$props => {
     		if ("name" in $$props) $$invalidate(0, name = $$props.name);
@@ -2972,13 +2984,14 @@ var app = (function () {
     		if ("src" in $$props) $$invalidate(2, src = $$props.src);
     		if ("alt" in $$props) $$invalidate(3, alt = $$props.alt);
     		if ("link" in $$props) $$invalidate(4, link = $$props.link);
+    		if ("positionName" in $$props) $$invalidate(5, positionName = $$props.positionName);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [name, briefDescription, src, alt, link];
+    	return [name, briefDescription, src, alt, link, positionName];
     }
 
     class Project extends SvelteComponentDev {
@@ -2990,7 +3003,8 @@ var app = (function () {
     			briefDescription: 1,
     			src: 2,
     			alt: 3,
-    			link: 4
+    			link: 4,
+    			positionName: 5
     		});
 
     		dispatch_dev("SvelteRegisterComponent", {
@@ -3040,6 +3054,14 @@ var app = (function () {
     	set link(value) {
     		throw new Error("<Project>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
+
+    	get positionName() {
+    		throw new Error("<Project>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set positionName(value) {
+    		throw new Error("<Project>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
     }
 
     /* src/routes/Work.svelte generated by Svelte v3.20.1 */
@@ -3057,7 +3079,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (17:4) {#each work.current as project}
+    // (22:4) {#each work.current as project}
     function create_each_block_1(ctx) {
     	let current;
     	const project_spread_levels = [/*project*/ ctx[1]];
@@ -3102,14 +3124,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(17:4) {#each work.current as project}",
+    		source: "(22:4) {#each work.current as project}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (23:4) {#each work.current as project}
+    // (28:4) {#each work.old as project}
     function create_each_block$1(ctx) {
     	let current;
     	const project_spread_levels = [/*project*/ ctx[1]];
@@ -3154,7 +3176,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(23:4) {#each work.current as project}",
+    		source: "(28:4) {#each work.old as project}",
     		ctx
     	});
 
@@ -3185,7 +3207,7 @@ var app = (function () {
     		each_blocks_1[i] = null;
     	});
 
-    	let each_value = /*work*/ ctx[0].current;
+    	let each_value = /*work*/ ctx[0].old;
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
@@ -3222,15 +3244,15 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h1, file$5, 13, 2, 227);
-    			add_location(h20, file$5, 14, 2, 246);
-    			attr_dev(div0, "class", "projects-container");
-    			add_location(div0, file$5, 15, 2, 271);
-    			add_location(h21, file$5, 20, 2, 394);
-    			attr_dev(div1, "class", "projects-container");
-    			add_location(div1, file$5, 21, 2, 415);
-    			attr_dev(section, "class", "work-container svelte-13j5jiy");
-    			add_location(section, file$5, 12, 0, 192);
+    			add_location(h1, file$5, 18, 2, 296);
+    			add_location(h20, file$5, 19, 2, 315);
+    			attr_dev(div0, "class", "projects-container svelte-4607vj");
+    			add_location(div0, file$5, 20, 2, 340);
+    			add_location(h21, file$5, 25, 2, 463);
+    			attr_dev(div1, "class", "projects-container svelte-4607vj");
+    			add_location(div1, file$5, 26, 2, 484);
+    			attr_dev(section, "class", "work-container svelte-4607vj");
+    			add_location(section, file$5, 17, 0, 261);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3288,7 +3310,7 @@ var app = (function () {
     			}
 
     			if (dirty & /*work*/ 1) {
-    				each_value = /*work*/ ctx[0].current;
+    				each_value = /*work*/ ctx[0].old;
     				validate_each_argument(each_value);
     				let i;
 
@@ -3530,10 +3552,86 @@ var app = (function () {
       work: {
         current: [
           {
-            src: "https://picsum.photos/150/150",
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/BoG_uifsvt.jpg",
             alt: "Bits of Good Logo",
+            positionName: "Executive Director",
             briefDescription: "Executive Director of Bits of Good",
             name: "Bits of Good",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Enfin_ai8ho9.jpg",
+            alt: "Enfin Logo",
+            positionName: "Co-Founder",
+            briefDescription: "We believe every dollar you spend has an associated carbon cost. Enfin is a fintech application that allows users to take their bank statement data and learn their carbon footprint. ",
+            name: "Enfin",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
+            alt: "Bits of Good Logo",
+            positionName: "Executive Director",
+            briefDescription: "Executive Director of Bits of Good",
+            name: "Bits of Good",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
+            alt: "Bits of Good Logo",
+            positionName: "Executive Director",
+            briefDescription: "Executive Director of Bits of Good",
+            name: "Bits of Good",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
+            alt: "Bits of Good Logo",
+            positionName: "Executive Director",
+            briefDescription: "Executive Director of Bits of Good",
+            name: "Bits of Good",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
+            alt: "Bits of Good Logo",
+            positionName: "Executive Director",
+            briefDescription: "Executive Director of Bits of Good",
+            name: "Bits of Good",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
+            alt: "Bits of Good Logo",
+            positionName: "Executive Director",
+            briefDescription: "Executive Director of Bits of Good",
+            name: "Bits of Good",
+          },
+        ],
+        old: [
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Anora_uo5wt4.jpg",
+            alt: "Anora AI Logo",
+            positionName: "Software Developer",
+            briefDescription: "Help me be te best there eer wass",
+            name: "Anora AI",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Horizons_gxfmos.jpg",
+            alt: "Anora AI Logo",
+            positionName: "Software Developer",
+            briefDescription: "Help me be te best there eer wass",
+            name: "Anora AI",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/GE_dh2kwe.jpg",
+            alt: "Anora AI Logo",
+            positionName: "Software Developer",
+            briefDescription: "Help me be te best there eer wass",
+            name: "Anora AI",
           },
         ],
       },
@@ -3543,7 +3641,7 @@ var app = (function () {
     /* src/App.svelte generated by Svelte v3.20.1 */
     const file$6 = "src/App.svelte";
 
-    // (56:6) <NavLink to="/about">
+    // (59:6) <NavLink to="/about">
     function create_default_slot_5(ctx) {
     	let t;
 
@@ -3563,14 +3661,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(56:6) <NavLink to=\\\"/about\\\">",
+    		source: "(59:6) <NavLink to=\\\"/about\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (57:6) <NavLink to="/work">
+    // (60:6) <NavLink to="/work">
     function create_default_slot_4(ctx) {
     	let t;
 
@@ -3590,14 +3688,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(57:6) <NavLink to=\\\"/work\\\">",
+    		source: "(60:6) <NavLink to=\\\"/work\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (58:6) <NavLink to="/resume">
+    // (61:6) <NavLink to="/resume">
     function create_default_slot_3(ctx) {
     	let t;
 
@@ -3617,14 +3715,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(58:6) <NavLink to=\\\"/resume\\\">",
+    		source: "(61:6) <NavLink to=\\\"/resume\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (59:6) <NavLink to="/goodtimes">
+    // (62:6) <NavLink to="/goodtimes">
     function create_default_slot_2(ctx) {
     	let t;
 
@@ -3644,14 +3742,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(59:6) <NavLink to=\\\"/goodtimes\\\">",
+    		source: "(62:6) <NavLink to=\\\"/goodtimes\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (67:4) <Route path="/">
+    // (70:4) <Route path="/">
     function create_default_slot_1(ctx) {
     	let current;
     	const landing = new Landing({ $$inline: true });
@@ -3682,14 +3780,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(67:4) <Route path=\\\"/\\\">",
+    		source: "(70:4) <Route path=\\\"/\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (50:0) <Router {url}>
+    // (53:0) <Router {url}>
     function create_default_slot$2(ctx) {
     	let nav;
     	let div0;
@@ -3808,12 +3906,12 @@ var app = (function () {
     			t9 = space();
     			create_component(route4.$$.fragment);
     			attr_dev(a, "href", "/");
-    			add_location(a, file$6, 52, 6, 1189);
-    			add_location(div0, file$6, 51, 4, 1177);
-    			add_location(div1, file$6, 54, 4, 1225);
-    			attr_dev(nav, "class", "svelte-w8hr62");
-    			add_location(nav, file$6, 50, 2, 1157);
-    			add_location(div2, file$6, 61, 2, 1446);
+    			add_location(a, file$6, 55, 6, 1289);
+    			add_location(div0, file$6, 54, 4, 1277);
+    			add_location(div1, file$6, 57, 4, 1325);
+    			attr_dev(nav, "class", "svelte-1earddz");
+    			add_location(nav, file$6, 53, 2, 1257);
+    			add_location(div2, file$6, 64, 2, 1546);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, nav, anchor);
@@ -3946,7 +4044,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$2.name,
     		type: "slot",
-    		source: "(50:0) <Router {url}>",
+    		source: "(53:0) <Router {url}>",
     		ctx
     	});
 

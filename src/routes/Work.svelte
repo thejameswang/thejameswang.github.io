@@ -8,6 +8,11 @@
     display: flex;
     flex-direction: column;
   }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 </style>
 
 <section class="work-container">
@@ -20,9 +25,8 @@
   </div>
   <h2>old works</h2>
   <div class="projects-container">
-    {#each work.current as project}
+    {#each work.old as project}
       <Project {...project} />
     {/each}
-    <!-- {#each work.current as work}{/each} -->
   </div>
 </section>

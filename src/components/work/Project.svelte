@@ -4,72 +4,64 @@
   export let src = "";
   export let alt = "";
   export let link = "#";
+  export let positionName = "";
   console.log(src);
 </script>
 
 <style>
-  a.container {
-    width: 150px;
+  div.container {
+    width: 350px;
     font-weight: unset;
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
   }
+
   .img-container {
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     overflow: hidden;
+    border-radius: 10px;
   }
-  a.container:hover img {
+
+  div.container:hover img {
     transform: scale(1.2);
   }
+
   img {
     width: inherit;
     height: inherit;
     transition: transform 0.2s;
   }
+
   h3 {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 0px;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  h3,
-  a.container:hover h3 {
+    font-size: 30px;
     color: white;
   }
+
   p {
-    max-width: 150px;
-    margin-bottom: 15px;
+    max-width: 350px;
+    margin-bottom: 50px;
     color: white;
     font-size: 16px;
   }
-  .learn-more {
-    border-radius: 12px;
-    font-weight: normal;
-    letter-spacing: inherit;
-    text-align: center;
+
+  h4 {
+    font-size: 24px;
     color: white;
-    font-size: 14px;
-    padding: 2px 10px;
-    border: 2px solid white;
-    transition-property: background-color, color;
-    transition-duration: 0.2s;
-    margin-top: auto;
-    display: block;
-  }
-  a.container:hover .learn-more {
-    background-color: white;
-    color: black;
+    margin: 0;
   }
 </style>
 
-<a href={link} class="container">
+<div href={link} class="container">
   <div class="img-container">
     <img {src} {alt} />
   </div>
   <h3>{name}</h3>
+  <h4>{positionName}</h4>
   <p>
     {@html briefDescription}
   </p>
-  <div class="learn-more">Read More</div>
-</a>
+</div>
