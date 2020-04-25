@@ -10,8 +10,6 @@
   }
 
   p {
-    font-family: "Open Sans", sans-serif;
-    color: #ffffff;
     font-size: 35px;
   }
 
@@ -23,19 +21,22 @@
     color: #9dddc0;
     font-weight: 600;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 8px solid #9dddc0;
+    /* margin-bottom: 5px; */
+
+    /* padding-bottom: 1px; */
   }
 
-  .underline {
-    text-decoration: underline;
-    -webkit-text-decoration-color: rgba(157, 221, 192, 0.4); /* Safari */
-    text-decoration-color: rgba(157, 221, 192, 0.8);
-  }
+  /* .highlight-good.p {
+    line-height: 1px;
+  } */
 
   .landing-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: ; */
     justify-content: center;
-    padding: 50px;
+    min-height: 70vh;
     /* text-align: center; */
   }
 
@@ -44,8 +45,8 @@
   }
 </style>
 
-<div class="landing-container">
-  <div>
+<section>
+  <div class="landing-container">
     <div>
       <h1>
         👋 Hi! I'm
@@ -60,4 +61,4 @@
       </p>
     </div>
   </div>
-</div>
+</section>

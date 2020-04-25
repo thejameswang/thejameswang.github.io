@@ -18,8 +18,29 @@
     width: 100%;
   }
   nav :global(a) {
-    color: #ffffff;
-    text-decoration: None;
+    margin-right: 41px;
+    display: relative;
+    font-size: 25px;
+  }
+
+  nav :global(a:before) {
+    /* border-bottom: 8px solid #9dddc0;
+    -webkit-transition: 0.1s all ease;
+    transition: 0.1s all ease; */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom: 8px solid #9dddc0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+  }
+
+  nav :global(a:hover:before) {
+    transform: scaleX(1);
   }
 </style>
 
