@@ -1,7 +1,3 @@
-<script>
-  export let content = "";
-</script>
-
 <style>
   /* .green {
     color: #9dddc0;
@@ -18,5 +14,5 @@
   <span class="fa-li">
     <i class="fas fa-arrow-right green" />
   </span>
-  {@html content}
+  <slot />
 </li>

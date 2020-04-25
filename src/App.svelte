@@ -1,11 +1,11 @@
 <script>
-  import { Router, Link, Route } from "svelte-routing";
+  import { Router, Route, links } from "svelte-routing";
+  import NavLink from "./components/NavLink.svelte";
   import Landing from "./routes/Landing.svelte";
   import About from "./routes/About.svelte";
   import Work from "./routes/Work.svelte";
   import Resume from "./routes/Resume.svelte";
   import Goodtimes from "./routes/Goodtimes.svelte";
-  // import { Landing, About, Work, Resume, Goodtimes } from "./routes";
   export let url = "";
 </script>
 
@@ -18,12 +18,12 @@
     width: 100%;
   }
   nav :global(a) {
-    margin-right: 41px;
-    display: relative;
+    margin-right: 40px;
+    position: relative;
     font-size: 25px;
   }
 
-  nav :global(a:before) {
+  nav :global(a):before {
     /* border-bottom: 8px solid #9dddc0;
     -webkit-transition: 0.1s all ease;
     transition: 0.1s all ease; */
@@ -37,23 +37,25 @@
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.5s;
+    margin-bottom: -5px;
   }
 
-  nav :global(a:hover:before) {
+  nav :global(a):hover:before,
+  nav :global(a).active:before {
     transform: scaleX(1);
   }
 </style>
 
 <Router {url}>
-  <nav>
+  <nav use:links>
     <div>
-      <Link to="/">Home</Link>
+      <a href="/">Home</a>
     </div>
     <div>
-      <Link to="about">About 🤗</Link>
-      <Link to="work">Work 📍</Link>
-      <Link to="resume">Resume 📰</Link>
-      <Link to="goodtimes">Good Times 🎇</Link>
+      <NavLink to="/about">About 🤗</NavLink>
+      <NavLink to="/work">Work 📍</NavLink>
+      <NavLink to="/resume">Resume 📰</NavLink>
+      <NavLink to="/goodtimes">Good Times 🎇</NavLink>
     </div>
   </nav>
   <div>

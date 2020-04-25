@@ -1,5 +1,6 @@
 <script>
   import Bullet from "../components/Bullet.svelte";
+  export let Abouts = [];
 </script>
 
 <style>
@@ -31,13 +32,12 @@
     <div>
       <h2>grow</h2>
       <ul class="fa-ul">
-        <Bullet content="Improve writing ability and write more test" />
-        <Bullet content="Be a better <span>storyteller</span>" />
-        <Bullet
-          content="Become a better ambassador of the <span>social impact
-          space</span>" />
-        <Bullet content="Code more often and learn more tools" />
-        <Bullet content="Read with a <span>purpose</span>" />
+        
+        <Bullet>
+          Be a better
+          <span>storyteller</span>
+        </Bullet>
+        
       </ul>
     </div>
   </div>

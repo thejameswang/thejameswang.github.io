@@ -19,25 +19,17 @@
 
   .highlight-good {
     color: #9dddc0;
-    font-weight: 600;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-bottom: 8px solid #9dddc0;
-    /* margin-bottom: 5px; */
-
-    /* padding-bottom: 1px; */
+    position: relative;
+    margin-bottom: -100px;
   }
-
-  /* .highlight-good.p {
-    line-height: 1px;
-  } */
 
   .landing-container {
     display: flex;
     flex-direction: column;
-    /* align-items: ; */
     justify-content: center;
     min-height: 70vh;
-    /* text-align: center; */
   }
 
   .saying-container {
