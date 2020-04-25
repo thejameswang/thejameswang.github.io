@@ -6,6 +6,7 @@
   import Work from "./routes/Work.svelte";
   import Resume from "./routes/Resume.svelte";
   import Goodtimes from "./routes/Goodtimes.svelte";
+  import content from "./content";
   export let url = "";
 </script>
 
@@ -59,8 +60,8 @@
     </div>
   </nav>
   <div>
-    <Route path="about" component={About} />
-    <Route path="work" component={Work} />
+    <Route path="about" component={About} {...content} />
+    <Route path="work" component={Work} {...content} />
     <Route path="resume" component={Resume} />
     <Route path="goodtimes" component={Goodtimes} />
     <Route path="/">
