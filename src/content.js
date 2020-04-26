@@ -62,42 +62,45 @@ export default {
       {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
-        alt: "Bits of Good Logo",
-        positionName: "Executive Director",
-        briefDescription: "Executive Director of Bits of Good",
-        name: "Bits of Good",
+        alt: "Technology and International Development Lab Logo",
+        positionName: "Undergraduate Researcher",
+        briefDescription:
+          "Working on the Aggie platform, I work to develop and product manage the web application.",
+        name: "Technology & International Development Lab",
       },
       {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
-        alt: "Bits of Good Logo",
-        positionName: "Executive Director",
-        briefDescription: "Executive Director of Bits of Good",
-        name: "Bits of Good",
+        alt: "HackGT Logo",
+        positionName: "Organizer",
+        briefDescription:
+          "Working on the Marketing team, I help procure the over 5000 applications to the largest hackathon in the southeast. I am also a part of the media crew that is charge of all the photography and videography for HackGT events. I'm the primary photo editor for all HackGT photos. Formerly, I was a part of the operations team.",
+        name: "HackGT",
       },
       {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
-        alt: "Bits of Good Logo",
-        positionName: "Executive Director",
-        briefDescription: "Executive Director of Bits of Good",
-        name: "Bits of Good",
+        alt: "Impact Labs Logo",
+        positionName: "Organizer",
+        briefDescription:
+          "Inspiring and empowering ambitious computer scientists to build a better world.",
+        name: "Impact Labs",
       },
       {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
-        alt: "Bits of Good Logo",
-        positionName: "Executive Director",
+        alt: "Microsoft Logo",
+        positionName: "Software Developer Intern",
         briefDescription: "Executive Director of Bits of Good",
-        name: "Bits of Good",
+        name: "Microsoft",
       },
       {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
-        alt: "Bits of Good Logo",
-        positionName: "Executive Director",
+        alt: "GT Logo",
+        positionName: "Student",
         briefDescription: "Executive Director of Bits of Good",
-        name: "Bits of Good",
+        name: "The Georgia Institute of Technology",
       },
     ],
     old: [
@@ -112,18 +115,18 @@ export default {
       {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Horizons_gxfmos.jpg",
-        alt: "Anora AI Logo",
+        alt: "Horizons School of Technology Logo",
         positionName: "Software Developer",
         briefDescription: "Help me be te best there eer wass",
-        name: "Anora AI",
+        name: "Horizons School of Technology",
       },
       {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/GE_dh2kwe.jpg",
-        alt: "Anora AI Logo",
-        positionName: "Software Developer",
+        alt: "General Electric Logo",
+        positionName: "Software Development Intern",
         briefDescription: "Help me be te best there eer wass",
-        name: "Anora AI",
+        name: "General Electric Digital",
       },
     ],
   },

@@ -2777,8 +2777,9 @@ var app = (function () {
     			t = space();
     			if (img.src !== (img_src_value = /*social*/ ctx[1].src)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*social*/ ctx[1].alt);
-    			add_location(img, file$4, 57, 10, 924);
+    			add_location(img, file$4, 57, 10, 940);
     			attr_dev(a, "href", a_href_value = /*social*/ ctx[1].link);
+    			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "svelte-qi4dam");
     			add_location(a, file$4, 56, 8, 891);
     		},
@@ -3108,19 +3109,19 @@ var app = (function () {
     			p = element("p");
     			if (img.src !== (img_src_value = /*src*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*alt*/ ctx[3]);
-    			attr_dev(img, "class", "svelte-1bq7emj");
-    			add_location(img, file$5, 59, 4, 940);
-    			attr_dev(div0, "class", "img-container svelte-1bq7emj");
-    			add_location(div0, file$5, 58, 2, 908);
-    			attr_dev(h3, "class", "svelte-1bq7emj");
-    			add_location(h3, file$5, 61, 2, 971);
-    			attr_dev(h4, "class", "svelte-1bq7emj");
-    			add_location(h4, file$5, 62, 2, 989);
-    			attr_dev(p, "class", "svelte-1bq7emj");
-    			add_location(p, file$5, 63, 2, 1015);
+    			attr_dev(img, "class", "svelte-25aqtx");
+    			add_location(img, file$5, 59, 4, 942);
+    			attr_dev(div0, "class", "img-container svelte-25aqtx");
+    			add_location(div0, file$5, 58, 2, 910);
+    			attr_dev(h3, "class", "svelte-25aqtx");
+    			add_location(h3, file$5, 61, 2, 973);
+    			attr_dev(h4, "class", "svelte-25aqtx");
+    			add_location(h4, file$5, 62, 2, 991);
+    			attr_dev(p, "class", "svelte-25aqtx");
+    			add_location(p, file$5, 63, 2, 1017);
     			attr_dev(div1, "href", /*link*/ ctx[4]);
-    			attr_dev(div1, "class", "container svelte-1bq7emj");
-    			add_location(div1, file$5, 57, 0, 870);
+    			attr_dev(div1, "class", "container svelte-25aqtx");
+    			add_location(div1, file$5, 57, 0, 872);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4371,42 +4372,45 @@ var app = (function () {
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
-            alt: "Bits of Good Logo",
-            positionName: "Executive Director",
-            briefDescription: "Executive Director of Bits of Good",
-            name: "Bits of Good",
+            alt: "Technology and International Development Lab Logo",
+            positionName: "Undergraduate Researcher",
+            briefDescription:
+              "Working on the Aggie platform, I work to develop and product manage the web application.",
+            name: "Technology & International Development Lab",
           },
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
-            alt: "Bits of Good Logo",
-            positionName: "Executive Director",
-            briefDescription: "Executive Director of Bits of Good",
-            name: "Bits of Good",
+            alt: "HackGT Logo",
+            positionName: "Organizer",
+            briefDescription:
+              "Working on the Marketing team, I help procure the over 5000 applications to the largest hackathon in the southeast. I am also a part of the media crew that is charge of all the photography and videography for HackGT events. I'm the primary photo editor for all HackGT photos. Formerly, I was a part of the operations team.",
+            name: "HackGT",
           },
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
-            alt: "Bits of Good Logo",
-            positionName: "Executive Director",
-            briefDescription: "Executive Director of Bits of Good",
-            name: "Bits of Good",
+            alt: "Impact Labs Logo",
+            positionName: "Organizer",
+            briefDescription:
+              "Inspiring and empowering ambitious computer scientists to build a better world.",
+            name: "Impact Labs",
           },
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
-            alt: "Bits of Good Logo",
-            positionName: "Executive Director",
+            alt: "Microsoft Logo",
+            positionName: "Software Developer Intern",
             briefDescription: "Executive Director of Bits of Good",
-            name: "Bits of Good",
+            name: "Microsoft",
           },
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
-            alt: "Bits of Good Logo",
-            positionName: "Executive Director",
+            alt: "GT Logo",
+            positionName: "Student",
             briefDescription: "Executive Director of Bits of Good",
-            name: "Bits of Good",
+            name: "The Georgia Institute of Technology",
           },
         ],
         old: [
@@ -4421,18 +4425,18 @@ var app = (function () {
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Horizons_gxfmos.jpg",
-            alt: "Anora AI Logo",
+            alt: "Horizons School of Technology Logo",
             positionName: "Software Developer",
             briefDescription: "Help me be te best there eer wass",
-            name: "Anora AI",
+            name: "Horizons School of Technology",
           },
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/GE_dh2kwe.jpg",
-            alt: "Anora AI Logo",
-            positionName: "Software Developer",
+            alt: "General Electric Logo",
+            positionName: "Software Development Intern",
             briefDescription: "Help me be te best there eer wass",
-            name: "Anora AI",
+            name: "General Electric Digital",
           },
         ],
       },

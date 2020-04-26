@@ -38,7 +38,7 @@
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 25px;
-    color: white;
+    color: #91a6c0;
   }
 
   p {
