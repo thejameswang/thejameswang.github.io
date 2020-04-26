@@ -54,7 +54,7 @@
     </div>
     <div class="social-media-container">
       {#each about.social as social}
-        <a href={social.link}>
+        <a href={social.link} target="_blank">
           <img src={social.src} alt={social.alt} />
         </a>
       {/each}
