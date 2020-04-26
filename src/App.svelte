@@ -136,7 +136,7 @@
     <Route path="about" component={About} {...content} />
     <Route path="work" component={Work} {...content} />
     <Route path="resume" component={Resume} {...content} />
-    <Route path="goodtimes" component={Goodtimes} />
+    <Route path="goodtimes" component={Goodtimes} {...content} />
     <Route path="/">
       <Landing />
     </Route>
