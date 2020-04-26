@@ -5,7 +5,6 @@
   export let alt = "";
   export let link = "#";
   export let positionName = "";
-  console.log(src);
 </script>
 
 <style>

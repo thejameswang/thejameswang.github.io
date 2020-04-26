@@ -10,14 +10,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 2;
   }
   .stripe-top,
   .stripe-middle,
   .stripe-bottom {
     border-bottom: 0.1em solid #9dddc0;
     transition: transform 0.2s, opacity 0.2s;
-    z-index: 1;
+    z-index: 2;
   }
   .stripe-top {
     transform-origin: top right;

@@ -40,13 +40,12 @@
     transform-origin: left;
     transition: transform 0.5s;
     margin-bottom: -5px;
-    z-index: 1;
   }
 
   .mobile-content {
     display: none;
     align-items: inherit;
-    flex: 1;
+    flex: 2;
   }
 
   .nav-container :global(a):hover:before,
@@ -72,7 +71,7 @@
       justify-content: center;
       transition: height 0.3s, opacity 0.4s;
       opacity: 0;
-      z-index: 1;
+      z-index: 2;
     }
 
     .nav-container :global(a):before {

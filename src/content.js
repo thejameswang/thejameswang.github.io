@@ -148,8 +148,29 @@ export default {
     [
       2019,
       {
-        successes: [],
-        failures: [],
+        successes: [
+          "Hack4Impact National Director",
+          "Accepted BS/MS Program at Georgia Tech",
+        ],
+        failures: [
+          "Rejected Interact Fellowship Application",
+          "10 Rejected PM Internship Applications",
+          "1 Total PM interview, rejected",
+        ],
+      },
+    ],
+    [
+      2018,
+      {
+        successes: [
+          "Hack4Impact National Director",
+          "Accepted BS/MS Program at Georgia Tech",
+        ],
+        failures: [
+          "Rejected Interact Fellowship Application",
+          "10 Rejected PM Internship Applications",
+          "1 Total PM interview, rejected",
+        ],
       },
     ],
   ],
