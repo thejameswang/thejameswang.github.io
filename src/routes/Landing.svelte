@@ -23,6 +23,7 @@
     border-bottom: 8px solid #9dddc0;
     position: relative;
     margin-bottom: -100px;
+    z-index: -1;
   }
 
   .landing-container {
@@ -33,7 +34,16 @@
   }
 
   .saying-container {
-    padding-right: 20em;
+    max-width: 1000px;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
   }
 </style>
 

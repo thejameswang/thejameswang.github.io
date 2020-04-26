@@ -1,6 +1,7 @@
 <script>
   import { Router, Route, links } from "svelte-routing";
-  import NavLink from "./components/NavLink.svelte";
+  import NavLink from "./components/nav/NavLink.svelte";
+  import MenuIcon from "./components/nav/MenuIcon.svelte";
   import Landing from "./routes/Landing.svelte";
   import About from "./routes/About.svelte";
   import Work from "./routes/Work.svelte";
@@ -8,10 +9,11 @@
   import Goodtimes from "./routes/Goodtimes.svelte";
   import content from "./content";
   export let url = "";
+  let mobileNavToggled = false;
 </script>
 
 <style>
-  nav {
+  .nav-container {
     color: white;
     display: flex;
     padding: 10px;
@@ -21,13 +23,13 @@
     padding-bottom: 15px;
     align-items: center;
   }
-  nav :global(a) {
+  .nav-container :global(a) {
     margin: 30px;
     position: relative;
     font-size: 25px;
   }
 
-  nav :global(a):before {
+  .nav-container :global(a):before {
     /* border-bottom: 8px solid #9dddc0;
     -webkit-transition: 0.1s all ease;
     transition: 0.1s all ease; */
@@ -42,24 +44,97 @@
     transform-origin: left;
     transition: transform 0.5s;
     margin-bottom: -5px;
+    z-index: 1;
   }
 
-  nav :global(a):hover:before,
-  nav :global(a).active:before {
+  .mobile-content {
+    display: none;
+    align-items: inherit;
+    flex: 1;
+  }
+
+  .nav-container :global(a):hover:before,
+  .nav-container :global(a).active:before {
     transform: scaleX(1);
+  }
+
+  .mobile-dropdown-toggle {
+    margin-left: auto;
+    background: none;
+  }
+  @media (max-width: 1000px) {
+    .nav-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 0; /* hide until mobile nav toggled */
+      overflow: hidden;
+      display: flex;
+      background: #404040;
+      flex-direction: column;
+      justify-content: center;
+      transition: height 0.3s, opacity 0.4s;
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .nav-container :global(a):before {
+      transform-origin: center;
+    }
+
+    .mobile-content {
+      display: inherit;
+      z-index: 2;
+    }
+
+    button {
+      border: 0;
+    }
+
+    .mobileNavToggled {
+      height: 100vh;
+      opacity: 1;
+    }
+
+    .mobile-inner-nav {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .nav-container :global(a) {
+        margin: 10px;
+      }
+    }
   }
 </style>
 
 <Router {url}>
   <nav use:links>
-    <div>
-      <a href="/">Home</a>
+    <div
+      class="nav-container"
+      class:mobileNavToggled
+      on:click={() => {
+        if (mobileNavToggled) mobileNavToggled = false;
+      }}>
+      <div>
+        <a href="/">Home</a>
+      </div>
+      <div class="mobile-inner-nav">
+        <NavLink to="/about">About 🤗</NavLink>
+        <NavLink to="/work">Work 📍</NavLink>
+        <NavLink to="/resume">Resume 📰</NavLink>
+        <NavLink to="/goodtimes">Good Times 🎇</NavLink>
+      </div>
     </div>
-    <div>
-      <NavLink to="/about">About 🤗</NavLink>
-      <NavLink to="/work">Work 📍</NavLink>
-      <NavLink to="/resume">Resume 📰</NavLink>
-      <NavLink to="/goodtimes">Good Times 🎇</NavLink>
+    <div class="mobile-content">
+      <button
+        class="mobile-dropdown-toggle"
+        on:click={() => (mobileNavToggled = !mobileNavToggled)}>
+        <MenuIcon menuToggled={mobileNavToggled} />
+      </button>
     </div>
   </nav>
   <div>
