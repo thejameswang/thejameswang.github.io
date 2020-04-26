@@ -9,6 +9,10 @@
     flex-direction: column;
   }
 
+  h2 {
+    font-size: 35px;
+  }
+
   .projects-container {
     display: flex;
     flex-wrap: wrap;

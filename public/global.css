@@ -63,11 +63,8 @@ h1 {
 h2 {
   font-family: "Alegreya", serif;
   color: rgba(157, 221, 192, 0.8);
-  font-size: 32px;
-}
-
-input[type="range"] {
-  height: 0;
+  font-size: 35px;
+  margin: 20px 0px;
 }
 
 button {

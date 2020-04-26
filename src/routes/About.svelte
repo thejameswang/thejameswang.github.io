@@ -12,7 +12,16 @@
 
   .fa-ul {
     margin-left: 24px;
-    /* margin: 0; */
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  @media (max-width: 600px) {
+    p {
+      font-size: 16px;
+    }
   }
 </style>
 
@@ -32,6 +41,13 @@
           </Bullet>
         {/each}
       </ul>
+    </div>
+    <div class="social-media-container">
+      {#each about.social as social}
+        <a href={social.link}>
+          <img src={social.src} alt={social.alt} />
+        </a>
+      {/each}
     </div>
   </div>
 </section>

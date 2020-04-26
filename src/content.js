@@ -9,6 +9,36 @@ export default {
       "Code more often and learn more tools",
       "<span>Read</span> with a purpose",
     ],
+    social: [
+      {
+        name: "Email",
+        src:
+          "https://res.cloudinary.com/thejameswang/image/upload/v1587868442/thejameswang/Email_tdsj64.png",
+        alt: "Email Logo",
+        link: "https://instagram.com/thejameswang",
+      },
+      {
+        name: "Github",
+        src:
+          "https://res.cloudinary.com/thejameswang/image/upload/v1587868442/thejameswang/Github_jacuh8.png",
+        alt: "Github Logo",
+        link: "https://instagram.com/thejameswang",
+      },
+      {
+        name: "Linkedin",
+        src:
+          "https://res.cloudinary.com/thejameswang/image/upload/v1587868442/thejameswang/LinkedIN_hpq0ci.png",
+        alt: "Linkedin Logo",
+        link: "https://www.linkedin.com/in/thejameswang/",
+      },
+      {
+        name: "Instagram",
+        src:
+          "https://res.cloudinary.com/thejameswang/image/upload/v1587868386/thejameswang/Instagram_o64g4s.png",
+        alt: "Instagram Logo",
+        link: "https://instagram.com/thejameswang",
+      },
+    ],
   },
   work: {
     current: [
@@ -25,7 +55,8 @@ export default {
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Enfin_ai8ho9.jpg",
         alt: "Enfin Logo",
         positionName: "Co-Founder",
-        briefDescription: "We believe every dollar you spend has an associated carbon cost. Enfin is a fintech application that allows users to take their bank statement data and learn their carbon footprint. ",
+        briefDescription:
+          "We believe every dollar you spend has an associated carbon cost. Enfin is a fintech application that allows users to take their bank statement data and learn their carbon footprint. ",
         name: "Enfin",
       },
       {
@@ -96,5 +127,27 @@ export default {
       },
     ],
   },
-  // Resume,
+  Resume: [
+    [
+      2020,
+      {
+        successes: [
+          "Hack4Impact National Director",
+          "Accepted BS/MS Program at Georgia Tech",
+        ],
+        failures: [
+          "Rejected Interact Fellowship Application",
+          "10 Rejected PM Internship Applications",
+          "1 Total PM interview, rejected",
+        ],
+      },
+    ],
+    [
+      2019,
+      {
+        successes: [],
+        failures: [],
+      },
+    ],
+  ],
 };

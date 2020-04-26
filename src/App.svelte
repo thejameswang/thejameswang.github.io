@@ -19,7 +19,6 @@
     padding: 10px;
     justify-content: space-between;
     width: 100%;
-    /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); */
     padding-bottom: 15px;
     align-items: center;
   }
@@ -30,9 +29,6 @@
   }
 
   .nav-container :global(a):before {
-    /* border-bottom: 8px solid #9dddc0;
-    -webkit-transition: 0.1s all ease;
-    transition: 0.1s all ease; */
     content: "";
     position: absolute;
     top: 0;
@@ -68,7 +64,7 @@
       top: 0;
       left: 0;
       right: 0;
-      height: 0; /* hide until mobile nav toggled */
+      height: 0;
       overflow: hidden;
       display: flex;
       background: #404040;
@@ -107,6 +103,7 @@
       .nav-container :global(a) {
         margin: 10px;
       }
+      
     }
   }
 </style>
@@ -140,7 +137,7 @@
   <div>
     <Route path="about" component={About} {...content} />
     <Route path="work" component={Work} {...content} />
-    <Route path="resume" component={Resume} />
+    <Route path="resume" component={Resume} {...content} />
     <Route path="goodtimes" component={Goodtimes} />
     <Route path="/">
       <Landing />

@@ -1,12 +1,16 @@
 <style>
-  /* .green {
-    color: #9dddc0;
-  } */
   li {
     margin-bottom: 5px;
+    font-size: 18px;
   }
   :global(span) {
     color: #9dddc0;
+  }
+
+  @media (max-width: 600px) {
+    li {
+      font-size: 16px;
+    }
   }
 </style>
 
