@@ -15,14 +15,14 @@ export default {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587868442/thejameswang/Email_tdsj64.png",
         alt: "Email Logo",
-        link: "https://instagram.com/thejameswang",
+        link: "j.wang5441@gmail.com",
       },
       {
         name: "Github",
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587868442/thejameswang/Github_jacuh8.png",
         alt: "Github Logo",
-        link: "https://instagram.com/thejameswang",
+        link: "https://github.com/thejameswang",
       },
       {
         name: "Linkedin",

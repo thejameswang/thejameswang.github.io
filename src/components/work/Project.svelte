@@ -37,7 +37,7 @@
   h3 {
     margin-top: 10px;
     margin-bottom: 0px;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
   }
 
@@ -49,7 +49,7 @@
   }
 
   h4 {
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     margin: 0;
   }

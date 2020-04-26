@@ -103,7 +103,6 @@
       .nav-container :global(a) {
         margin: 10px;
       }
-      
     }
   }
 </style>

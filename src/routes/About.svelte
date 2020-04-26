@@ -18,6 +18,16 @@
     font-size: 18px;
   }
 
+  a {
+    padding-top: 20px;
+    margin-right: 30px;
+  }
+
+  .social-media-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   @media (max-width: 600px) {
     p {
       font-size: 16px;
