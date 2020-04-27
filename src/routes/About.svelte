@@ -28,6 +28,14 @@
     flex-wrap: wrap;
   }
 
+  .scale:hover {
+    transform: scale(1.2);
+  }
+
+  .scale {
+    transition: transform 0.2s;
+  }
+
   @media (max-width: 600px) {
     p {
       font-size: 16px;
@@ -54,7 +62,7 @@
     </div>
     <div class="social-media-container">
       {#each about.social as social}
-        <a href={social.link} target="_blank">
+        <a href={social.link} target="_blank" class="scale">
           <img src={social.src} alt={social.alt} />
         </a>
       {/each}

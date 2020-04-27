@@ -2672,7 +2672,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (49:10) <Bullet>
+    // (57:10) <Bullet>
     function create_default_slot$1(ctx) {
     	let html_tag;
     	let raw_value = /*grow*/ ctx[4] + "";
@@ -2700,14 +2700,14 @@ var app = (function () {
     		block,
     		id: create_default_slot$1.name,
     		type: "slot",
-    		source: "(49:10) <Bullet>",
+    		source: "(57:10) <Bullet>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (48:8) {#each about.grow as grow}
+    // (56:8) {#each about.grow as grow}
     function create_each_block_1(ctx) {
     	let current;
 
@@ -2754,14 +2754,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(48:8) {#each about.grow as grow}",
+    		source: "(56:8) {#each about.grow as grow}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (56:6) {#each about.social as social}
+    // (64:6) {#each about.social as social}
     function create_each_block(ctx) {
     	let a;
     	let img;
@@ -2777,11 +2777,11 @@ var app = (function () {
     			t = space();
     			if (img.src !== (img_src_value = /*social*/ ctx[1].src)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*social*/ ctx[1].alt);
-    			add_location(img, file$4, 57, 10, 940);
+    			add_location(img, file$4, 65, 10, 1051);
     			attr_dev(a, "href", a_href_value = /*social*/ ctx[1].link);
     			attr_dev(a, "target", "_blank");
-    			attr_dev(a, "class", "svelte-qi4dam");
-    			add_location(a, file$4, 56, 8, 891);
+    			attr_dev(a, "class", "scale svelte-qwhf96");
+    			add_location(a, file$4, 64, 8, 988);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -2810,7 +2810,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(56:6) {#each about.social as social}",
+    		source: "(64:6) {#each about.social as social}",
     		ctx
     	});
 
@@ -2887,20 +2887,20 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h1, file$4, 39, 4, 529);
-    			add_location(h20, file$4, 41, 6, 563);
-    			attr_dev(p, "class", "svelte-qi4dam");
-    			add_location(p, file$4, 42, 6, 582);
-    			add_location(div0, file$4, 40, 4, 551);
-    			add_location(h21, file$4, 45, 6, 628);
-    			attr_dev(ul, "class", "fa-ul svelte-qi4dam");
-    			add_location(ul, file$4, 46, 6, 648);
-    			add_location(div1, file$4, 44, 4, 616);
-    			attr_dev(div2, "class", "social-media-container svelte-qi4dam");
-    			add_location(div2, file$4, 54, 4, 809);
-    			attr_dev(div3, "class", "about-container svelte-qi4dam");
-    			add_location(div3, file$4, 38, 2, 495);
-    			add_location(section, file$4, 37, 0, 483);
+    			add_location(h1, file$4, 47, 4, 626);
+    			add_location(h20, file$4, 49, 6, 660);
+    			attr_dev(p, "class", "svelte-qwhf96");
+    			add_location(p, file$4, 50, 6, 679);
+    			add_location(div0, file$4, 48, 4, 648);
+    			add_location(h21, file$4, 53, 6, 725);
+    			attr_dev(ul, "class", "fa-ul svelte-qwhf96");
+    			add_location(ul, file$4, 54, 6, 745);
+    			add_location(div1, file$4, 52, 4, 713);
+    			attr_dev(div2, "class", "social-media-container svelte-qwhf96");
+    			add_location(div2, file$4, 62, 4, 906);
+    			attr_dev(div3, "class", "about-container svelte-qwhf96");
+    			add_location(div3, file$4, 46, 2, 592);
+    			add_location(section, file$4, 45, 0, 580);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
