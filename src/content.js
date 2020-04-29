@@ -3,7 +3,7 @@ export default {
     who:
       "I’m a current 3rd year CS major at the Georgia Institute of Technology. I’m terribly passionate about the intersection between technology and social good. Currently, I’m pursuing a career in product management because I’ve found it’s the best way to reach my goals of making good easier for everyone.",
     grow: [
-      "Improve writing ability and write more test",
+      "Improve writing ability and write more",
       "Be a better <span>storyteller</span>",
       "Become a better ambassador of the <span>social impact space</span>",
       "Code more often and learn more tools",
@@ -13,28 +13,28 @@ export default {
       {
         name: "Email",
         src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587868442/thejameswang/Email_tdsj64.png",
+          "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Email_ucg7dj.png",
         alt: "Email Logo",
         link: "j.wang5441@gmail.com",
       },
       {
         name: "Github",
         src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587868442/thejameswang/Github_jacuh8.png",
+          "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Github_uqhbox.png",
         alt: "Github Logo",
         link: "https://github.com/thejameswang",
       },
       {
         name: "Linkedin",
         src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587868442/thejameswang/LinkedIN_hpq0ci.png",
+          "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/LinkedIN_waoczb.png",
         alt: "Linkedin Logo",
         link: "https://www.linkedin.com/in/thejameswang/",
       },
       {
         name: "Instagram",
         src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587868386/thejameswang/Instagram_o64g4s.png",
+          "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Instagram_xgpog2.png",
         alt: "Instagram Logo",
         link: "https://instagram.com/thejameswang",
       },

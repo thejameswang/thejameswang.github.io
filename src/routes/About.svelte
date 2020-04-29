@@ -19,21 +19,28 @@
   }
 
   a {
-    padding-top: 20px;
     margin-right: 30px;
   }
 
   .social-media-container {
     display: flex;
     flex-wrap: wrap;
+    margin: 41.5px 30px;
+    align-items: center;
   }
 
   .scale:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
   }
 
   .scale {
+    transform: scale(1.2);
     transition: transform 0.2s;
+  }
+
+  .about-header {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   @media (max-width: 600px) {
@@ -41,11 +48,33 @@
       font-size: 16px;
     }
   }
+
+  @media (max-width: 700px) {
+    h1 {
+      margin-bottom: 0;
+    }
+    .social-media-container {
+      margin: 0;
+    }
+    .about-header {
+      flex-direction: column;
+      margin-bottom: 41.5px;
+    }
+  }
 </style>
 
 <section>
   <div class="about-container">
-    <h1>About 🤗</h1>
+    <div class="about-header">
+      <h1>About 🤗</h1>
+      <div class="social-media-container">
+        {#each about.social as social}
+          <a href={social.link} target="_blank" class="scale">
+            <img src={social.src} alt={social.alt} />
+          </a>
+        {/each}
+      </div>
+    </div>
     <div>
       <h2>who</h2>
       <p>{about.who}</p>
@@ -59,13 +88,6 @@
           </Bullet>
         {/each}
       </ul>
-    </div>
-    <div class="social-media-container">
-      {#each about.social as social}
-        <a href={social.link} target="_blank" class="scale">
-          <img src={social.src} alt={social.alt} />
-        </a>
-      {/each}
     </div>
   </div>
 </section>

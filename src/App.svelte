@@ -16,11 +16,10 @@
   .nav-container {
     color: white;
     display: flex;
-    padding: 10px;
+    padding: 20px;
     justify-content: space-between;
-    width: 100%;
     padding-bottom: 15px;
-    align-items: center;
+    padding-left: 65px;
   }
   .nav-container :global(a) {
     margin: 30px;
@@ -39,7 +38,7 @@
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.5s;
-    margin-bottom: -5px;
+    margin-bottom: -9px;
   }
 
   .mobile-content {
@@ -114,14 +113,14 @@
       on:click={() => {
         if (mobileNavToggled) mobileNavToggled = false;
       }}>
-      <div>
-        <a href="/">Home</a>
+      <div class="mobile-inner-nav">
+        <a href="/">James Wang</a>
       </div>
       <div class="mobile-inner-nav">
-        <NavLink to="/about">About 🤗</NavLink>
+        <NavLink to="/me">About 🤗</NavLink>
         <NavLink to="/work">Work 📍</NavLink>
         <NavLink to="/resume">Resume 📰</NavLink>
-        <NavLink to="/goodtimes">Good Times 🎇</NavLink>
+        <!-- <NavLink to="/goodtimes">Good Times 🎇</NavLink> -->
       </div>
     </div>
     <div class="mobile-content">
@@ -133,10 +132,10 @@
     </div>
   </nav>
   <div>
-    <Route path="about" component={About} {...content} />
+    <Route path="me" component={About} {...content} />
     <Route path="work" component={Work} {...content} />
     <Route path="resume" component={Resume} {...content} />
-    <Route path="goodtimes" component={Goodtimes} {...content} />
+    <!-- <Route path="goodtimes" component={Goodtimes} {...content} /> -->
     <Route path="/">
       <Landing />
     </Route>

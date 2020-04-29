@@ -42,7 +42,6 @@
   }
   h3 {
     color: #91a6c0;
-    font-family: "Alegreya", serif;
     font-size: 25px;
     margin: 0;
   }

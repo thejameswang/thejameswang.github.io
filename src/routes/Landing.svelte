@@ -1,12 +1,13 @@
 <script>
-  let name = "James Wang";
+  let name = "James";
 </script>
 
 <style>
   h1 {
-    font-family: "Alegreya", serif;
+    font-family: "Poppins", sans-serif;
     color: #ffffff;
     font-size: 50px;
+    font-weight: 1000;
   }
 
   p {
