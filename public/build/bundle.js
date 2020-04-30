@@ -3086,8 +3086,8 @@ var app = (function () {
     const file$5 = "src/components/work/Project.svelte";
 
     function create_fragment$8(ctx) {
-    	let div1;
-    	let div0;
+    	let a;
+    	let div;
     	let img;
     	let img_src_value;
     	let t0;
@@ -3101,8 +3101,8 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			div1 = element("div");
-    			div0 = element("div");
+    			a = element("a");
+    			div = element("div");
     			img = element("img");
     			t0 = space();
     			h3 = element("h3");
@@ -3114,35 +3114,36 @@ var app = (function () {
     			p = element("p");
     			if (img.src !== (img_src_value = /*src*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*alt*/ ctx[3]);
-    			attr_dev(img, "class", "svelte-25aqtx");
-    			add_location(img, file$5, 58, 4, 922);
-    			attr_dev(div0, "class", "img-container svelte-25aqtx");
-    			add_location(div0, file$5, 57, 2, 890);
-    			attr_dev(h3, "class", "svelte-25aqtx");
-    			add_location(h3, file$5, 60, 2, 953);
-    			attr_dev(h4, "class", "svelte-25aqtx");
-    			add_location(h4, file$5, 61, 2, 971);
-    			attr_dev(p, "class", "svelte-25aqtx");
-    			add_location(p, file$5, 62, 2, 997);
-    			attr_dev(div1, "href", /*link*/ ctx[4]);
-    			attr_dev(div1, "class", "container svelte-25aqtx");
-    			add_location(div1, file$5, 56, 0, 852);
+    			attr_dev(img, "class", "svelte-1wb2u8i");
+    			add_location(img, file$5, 58, 4, 931);
+    			attr_dev(div, "class", "img-container svelte-1wb2u8i");
+    			add_location(div, file$5, 57, 2, 899);
+    			attr_dev(h3, "class", "svelte-1wb2u8i");
+    			add_location(h3, file$5, 60, 2, 962);
+    			attr_dev(h4, "class", "svelte-1wb2u8i");
+    			add_location(h4, file$5, 61, 2, 980);
+    			attr_dev(p, "class", "svelte-1wb2u8i");
+    			add_location(p, file$5, 62, 2, 1006);
+    			attr_dev(a, "href", /*link*/ ctx[4]);
+    			attr_dev(a, "class", "container svelte-1wb2u8i");
+    			attr_dev(a, "target", "_blank");
+    			add_location(a, file$5, 56, 0, 847);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div1, anchor);
-    			append_dev(div1, div0);
-    			append_dev(div0, img);
-    			append_dev(div1, t0);
-    			append_dev(div1, h3);
+    			insert_dev(target, a, anchor);
+    			append_dev(a, div);
+    			append_dev(div, img);
+    			append_dev(a, t0);
+    			append_dev(a, h3);
     			append_dev(h3, t1);
-    			append_dev(div1, t2);
-    			append_dev(div1, h4);
+    			append_dev(a, t2);
+    			append_dev(a, h4);
     			append_dev(h4, t3);
-    			append_dev(div1, t4);
-    			append_dev(div1, p);
+    			append_dev(a, t4);
+    			append_dev(a, p);
     			p.innerHTML = /*briefDescription*/ ctx[1];
     		},
     		p: function update(ctx, [dirty]) {
@@ -3158,13 +3159,13 @@ var app = (function () {
     			if (dirty & /*positionName*/ 32) set_data_dev(t3, /*positionName*/ ctx[5]);
     			if (dirty & /*briefDescription*/ 2) p.innerHTML = /*briefDescription*/ ctx[1];
     			if (dirty & /*link*/ 16) {
-    				attr_dev(div1, "href", /*link*/ ctx[4]);
+    				attr_dev(a, "href", /*link*/ ctx[4]);
     			}
     		},
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div1);
+    			if (detaching) detach_dev(a);
     		}
     	};
 
@@ -3184,7 +3185,7 @@ var app = (function () {
     	let { briefDescription = "" } = $$props;
     	let { src = "" } = $$props;
     	let { alt = "" } = $$props;
-    	let { link = "#" } = $$props;
+    	let { link = "" } = $$props;
     	let { positionName = "" } = $$props;
     	const writable_props = ["name", "briefDescription", "src", "alt", "link", "positionName"];
 
@@ -4467,11 +4468,13 @@ var app = (function () {
         current: [
           {
             src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/BoG_uifsvt.jpg",
-            alt: "Bits of Good Logo",
-            positionName: "Executive Director",
-            briefDescription: "Executive Director of Bits of Good",
-            name: "Bits of Good",
+              "https://res.cloudinary.com/thejameswang/image/upload/v1588205861/thejameswang/Hack4Impact_wt6dt6.jpg",
+            alt: "Hack4Impact Logo",
+            positionName: "Director",
+            briefDescription:
+              "With 8 chapters nationwide, Hack4Impact helps students support their local community nonprofits through technology. I will be working with chapters to ",
+            name: "Hack4Impact",
+            link: "https://hack4impact.org/",
           },
           {
             src:
@@ -4479,8 +4482,9 @@ var app = (function () {
             alt: "Enfin Logo",
             positionName: "Co-Founder",
             briefDescription:
-              "We believe every dollar you spend has an associated carbon cost. Enfin is a fintech application that allows users to take their bank statement data and learn their carbon footprint. ",
+              "We believe every dollar you spend has an associated carbon cost. Enfin is the beginning of a fintech application that allows users to take their bank statement data and learn their carbon footprint, allowing for offsetting and alternative carbon methods.",
             name: "Enfin",
+            link: "http://envfin.herokuapp.com/",
           },
           {
             src:
@@ -4488,8 +4492,9 @@ var app = (function () {
             alt: "Technology and International Development Lab Logo",
             positionName: "Undergraduate Researcher",
             briefDescription:
-              "Working on the Aggie platform, I work to develop and product manage the web application.",
+              "The Technologies and International Development Lab at Georgia Tech researches the practice and the promise of information and communication technologies (ICTs) in social, economic, and political development. Working on the Aggie platform, I work to develop and product manage the web application.",
             name: "Technology & International Development Lab",
+            link: "http://tid.gatech.edu/",
           },
           {
             src:
@@ -4497,59 +4502,91 @@ var app = (function () {
             alt: "HackGT Logo",
             positionName: "Organizer",
             briefDescription:
-              "Working on the Marketing team, I help procure the over 5000 applications to the largest hackathon in the southeast. I am also a part of the media crew that is charge of all the photography and videography for HackGT events. I'm the primary photo editor for all HackGT photos. Formerly, I was a part of the operations team.",
+              "HackGT is the largest hackathon in the southeast based at Georgia Tech. Working on the marketing and media team, I help procure the over 5000 applications to the largest hackathon in the southeast. I'm the primary photo editor for all HackGT photos. Formerly, I was a part of the operations team.",
             name: "HackGT",
+            link: "https://hack.gt/",
           },
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
             alt: "Impact Labs Logo",
-            positionName: "Organizer",
+            positionName: "Organizer and Fellow",
             briefDescription:
-              "Inspiring and empowering ambitious computer scientists to build a better world.",
+              "Inspiring and empowering ambitious computer scientists to build a better world. I help with organizing, writing, and photography. I was chosen as a Fellow in 2019.",
             name: "Impact Labs",
+            link: "https://www.impactlabs.io/",
           },
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
             alt: "Microsoft Logo",
-            positionName: "Software Developer Intern",
-            briefDescription: "Executive Director of Bits of Good",
+            positionName: "Incoming Software Developer Intern",
+            briefDescription:
+              "I will be joining the One Drive + Sharepoint Storage Platform Team!",
             name: "Microsoft",
+            link: "https://www.microsoft.com/en-us/",
           },
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
             alt: "GT Logo",
             positionName: "Student",
-            briefDescription: "Executive Director of Bits of Good",
+            briefDescription:
+              "I am a rising 4th year Computer Science Major. I was previously a Neuroscience major, but unfortunately, GT's program was brand new and I thought I could change bureaucracy.",
             name: "The Georgia Institute of Technology",
+            link: "https://www.gatech.edu/",
           },
         ],
         old: [
           {
             src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Anora_uo5wt4.jpg",
-            alt: "Anora AI Logo",
-            positionName: "Software Developer",
-            briefDescription: "Help me be te best there eer wass",
-            name: "Anora AI",
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/BoG_uifsvt.jpg",
+            alt: "Bits of Good Logo",
+            positionName: "Former Executive Director",
+            briefDescription:
+              "We connect students with nonprofits and build them custom software. I helped found the first product management and product design team. Recruited over 10 nonprofits, and tripled student membership to 150 students with over 200 applications every semester.",
+            name: "Bits of Good",
+            link: "bitsofgood.org",
           },
           {
             src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Horizons_gxfmos.jpg",
-            alt: "Horizons School of Technology Logo",
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
+            alt: "Microsoft Logo",
+            positionName: "Explore Intern",
+            briefDescription:
+              "I was a part of the One Drive Sharepoint Service Fabric team . . . where I don't even know what that means. I created a disaster recovery readiness dashboard, displaying datacenters, clusters, and databases along with metrics to establish current readiness level.",
+            name: "Microsoft",
+            link: "https://www.microsoft.com/en-us/",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Anora_uo5wt4.jpg",
+            alt: "Anora AI Logo",
             positionName: "Software Developer",
-            briefDescription: "Help me be te best there eer wass",
-            name: "Horizons School of Technology",
+            briefDescription:
+              "We are a startup that aims to serve as a guide through the entire FDA submission process for devices, using artificial intelligence to convert decades of FDA submission history into a guide for your company's success. I helped Redeveloped their web application to reflect a search engine similar to Google. A Full-stack developer who wrote and reviewed code forJS using React, Node, Redux, and AWS.",
+            name: "Anora AI",
+            link: "https://anora.ai/",
           },
           {
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/GE_dh2kwe.jpg",
             alt: "General Electric Logo",
             positionName: "Software Development Intern",
-            briefDescription: "Help me be te best there eer wass",
+            briefDescription:
+              "As apart of the Monitoring Team for Coretech Digital, I created a management system to assist BI analysis of monitor metadata and control usage. I established a framework for future improvements such as Internal Self self-service portal, monitoring, and reporting.",
             name: "General Electric Digital",
+            link: "https://www.ge.com/digital/",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Horizons_gxfmos.jpg",
+            alt: "Horizons School of Technology Logo",
+            positionName: "Software Developer",
+            briefDescription:
+              "Selected to take part in an immersive 1000-hour full stack software engineering course focused on project-based front-end and back-end web and mobile development in JavaScript, HTML, and CSS. Experience using React, React-Native, Redux, Express, MongoDB, SQL, Postgres, among other technologies.",
+            name: "Horizons School of Technology",
+            link: "https://www.linkedin.com/school/horizons-/",
           },
         ],
       },

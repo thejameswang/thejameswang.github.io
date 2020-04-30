@@ -3,12 +3,12 @@
   export let briefDescription = "";
   export let src = "";
   export let alt = "";
-  export let link = "#";
+  export let link = "";
   export let positionName = "";
 </script>
 
 <style>
-  div.container {
+  a.container {
     width: 350px;
     font-weight: unset;
     display: flex;
@@ -20,10 +20,10 @@
     width: 350px;
     height: 250px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 15px;
   }
 
-  div.container:hover img {
+  a.container:hover img {
     transform: scale(1.2);
   }
 
@@ -54,7 +54,7 @@
   }
 </style>
 
-<div href={link} class="container">
+<a href={link} class="container" target="_blank">
   <div class="img-container">
     <img {src} {alt} />
   </div>
@@ -63,4 +63,4 @@
   <p>
     {@html briefDescription}
   </p>
-</div>
+</a>
