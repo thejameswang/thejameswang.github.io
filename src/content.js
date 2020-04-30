@@ -1,7 +1,7 @@
 export default {
   about: {
     who:
-      "I’m a current 3rd year CS major at the Georgia Institute of Technology. I’m terribly passionate about the intersection between technology and social good. Currently, I’m pursuing a career in product management because I’ve found it’s the best way to reach my goals of making good easier for everyone.",
+      "I’m a current 3rd year CS major at the Georgia Institute of Technology. I’m passionate about the intersection between technology and social good. Currently, I’m pursuing a career in product management because I’ve found it’s the best way to reach my goals of making good easier for everyone.",
     grow: [
       "Improve writing ability and write more",
       "Be a better <span>storyteller</span>",
@@ -48,7 +48,7 @@ export default {
         alt: "Hack4Impact Logo",
         positionName: "Director",
         briefDescription:
-          "With 8 chapters nationwide, Hack4Impact helps students support their local community nonprofits through technology. I will be working with chapters to ",
+          "With 8 chapters nationwide, Hack4Impact is a 501c(3) nonprofit that helps students support their local community nonprofits through technology. I will be working to establish a stronger infrastructure for chapter collaboration and extend the reach of our nonprofit.",
         name: "Hack4Impact",
         link: "https://hack4impact.org/",
       },
@@ -102,16 +102,6 @@ export default {
         name: "Microsoft",
         link: "https://www.microsoft.com/en-us/",
       },
-      {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
-        alt: "GT Logo",
-        positionName: "Student",
-        briefDescription:
-          "I am a rising 4th year Computer Science Major. I was previously a Neuroscience major, but unfortunately, GT's program was brand new and I thought I could change bureaucracy.",
-        name: "The Georgia Institute of Technology",
-        link: "https://www.gatech.edu/",
-      },
     ],
     old: [
       {
@@ -164,6 +154,16 @@ export default {
         name: "Horizons School of Technology",
         link: "https://www.linkedin.com/school/horizons-/",
       },
+      {
+        src:
+          "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
+        alt: "GT Logo",
+        positionName: "CoC Student Assistant",
+        briefDescription:
+          "I am a rising 4th year Computer Science Major. I was previously a Neuroscience major, but unfortunately, GT's program was brand new and I thought I could change bureaucracy.",
+        name: "The Georgia Institute of Technology",
+        link: "https://www.gatech.edu/",
+      },
     ],
   },
   Resume: [
@@ -176,7 +176,7 @@ export default {
         ],
         failures: [
           "Rejected Interact Fellowship Application",
-          "10 Rejected PM Internship Applications",
+          "15 Rejected PM Internship Applications",
           "1 Total PM interview, rejected",
         ],
       },
@@ -185,26 +185,24 @@ export default {
       2019,
       {
         successes: [
-          "Hack4Impact National Director",
+          "Bits of Good Executive director",
           "Accepted BS/MS Program at Georgia Tech",
         ],
         failures: [
           "Rejected Interact Fellowship Application",
           "10 Rejected PM Internship Applications",
           "1 Total PM interview, rejected",
+          "Thought about consulting",
         ],
       },
     ],
     [
       2018,
       {
-        successes: [
-          "Hack4Impact National Director",
-          "Accepted BS/MS Program at Georgia Tech",
-        ],
+        successes: ["Freshman year SWE Internship", ""],
         failures: [
-          "Rejected Interact Fellowship Application",
-          "10 Rejected PM Internship Applications",
+          "Rejected from Stanford University",
+          "Left Neuroscience Major",
           "1 Total PM interview, rejected",
         ],
       },

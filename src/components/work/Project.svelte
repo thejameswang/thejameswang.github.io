@@ -10,15 +10,15 @@
 <style>
   a.container {
     width: 350px;
-    font-weight: unset;
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    margin-right: 3%;
+    /* margin-right: auto; */
   }
 
   .img-container {
     width: 350px;
-    height: 250px;
+    height: auto;
     overflow: hidden;
     border-radius: 15px;
   }

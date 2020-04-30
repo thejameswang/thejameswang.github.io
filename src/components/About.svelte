@@ -63,31 +63,19 @@
   }
 </style>
 
-<section>
-  <div class="about-container">
-    <div class="about-header">
-      <h1>About 🤗</h1>
-      <div class="social-media-container">
-        {#each about.social as social}
-          <a href={social.link} target="_blank" class="scale">
-            <img src={social.src} alt={social.alt} />
-          </a>
-        {/each}
-      </div>
-    </div>
-    <div>
-      <h2>who</h2>
-      <p>{about.who}</p>
-    </div>
-    <div>
-      <h2>grow</h2>
-      <ul class="fa-ul">
-        {#each about.grow as grow}
-          <Bullet>
-            {@html grow}
-          </Bullet>
-        {/each}
-      </ul>
-    </div>
+<div class="about-container">
+  <div>
+    <h2>who am i</h2>
+    <p>{about.who}</p>
   </div>
-</section>
+  <div>
+    <h2>grow</h2>
+    <ul class="fa-ul">
+      {#each about.grow as grow}
+        <Bullet>
+          {@html grow}
+        </Bullet>
+      {/each}
+    </ul>
+  </div>
+</div>

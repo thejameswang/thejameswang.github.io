@@ -3,7 +3,7 @@
   import NavLink from "./components/nav/NavLink.svelte";
   import MenuIcon from "./components/nav/MenuIcon.svelte";
   import Landing from "./routes/Landing.svelte";
-  import About from "./routes/About.svelte";
+  // import About from "./routes/About.svelte";
   import Work from "./routes/Work.svelte";
   import Resume from "./routes/Resume.svelte";
   import Goodtimes from "./routes/Goodtimes.svelte";
@@ -16,13 +16,13 @@
   .nav-container {
     color: white;
     display: flex;
-    padding: 20px;
+    /* padding: 20px; */
     justify-content: space-between;
     padding-bottom: 15px;
-    padding-left: 65px;
+    /* padding-left: 65px; */
   }
   .nav-container :global(a) {
-    margin: 30px;
+    /* margin: 20px; */
     position: relative;
     font-size: 25px;
   }
@@ -56,7 +56,10 @@
     margin-left: auto;
     background: none;
   }
-  @media (max-width: 1000px) {
+  .inner-nav {
+    margin-right: 1.5rem;
+  }
+  @media (max-width: 800px) {
     .nav-container {
       position: fixed;
       top: 0;
@@ -71,6 +74,7 @@
       transition: height 0.3s, opacity 0.4s;
       opacity: 0;
       z-index: 2;
+      align-items: center;
     }
 
     .nav-container :global(a):before {
@@ -78,6 +82,7 @@
     }
 
     .mobile-content {
+      padding-left: 100px;
       display: inherit;
       z-index: 2;
     }
@@ -95,12 +100,14 @@
       display: flex;
       flex-direction: column;
       text-align: center;
+      align-items: center;
+      max-width: 300px;
     }
-
-    @media (max-width: 600px) {
-      .nav-container :global(a) {
-        margin: 10px;
-      }
+    .nav-container :global(a) {
+      margin: 10px;
+    }
+    .mobile-content {
+      padding-left: 10px;
     }
   }
 </style>
@@ -113,14 +120,13 @@
       on:click={() => {
         if (mobileNavToggled) mobileNavToggled = false;
       }}>
-      <div class="mobile-inner-nav">
+      <div>
         <a href="/">James Wang</a>
       </div>
       <div class="mobile-inner-nav">
-        <NavLink to="/me">About 🤗</NavLink>
-        <NavLink to="/work">Work 📍</NavLink>
-        <NavLink to="/resume">Resume 📰</NavLink>
-        <!-- <NavLink to="/goodtimes">Good Times 🎇</NavLink> -->
+        <!-- <NavLink to="/me">About 🤗</NavLink> -->
+        <a href="/work" class="inner-nav">Work 📍</a>
+        <a href="/resume">Failure Resume 📰</a>
       </div>
     </div>
     <div class="mobile-content">
@@ -132,12 +138,12 @@
     </div>
   </nav>
   <div>
-    <Route path="me" component={About} {...content} />
+    <!-- <Route path="me" component={About} {...content} />  -->
     <Route path="work" component={Work} {...content} />
     <Route path="resume" component={Resume} {...content} />
     <!-- <Route path="goodtimes" component={Goodtimes} {...content} /> -->
     <Route path="/">
-      <Landing />
+      <Landing {...content} />
     </Route>
   </div>
 </Router>

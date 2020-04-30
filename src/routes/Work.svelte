@@ -16,11 +16,14 @@
   .projects-container {
     display: flex;
     flex-wrap: wrap;
+    
+    /* justify-content: space-between; */
   }
 </style>
 
 <section class="work-container">
   <h1>Work 📍</h1>
+  <p />
   <h2>current works</h2>
   <div class="projects-container">
     {#each work.current as project}

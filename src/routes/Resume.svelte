@@ -50,7 +50,7 @@
     /* margin: 0; */
   }
   .year-container {
-    min-width: 35vw;
+    min-width: 450px;
     margin-right: 2rem;
   }
 
@@ -65,8 +65,7 @@
   }
 
   .resume-tip-container h2 {
-    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: white;
     font-size: 25px;
   }
@@ -97,7 +96,8 @@
 </style>
 
 <section class="resume-container">
-  <h1>Resume 📰</h1>
+  <h1>Failure Resume 📰</h1>
+  <p></p>
   <div class="resume-tip-container">
     <a href="#resumePDF" class="resume-tip">
       <h2>Resume?</h2>

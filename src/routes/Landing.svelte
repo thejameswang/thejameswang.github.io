@@ -1,5 +1,8 @@
 <script>
+  import Bullet from "../components/Bullet.svelte";
+  import About from "../components/About.svelte";
   let name = "James";
+  export let about = {};
 </script>
 
 <style>
@@ -8,9 +11,13 @@
     color: #ffffff;
     font-size: 50px;
     font-weight: 1000;
+    margin-bottom: 0;
   }
 
   p {
+    font-size: 18px;
+  }
+  .saying-container p {
     font-size: 35px;
   }
 
@@ -31,7 +38,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 70vh;
+    padding: 41.5px 0;
   }
 
   .saying-container {
@@ -40,11 +47,14 @@
 
   @media (max-width: 600px) {
     h1 {
-      font-size: 30px;
+      font-size: 35px;
     }
-    p {
+    .saying-container p {
       font-size: 20px;
     }
+    /* .landing-container {
+      min-height: 40vh;
+    } */
   }
 </style>
 
@@ -63,5 +73,22 @@
         easier for everyone.
       </p>
     </div>
+    <!-- <div class="about-container">
+      <div>
+        <h2>who</h2>
+        <p>{about.who}</p>
+      </div>
+      <div>
+        <h2>grow</h2>
+        <ul class="fa-ul">
+          {#each about.grow as grow}
+            <Bullet>
+              {@html grow}
+            </Bullet>
+          {/each}
+        </ul>
+      </div>
+    </div> -->
   </div>
+  <About {about} />
 </section>
