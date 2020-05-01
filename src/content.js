@@ -180,12 +180,9 @@ export default {
     [
       2020,
       {
-        successes: [
-          "Hack4Impact National Director",
-          "Accepted BS/MS Program at Georgia Tech",
-        ],
         failures: [
           "Rejected: Interact Fellowship Application",
+          "Rejected: Summer 2020 President's Undergraduate Research Award (PURA)",
           "Rejected: 15 PM Internship Applications",
           "Rejected: 1 Total PM interview",
         ],
@@ -200,19 +197,33 @@ export default {
           "Rejected: Dorm Room Fund Engineering Position",
           "Rejected: Contrary Capital Venture Partner",
           "Rejected: Microsoft AI for Good, AI for Earth, and Farm Beats Team",
+          "Rejected: Energy Sage and Humu Startup Internship",
           "Rejected: Microsoft PM Interview",
+          "Rejected: CS1331 TA Position (Missed Interview)",
           "Thought about consulting",
+          "I got a B in Korean 1. Literally everyone in the class got an A but me. It hurts",
         ],
       },
     ],
     [
       2018,
       {
-        successes: ["Freshman year SWE Internship", ""],
         failures: [
           "Rejected from Stanford University",
           "Left Neuroscience Major",
-          "1 Total PM interview, rejected",
+          "Rejected: CS1301 and CS1331 TA Positions",
+        ],
+      },
+    ],
+    [
+      2017,
+      {
+        failures: [
+          "Rejected: 9/12 Universities",
+          "Rejected or Never Responded Back: 133 Emory or GT researcher labs to do research with",
+          "Rejected: Winship Summer Scholars Research Program",
+          "Waitlist: ION Summer Research Program",
+          "Failed Relationships",
         ],
       },
     ],
