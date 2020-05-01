@@ -74,6 +74,16 @@ export default {
       },
       {
         src:
+          "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
+        alt: "Technology and International Development Lab Logo",
+        positionName: "Undergraduate Researcher",
+        briefDescription:
+          "The Technologies and International Development Lab at Georgia Tech researches the practice and the promise of information and communication technologies (ICTs) in social, economic, and political development. Working on the Aggie platform, I work to develop and product manage the web application.",
+        name: "Human Capital",
+        link: "https://human.capital",
+      },
+      {
+        src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
         alt: "HackGT Logo",
         positionName: "Organizer",
@@ -175,23 +185,22 @@ export default {
           "Accepted BS/MS Program at Georgia Tech",
         ],
         failures: [
-          "Rejected Interact Fellowship Application",
-          "15 Rejected PM Internship Applications",
-          "1 Total PM interview, rejected",
+          "Rejected: Interact Fellowship Application",
+          "Rejected: 15 PM Internship Applications",
+          "Rejected: 1 Total PM interview",
         ],
       },
     ],
     [
       2019,
       {
-        successes: [
-          "Bits of Good Executive director",
-          "Accepted BS/MS Program at Georgia Tech",
-        ],
         failures: [
-          "Rejected Interact Fellowship Application",
-          "10 Rejected PM Internship Applications",
-          "1 Total PM interview, rejected",
+          "GT College of Computing Executive Director Termination/Club Suspension Letter (Thx Georgia Tech)",
+          "Rejected: KPCB Fellow Final Round: (Nuna plz accept me)",
+          "Rejected: Dorm Room Fund Engineering Position",
+          "Rejected: Contrary Capital Venture Partner",
+          "Rejected: Microsoft AI for Good, AI for Earth, and Farm Beats Team",
+          "Rejected: Microsoft PM Interview",
           "Thought about consulting",
         ],
       },

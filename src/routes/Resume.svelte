@@ -35,6 +35,9 @@
     display: flex;
     flex-wrap: wrap;
   }
+  h1 {
+    margin-bottom: 10px;
+  }
   h2 {
     margin: 0;
     margin-top: 20px;
@@ -50,7 +53,7 @@
     /* margin: 0; */
   }
   .year-container {
-    min-width: 450px;
+    /* min-width: 320px; */
     margin-right: 2rem;
   }
 
@@ -88,6 +91,14 @@
     display: flex;
     flex-direction: column;
   }
+
+  .first-container {
+    max-width: 700px;
+  }
+
+  .first-container {
+    font-size: 18px;
+  }
   @media (max-width: 600px) {
     /* .resume-tip-container {
       opacity: 0;
@@ -97,10 +108,15 @@
 
 <section class="resume-container">
   <h1>Failure Resume 📰</h1>
-  <p></p>
+  <p class="first-container">
+    They say you learn more from your failures than your successes. I see my
+    failure résumé as a list of times where I didn't reach where I thought I
+    could have or choices I shouldn't have made. Rather than being
+    disappointed(though maybe a little at the time), I'm proud to be a failure!
+  </p>
   <div class="resume-tip-container">
     <a href="#resumePDF" class="resume-tip">
-      <h2>Resume?</h2>
+      <h2>Real Resume?</h2>
       <i class="fas fa-angle-down arrow-large" />
     </a>
   </div>
@@ -113,16 +129,6 @@
           {#each year[1].failures as failure}
             <Bullet>
               {@html failure}
-            </Bullet>
-          {/each}
-        </ul>
-      </div>
-      <div class="year-container">
-        <h3>Successes</h3>
-        <ul class="fa-ul">
-          {#each year[1].successes as success}
-            <Bullet>
-              {@html success}
             </Bullet>
           {/each}
         </ul>

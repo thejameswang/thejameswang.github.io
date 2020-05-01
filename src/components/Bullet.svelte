@@ -2,6 +2,7 @@
   li {
     margin-bottom: 5px;
     font-size: 18px;
+    max-width: 700px;
   }
   :global(span) {
     color: #9dddc0;

@@ -2450,11 +2450,11 @@ var app = (function () {
     			t = space();
     			if (default_slot) default_slot.c();
     			attr_dev(i, "class", "fas fa-arrow-right green");
-    			add_location(i, file$2, 18, 4, 221);
+    			add_location(i, file$2, 19, 4, 243);
     			attr_dev(span, "class", "fa-li");
-    			add_location(span, file$2, 17, 2, 196);
-    			attr_dev(li, "class", "svelte-1nudkt8");
-    			add_location(li, file$2, 16, 0, 189);
+    			add_location(span, file$2, 18, 2, 218);
+    			attr_dev(li, "class", "svelte-1a003jt");
+    			add_location(li, file$2, 17, 0, 211);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3021,20 +3021,20 @@ var app = (function () {
     			p = element("p");
     			if (img.src !== (img_src_value = /*src*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*alt*/ ctx[3]);
-    			attr_dev(img, "class", "svelte-pqkzym");
-    			add_location(img, file$5, 58, 4, 934);
-    			attr_dev(div, "class", "img-container svelte-pqkzym");
-    			add_location(div, file$5, 57, 2, 902);
-    			attr_dev(h3, "class", "svelte-pqkzym");
-    			add_location(h3, file$5, 60, 2, 965);
-    			attr_dev(h4, "class", "svelte-pqkzym");
-    			add_location(h4, file$5, 61, 2, 983);
-    			attr_dev(p, "class", "svelte-pqkzym");
-    			add_location(p, file$5, 62, 2, 1009);
+    			attr_dev(img, "class", "svelte-q1toum");
+    			add_location(img, file$5, 58, 4, 935);
+    			attr_dev(div, "class", "img-container svelte-q1toum");
+    			add_location(div, file$5, 57, 2, 903);
+    			attr_dev(h3, "class", "svelte-q1toum");
+    			add_location(h3, file$5, 60, 2, 966);
+    			attr_dev(h4, "class", "svelte-q1toum");
+    			add_location(h4, file$5, 61, 2, 984);
+    			attr_dev(p, "class", "svelte-q1toum");
+    			add_location(p, file$5, 62, 2, 1010);
     			attr_dev(a, "href", /*link*/ ctx[4]);
-    			attr_dev(a, "class", "container svelte-pqkzym");
+    			attr_dev(a, "class", "container svelte-q1toum");
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$5, 56, 0, 850);
+    			add_location(a, file$5, 56, 0, 851);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3222,7 +3222,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (29:4) {#each work.current as project}
+    // (46:4) {#each work.current as project}
     function create_each_block_1(ctx) {
     	let current;
     	const project_spread_levels = [/*project*/ ctx[1]];
@@ -3267,14 +3267,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(29:4) {#each work.current as project}",
+    		source: "(46:4) {#each work.current as project}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (35:4) {#each work.old as project}
+    // (52:4) {#each work.old as project}
     function create_each_block$1(ctx) {
     	let current;
     	const project_spread_levels = [/*project*/ ctx[1]];
@@ -3319,7 +3319,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(35:4) {#each work.old as project}",
+    		source: "(52:4) {#each work.old as project}",
     		ctx
     	});
 
@@ -3331,13 +3331,13 @@ var app = (function () {
     	let h1;
     	let t1;
     	let p;
-    	let t2;
+    	let t3;
     	let h20;
-    	let t4;
-    	let div0;
     	let t5;
+    	let div0;
+    	let t6;
     	let h21;
-    	let t7;
+    	let t8;
     	let div1;
     	let current;
     	let each_value_1 = /*work*/ ctx[0].current;
@@ -3371,38 +3371,41 @@ var app = (function () {
     			h1.textContent = "Work 📍";
     			t1 = space();
     			p = element("p");
-    			t2 = space();
+    			p.textContent = "Work is probably the wrong word. This is a congolmeration of projects,\n    internships, research, and leadership roles. We could call it PIRL, but I\n    don't think anyone would understand. I could make it a new trend, but I\n    think it would be a losing battle.";
+    			t3 = space();
     			h20 = element("h2");
     			h20.textContent = "current works";
-    			t4 = space();
+    			t5 = space();
     			div0 = element("div");
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
     				each_blocks_1[i].c();
     			}
 
-    			t5 = space();
+    			t6 = space();
     			h21 = element("h2");
     			h21.textContent = "old works";
-    			t7 = space();
+    			t8 = space();
     			div1 = element("div");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			add_location(h1, file$6, 24, 2, 376);
-    			add_location(p, file$6, 25, 2, 395);
-    			attr_dev(h20, "class", "svelte-12vxh6b");
-    			add_location(h20, file$6, 26, 2, 403);
-    			attr_dev(div0, "class", "projects-container svelte-12vxh6b");
-    			add_location(div0, file$6, 27, 2, 428);
-    			attr_dev(h21, "class", "svelte-12vxh6b");
-    			add_location(h21, file$6, 32, 2, 551);
-    			attr_dev(div1, "class", "projects-container svelte-12vxh6b");
-    			add_location(div1, file$6, 33, 2, 572);
-    			attr_dev(section, "class", "work-container svelte-12vxh6b");
-    			add_location(section, file$6, 23, 0, 341);
+    			attr_dev(h1, "class", "svelte-pc1tfu");
+    			add_location(h1, file$6, 36, 2, 504);
+    			attr_dev(p, "class", "first-container svelte-pc1tfu");
+    			add_location(p, file$6, 37, 2, 523);
+    			attr_dev(h20, "class", "svelte-pc1tfu");
+    			add_location(h20, file$6, 43, 2, 828);
+    			attr_dev(div0, "class", "projects-container svelte-pc1tfu");
+    			add_location(div0, file$6, 44, 2, 853);
+    			attr_dev(h21, "class", "svelte-pc1tfu");
+    			add_location(h21, file$6, 49, 2, 976);
+    			attr_dev(div1, "class", "projects-container svelte-pc1tfu");
+    			add_location(div1, file$6, 50, 2, 997);
+    			attr_dev(section, "class", "work-container svelte-pc1tfu");
+    			add_location(section, file$6, 35, 0, 469);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3412,18 +3415,18 @@ var app = (function () {
     			append_dev(section, h1);
     			append_dev(section, t1);
     			append_dev(section, p);
-    			append_dev(section, t2);
+    			append_dev(section, t3);
     			append_dev(section, h20);
-    			append_dev(section, t4);
+    			append_dev(section, t5);
     			append_dev(section, div0);
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
     				each_blocks_1[i].m(div0, null);
     			}
 
-    			append_dev(section, t5);
+    			append_dev(section, t6);
     			append_dev(section, h21);
-    			append_dev(section, t7);
+    			append_dev(section, t8);
     			append_dev(section, div1);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -3596,111 +3599,16 @@ var app = (function () {
     	return child_ctx;
     }
 
-    function get_each_context_2(ctx, list, i) {
-    	const child_ctx = ctx.slice();
-    	child_ctx[8] = list[i];
-    	return child_ctx;
-    }
-
     function get_each_context$2(ctx, list, i) {
     	const child_ctx = ctx.slice();
     	child_ctx[2] = list[i];
     	return child_ctx;
     }
 
-    // (114:12) <Bullet>
-    function create_default_slot_1(ctx) {
-    	let html_tag;
-    	let raw_value = /*failure*/ ctx[8] + "";
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = space();
-    			html_tag = new HtmlTag(raw_value, t);
-    		},
-    		m: function mount(target, anchor) {
-    			html_tag.m(target, anchor);
-    			insert_dev(target, t, anchor);
-    		},
-    		p: function update(ctx, dirty) {
-    			if (dirty & /*Resume*/ 1 && raw_value !== (raw_value = /*failure*/ ctx[8] + "")) html_tag.p(raw_value);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) html_tag.d();
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_1.name,
-    		type: "slot",
-    		source: "(114:12) <Bullet>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (113:10) {#each year[1].failures as failure}
-    function create_each_block_2(ctx) {
-    	let current;
-
-    	const bullet = new Bullet({
-    			props: {
-    				$$slots: { default: [create_default_slot_1] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(bullet.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(bullet, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const bullet_changes = {};
-
-    			if (dirty & /*$$scope, Resume*/ 2049) {
-    				bullet_changes.$$scope = { dirty, ctx };
-    			}
-
-    			bullet.$set(bullet_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(bullet.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(bullet.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(bullet, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_each_block_2.name,
-    		type: "each",
-    		source: "(113:10) {#each year[1].failures as failure}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (124:12) <Bullet>
+    // (130:12) <Bullet>
     function create_default_slot$2(ctx) {
     	let html_tag;
-    	let raw_value = /*success*/ ctx[5] + "";
+    	let raw_value = /*failure*/ ctx[5] + "";
 
     	const block = {
     		c: function create() {
@@ -3710,7 +3618,7 @@ var app = (function () {
     			html_tag.m(target, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*Resume*/ 1 && raw_value !== (raw_value = /*success*/ ctx[5] + "")) html_tag.p(raw_value);
+    			if (dirty & /*Resume*/ 1 && raw_value !== (raw_value = /*failure*/ ctx[5] + "")) html_tag.p(raw_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) html_tag.d();
@@ -3721,14 +3629,14 @@ var app = (function () {
     		block,
     		id: create_default_slot$2.name,
     		type: "slot",
-    		source: "(124:12) <Bullet>",
+    		source: "(130:12) <Bullet>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (123:10) {#each year[1].successes as success}
+    // (129:10) {#each year[1].failures as failure}
     function create_each_block_1$1(ctx) {
     	let current;
 
@@ -3751,7 +3659,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const bullet_changes = {};
 
-    			if (dirty & /*$$scope, Resume*/ 2049) {
+    			if (dirty & /*$$scope, Resume*/ 257) {
     				bullet_changes.$$scope = { dirty, ctx };
     			}
 
@@ -3775,43 +3683,26 @@ var app = (function () {
     		block,
     		id: create_each_block_1$1.name,
     		type: "each",
-    		source: "(123:10) {#each year[1].successes as success}",
+    		source: "(129:10) {#each year[1].failures as failure}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (107:2) {#each Resume as year}
+    // (123:2) {#each Resume as year}
     function create_each_block$2(ctx) {
     	let h2;
     	let t0_value = /*year*/ ctx[2][0] + "";
     	let t0;
     	let t1;
-    	let div2;
-    	let div0;
-    	let h30;
-    	let t3;
-    	let ul0;
-    	let t4;
     	let div1;
-    	let h31;
-    	let t6;
-    	let ul1;
+    	let div0;
+    	let h3;
+    	let t3;
+    	let ul;
     	let current;
-    	let each_value_2 = /*year*/ ctx[2][1].failures;
-    	validate_each_argument(each_value_2);
-    	let each_blocks_1 = [];
-
-    	for (let i = 0; i < each_value_2.length; i += 1) {
-    		each_blocks_1[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
-    	}
-
-    	const out = i => transition_out(each_blocks_1[i], 1, 1, () => {
-    		each_blocks_1[i] = null;
-    	});
-
-    	let each_value_1 = /*year*/ ctx[2][1].successes;
+    	let each_value_1 = /*year*/ ctx[2][1].failures;
     	validate_each_argument(each_value_1);
     	let each_blocks = [];
 
@@ -3819,7 +3710,7 @@ var app = (function () {
     		each_blocks[i] = create_each_block_1$1(get_each_context_1$1(ctx, each_value_1, i));
     	}
 
-    	const out_1 = i => transition_out(each_blocks[i], 1, 1, () => {
+    	const out = i => transition_out(each_blocks[i], 1, 1, () => {
     		each_blocks[i] = null;
     	});
 
@@ -3828,67 +3719,40 @@ var app = (function () {
     			h2 = element("h2");
     			t0 = text(t0_value);
     			t1 = space();
-    			div2 = element("div");
-    			div0 = element("div");
-    			h30 = element("h3");
-    			h30.textContent = "Failures";
-    			t3 = space();
-    			ul0 = element("ul");
-
-    			for (let i = 0; i < each_blocks_1.length; i += 1) {
-    				each_blocks_1[i].c();
-    			}
-
-    			t4 = space();
     			div1 = element("div");
-    			h31 = element("h3");
-    			h31.textContent = "Successes";
-    			t6 = space();
-    			ul1 = element("ul");
+    			div0 = element("div");
+    			h3 = element("h3");
+    			h3.textContent = "Failures";
+    			t3 = space();
+    			ul = element("ul");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h2, "class", "svelte-1j7oaas");
-    			add_location(h2, file$7, 107, 4, 2213);
-    			attr_dev(h30, "class", "svelte-1j7oaas");
-    			add_location(h30, file$7, 110, 8, 2302);
-    			attr_dev(ul0, "class", "fa-ul svelte-1j7oaas");
-    			add_location(ul0, file$7, 111, 8, 2328);
-    			attr_dev(div0, "class", "year-container svelte-1j7oaas");
-    			add_location(div0, file$7, 109, 6, 2265);
-    			attr_dev(h31, "class", "svelte-1j7oaas");
-    			add_location(h31, file$7, 120, 8, 2554);
-    			attr_dev(ul1, "class", "fa-ul svelte-1j7oaas");
-    			add_location(ul1, file$7, 121, 8, 2581);
-    			attr_dev(div1, "class", "year-container svelte-1j7oaas");
-    			add_location(div1, file$7, 119, 6, 2517);
-    			attr_dev(div2, "class", "suc-fail svelte-1j7oaas");
-    			add_location(div2, file$7, 108, 4, 2236);
+    			attr_dev(h2, "class", "svelte-np62gv");
+    			add_location(h2, file$7, 123, 4, 2683);
+    			attr_dev(h3, "class", "svelte-np62gv");
+    			add_location(h3, file$7, 126, 8, 2772);
+    			attr_dev(ul, "class", "fa-ul svelte-np62gv");
+    			add_location(ul, file$7, 127, 8, 2798);
+    			attr_dev(div0, "class", "year-container svelte-np62gv");
+    			add_location(div0, file$7, 125, 6, 2735);
+    			attr_dev(div1, "class", "suc-fail svelte-np62gv");
+    			add_location(div1, file$7, 124, 4, 2706);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
     			append_dev(h2, t0);
     			insert_dev(target, t1, anchor);
-    			insert_dev(target, div2, anchor);
-    			append_dev(div2, div0);
-    			append_dev(div0, h30);
+    			insert_dev(target, div1, anchor);
+    			append_dev(div1, div0);
+    			append_dev(div0, h3);
     			append_dev(div0, t3);
-    			append_dev(div0, ul0);
-
-    			for (let i = 0; i < each_blocks_1.length; i += 1) {
-    				each_blocks_1[i].m(ul0, null);
-    			}
-
-    			append_dev(div2, t4);
-    			append_dev(div2, div1);
-    			append_dev(div1, h31);
-    			append_dev(div1, t6);
-    			append_dev(div1, ul1);
+    			append_dev(div0, ul);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(ul1, null);
+    				each_blocks[i].m(ul, null);
     			}
 
     			current = true;
@@ -3897,35 +3761,7 @@ var app = (function () {
     			if ((!current || dirty & /*Resume*/ 1) && t0_value !== (t0_value = /*year*/ ctx[2][0] + "")) set_data_dev(t0, t0_value);
 
     			if (dirty & /*Resume*/ 1) {
-    				each_value_2 = /*year*/ ctx[2][1].failures;
-    				validate_each_argument(each_value_2);
-    				let i;
-
-    				for (i = 0; i < each_value_2.length; i += 1) {
-    					const child_ctx = get_each_context_2(ctx, each_value_2, i);
-
-    					if (each_blocks_1[i]) {
-    						each_blocks_1[i].p(child_ctx, dirty);
-    						transition_in(each_blocks_1[i], 1);
-    					} else {
-    						each_blocks_1[i] = create_each_block_2(child_ctx);
-    						each_blocks_1[i].c();
-    						transition_in(each_blocks_1[i], 1);
-    						each_blocks_1[i].m(ul0, null);
-    					}
-    				}
-
-    				group_outros();
-
-    				for (i = each_value_2.length; i < each_blocks_1.length; i += 1) {
-    					out(i);
-    				}
-
-    				check_outros();
-    			}
-
-    			if (dirty & /*Resume*/ 1) {
-    				each_value_1 = /*year*/ ctx[2][1].successes;
+    				each_value_1 = /*year*/ ctx[2][1].failures;
     				validate_each_argument(each_value_1);
     				let i;
 
@@ -3939,14 +3775,14 @@ var app = (function () {
     						each_blocks[i] = create_each_block_1$1(child_ctx);
     						each_blocks[i].c();
     						transition_in(each_blocks[i], 1);
-    						each_blocks[i].m(ul1, null);
+    						each_blocks[i].m(ul, null);
     					}
     				}
 
     				group_outros();
 
     				for (i = each_value_1.length; i < each_blocks.length; i += 1) {
-    					out_1(i);
+    					out(i);
     				}
 
     				check_outros();
@@ -3955,10 +3791,6 @@ var app = (function () {
     		i: function intro(local) {
     			if (current) return;
 
-    			for (let i = 0; i < each_value_2.length; i += 1) {
-    				transition_in(each_blocks_1[i]);
-    			}
-
     			for (let i = 0; i < each_value_1.length; i += 1) {
     				transition_in(each_blocks[i]);
     			}
@@ -3966,12 +3798,6 @@ var app = (function () {
     			current = true;
     		},
     		o: function outro(local) {
-    			each_blocks_1 = each_blocks_1.filter(Boolean);
-
-    			for (let i = 0; i < each_blocks_1.length; i += 1) {
-    				transition_out(each_blocks_1[i]);
-    			}
-
     			each_blocks = each_blocks.filter(Boolean);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -3983,8 +3809,7 @@ var app = (function () {
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(h2);
     			if (detaching) detach_dev(t1);
-    			if (detaching) detach_dev(div2);
-    			destroy_each(each_blocks_1, detaching);
+    			if (detaching) detach_dev(div1);
     			destroy_each(each_blocks, detaching);
     		}
     	};
@@ -3993,7 +3818,7 @@ var app = (function () {
     		block,
     		id: create_each_block$2.name,
     		type: "each",
-    		source: "(107:2) {#each Resume as year}",
+    		source: "(123:2) {#each Resume as year}",
     		ctx
     	});
 
@@ -4005,17 +3830,17 @@ var app = (function () {
     	let h1;
     	let t1;
     	let p;
-    	let t2;
+    	let t3;
     	let div0;
     	let a;
     	let h20;
-    	let t4;
-    	let i;
     	let t5;
+    	let i;
     	let t6;
+    	let t7;
     	let div1;
     	let h21;
-    	let t8;
+    	let t9;
     	let iframe;
     	let iframe_src_value;
     	let current;
@@ -4038,48 +3863,51 @@ var app = (function () {
     			h1.textContent = "Failure Resume 📰";
     			t1 = space();
     			p = element("p");
-    			t2 = space();
+    			p.textContent = "They say you learn more from your failures than your successes. I see my\n    failure résumé as a list of times where I didn't reach where I thought I\n    could have or choices I shouldn't have made. Rather than being\n    disappointed(though maybe a little at the time), I'm proud to be a failure!";
+    			t3 = space();
     			div0 = element("div");
     			a = element("a");
     			h20 = element("h2");
-    			h20.textContent = "Resume?";
-    			t4 = space();
-    			i = element("i");
+    			h20.textContent = "Real Resume?";
     			t5 = space();
+    			i = element("i");
+    			t6 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t6 = space();
+    			t7 = space();
     			div1 = element("div");
     			h21 = element("h2");
     			h21.textContent = "Resume";
-    			t8 = space();
+    			t9 = space();
     			iframe = element("iframe");
-    			add_location(h1, file$7, 98, 2, 1974);
-    			add_location(p, file$7, 99, 2, 2003);
-    			attr_dev(h20, "class", "svelte-1j7oaas");
-    			add_location(h20, file$7, 102, 6, 2099);
-    			attr_dev(i, "class", "fas fa-angle-down arrow-large svelte-1j7oaas");
-    			add_location(i, file$7, 103, 6, 2122);
+    			attr_dev(h1, "class", "svelte-np62gv");
+    			add_location(h1, file$7, 109, 2, 2111);
+    			attr_dev(p, "class", "first-container svelte-np62gv");
+    			add_location(p, file$7, 110, 2, 2140);
+    			attr_dev(h20, "class", "svelte-np62gv");
+    			add_location(h20, file$7, 118, 6, 2564);
+    			attr_dev(i, "class", "fas fa-angle-down arrow-large svelte-np62gv");
+    			add_location(i, file$7, 119, 6, 2592);
     			attr_dev(a, "href", "#resumePDF");
-    			attr_dev(a, "class", "resume-tip svelte-1j7oaas");
-    			add_location(a, file$7, 101, 4, 2052);
-    			attr_dev(div0, "class", "resume-tip-container svelte-1j7oaas");
-    			add_location(div0, file$7, 100, 2, 2013);
-    			attr_dev(h21, "class", "svelte-1j7oaas");
-    			add_location(h21, file$7, 133, 4, 2814);
+    			attr_dev(a, "class", "resume-tip svelte-np62gv");
+    			add_location(a, file$7, 117, 4, 2517);
+    			attr_dev(div0, "class", "resume-tip-container svelte-np62gv");
+    			add_location(div0, file$7, 116, 2, 2478);
+    			attr_dev(h21, "class", "svelte-np62gv");
+    			add_location(h21, file$7, 139, 4, 3030);
     			attr_dev(iframe, "title", "resume pdf");
     			if (iframe.src !== (iframe_src_value = "https://drive.google.com/file/d/1c8m8yz5qYzgZK2sMbfMnKu9yI1_Z753z/preview")) attr_dev(iframe, "src", iframe_src_value);
     			attr_dev(iframe, "width", "640");
     			attr_dev(iframe, "height", "480");
-    			add_location(iframe, file$7, 134, 4, 2834);
+    			add_location(iframe, file$7, 140, 4, 3050);
     			attr_dev(div1, "id", "resumePDF");
-    			attr_dev(div1, "class", "svelte-1j7oaas");
-    			add_location(div1, file$7, 132, 2, 2789);
-    			attr_dev(section, "class", "resume-container svelte-1j7oaas");
-    			add_location(section, file$7, 97, 0, 1937);
+    			attr_dev(div1, "class", "svelte-np62gv");
+    			add_location(div1, file$7, 138, 2, 3005);
+    			attr_dev(section, "class", "resume-container svelte-np62gv");
+    			add_location(section, file$7, 108, 0, 2074);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4089,22 +3917,22 @@ var app = (function () {
     			append_dev(section, h1);
     			append_dev(section, t1);
     			append_dev(section, p);
-    			append_dev(section, t2);
+    			append_dev(section, t3);
     			append_dev(section, div0);
     			append_dev(div0, a);
     			append_dev(a, h20);
-    			append_dev(a, t4);
+    			append_dev(a, t5);
     			append_dev(a, i);
-    			append_dev(section, t5);
+    			append_dev(section, t6);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(section, null);
     			}
 
-    			append_dev(section, t6);
+    			append_dev(section, t7);
     			append_dev(section, div1);
     			append_dev(div1, h21);
-    			append_dev(div1, t8);
+    			append_dev(div1, t9);
     			append_dev(div1, iframe);
     			current = true;
     		},
@@ -4124,7 +3952,7 @@ var app = (function () {
     						each_blocks[i] = create_each_block$2(child_ctx);
     						each_blocks[i].c();
     						transition_in(each_blocks[i], 1);
-    						each_blocks[i].m(section, t6);
+    						each_blocks[i].m(section, t7);
     					}
     				}
 
@@ -4419,6 +4247,16 @@ var app = (function () {
           },
           {
             src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
+            alt: "Technology and International Development Lab Logo",
+            positionName: "Undergraduate Researcher",
+            briefDescription:
+              "The Technologies and International Development Lab at Georgia Tech researches the practice and the promise of information and communication technologies (ICTs) in social, economic, and political development. Working on the Aggie platform, I work to develop and product manage the web application.",
+            name: "Human Capital",
+            link: "https://human.capital",
+          },
+          {
+            src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
             alt: "HackGT Logo",
             positionName: "Organizer",
@@ -4520,23 +4358,22 @@ var app = (function () {
               "Accepted BS/MS Program at Georgia Tech",
             ],
             failures: [
-              "Rejected Interact Fellowship Application",
-              "15 Rejected PM Internship Applications",
-              "1 Total PM interview, rejected",
+              "Rejected: Interact Fellowship Application",
+              "Rejected: 15 PM Internship Applications",
+              "Rejected: 1 Total PM interview",
             ],
           },
         ],
         [
           2019,
           {
-            successes: [
-              "Bits of Good Executive director",
-              "Accepted BS/MS Program at Georgia Tech",
-            ],
             failures: [
-              "Rejected Interact Fellowship Application",
-              "10 Rejected PM Internship Applications",
-              "1 Total PM interview, rejected",
+              "GT College of Computing Executive Director Termination/Club Suspension Letter (Thx Georgia Tech)",
+              "Rejected: KPCB Fellow Final Round: (Nuna plz accept me)",
+              "Rejected: Dorm Room Fund Engineering Position",
+              "Rejected: Contrary Capital Venture Partner",
+              "Rejected: Microsoft AI for Good, AI for Earth, and Farm Beats Team",
+              "Rejected: Microsoft PM Interview",
               "Thought about consulting",
             ],
           },
@@ -4560,7 +4397,7 @@ var app = (function () {
     const file$9 = "src/App.svelte";
 
     // (145:4) <Route path="/">
-    function create_default_slot_1$1(ctx) {
+    function create_default_slot_1(ctx) {
     	let current;
     	const landing_spread_levels = [content];
     	let landing_props = {};
@@ -4602,7 +4439,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_1$1.name,
+    		id: create_default_slot_1.name,
     		type: "slot",
     		source: "(145:4) <Route path=\\\"/\\\">",
     		ctx
@@ -4658,7 +4495,7 @@ var app = (function () {
     	const route2 = new Route({
     			props: {
     				path: "/",
-    				$$slots: { default: [create_default_slot_1$1] },
+    				$$slots: { default: [create_default_slot_1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
