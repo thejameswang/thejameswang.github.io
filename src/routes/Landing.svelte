@@ -65,7 +65,7 @@
     </div>
     <div class="saying-container">
       <p>
-        I work with people, organizations, and technology to make
+        I work with people, organizations, and technology to make doing
         <span class="highlight-good underline">good</span>
         easier for everyone.
       </p>

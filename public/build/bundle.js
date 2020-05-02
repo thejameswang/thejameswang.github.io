@@ -3153,7 +3153,7 @@ var app = (function () {
     			t2 = space();
     			div1 = element("div");
     			p = element("p");
-    			t3 = text("I work with people, organizations, and technology to make\n        ");
+    			t3 = text("I work with people, organizations, and technology to make doing\n        ");
     			span1 = element("span");
     			span1.textContent = "good";
     			t5 = text("\n        easier for everyone.");
@@ -3165,7 +3165,7 @@ var app = (function () {
     			add_location(h1, file$4, 60, 6, 1010);
     			add_location(div0, file$4, 59, 4, 998);
     			attr_dev(span1, "class", "highlight-good underline svelte-1hzn560");
-    			add_location(span1, file$4, 68, 8, 1222);
+    			add_location(span1, file$4, 68, 8, 1228);
     			attr_dev(p, "class", "svelte-1hzn560");
     			add_location(p, file$4, 66, 6, 1144);
     			attr_dev(div1, "class", "saying-container svelte-1hzn560");
