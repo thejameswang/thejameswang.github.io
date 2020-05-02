@@ -4,26 +4,26 @@
   export let Resume = [];
   let scrollClipHeight = 0;
 
-  onMount(() => {
-    let resumePDF = document
-      .querySelector("#resumePDF")
-      .getBoundingClientRect();
-    let resumeTip = document.querySelector(".resume-tip-container");
+  // onMount(() => {
+  //   let resumePDF = document
+  //     .querySelector("#resumePDF")
+  //     .getBoundingClientRect();
+  //   let resumeTip = document.querySelector(".resume-tip-container");
 
-    const doSomething = function doSomething() {
-      let currentViewPort =
-        window.innerHeight + window.scrollY - (scrollClipHeight || 0);
-      console.log("current view port: " + currentViewPort);
-      console.log("Resume PDF height: " + resumePDF.top);
-      if (currentViewPort > resumePDF.top) {
-        resumeTip.style = "opacity: 0";
-      } else {
-        console.log("NEED TO SHOW RESUME TIP");
-        resumeTip.style = "opacity: 1";
-      }
-    };
-    addEventListener("scroll", doSomething, false);
-  });
+  //   const doSomething = function doSomething() {
+  //     let currentViewPort =
+  //       window.innerHeight + window.scrollY - (scrollClipHeight || 0);
+  //     console.log("current view port: " + currentViewPort);
+  //     console.log("Resume PDF height: " + resumePDF.top);
+  //     if (currentViewPort > resumePDF.top) {
+  //       resumeTip.style = "opacity: 0";
+  //     } else {
+  //       console.log("NEED TO SHOW RESUME TIP");
+  //       resumeTip.style = "opacity: 1";
+  //     }
+  //   };
+  //   addEventListener("scroll", doSomething, false);
+  // });
 </script>
 
 <style>
@@ -114,12 +114,20 @@
     could have or choices I shouldn't have made. Rather than being
     disappointed(though maybe a little at the time), I'm proud to be a failure!
   </p>
-  <div class="resume-tip-container">
+  <p class="first-container">
+    If you're acutally looking for my Resume,
+    <a
+      href="https://drive.google.com/file/d/1c8m8yz5qYzgZK2sMbfMnKu9yI1_Z753z/preview"
+      target="_blank">
+      click here
+    </a>
+  </p>
+  <!-- <div class="resume-tip-container">
     <a href="#resumePDF" class="resume-tip">
       <h2>Real Resume?</h2>
       <i class="fas fa-angle-down arrow-large" />
     </a>
-  </div>
+  </div> -->
   {#each Resume as year}
     <h2>{year[0]}</h2>
     <div class="suc-fail">
@@ -136,14 +144,14 @@
     </div>
   {/each}
 
-  <div id="resumePDF">
+  <!-- <div id="resumePDF">
     <h2>Resume</h2>
     <iframe
       title="resume pdf"
       src="https://drive.google.com/file/d/1c8m8yz5qYzgZK2sMbfMnKu9yI1_Z753z/preview"
       width="640"
       height="480" />
-  </div>
+  </div> -->
 </section>
 
 <!-- 

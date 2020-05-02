@@ -18,13 +18,14 @@
     display: flex;
     /* padding: 20px; */
     justify-content: space-between;
-    padding-bottom: 15px;
+    padding: 30px 0 15px 0;
     /* padding-left: 65px; */
   }
   .nav-container :global(a) {
     /* margin: 20px; */
     position: relative;
     font-size: 25px;
+    color: #cdcdcd;
   }
 
   .nav-container :global(a):before {
@@ -74,17 +75,20 @@
       transition: height 0.3s, opacity 0.4s;
       opacity: 0;
       z-index: 2;
-      align-items: center;
+      align-items: flex-start;
     }
 
-    .nav-container :global(a):before {
+    /* .nav-container :global(a):before {
       transform-origin: center;
-    }
+    } */
 
     .mobile-content {
-      padding-left: 100px;
       display: inherit;
       z-index: 2;
+      position: fixed;
+      background: #404040;
+      width: 100%;
+      padding: 10px 0;
     }
 
     button {
@@ -99,15 +103,13 @@
     .mobile-inner-nav {
       display: flex;
       flex-direction: column;
-      text-align: center;
-      align-items: center;
-      max-width: 300px;
+      /* text-align: center; */
+      /* align-items: center; */
+      /* max-width: auto; */
     }
     .nav-container :global(a) {
       margin: 10px;
-    }
-    .mobile-content {
-      padding-left: 10px;
+      margin-left: 55px;
     }
   }
 </style>
@@ -120,7 +122,7 @@
       on:click={() => {
         if (mobileNavToggled) mobileNavToggled = false;
       }}>
-      <div>
+      <div class="mobile-inner-nav">
         <a href="/">James Wang</a>
       </div>
       <div class="mobile-inner-nav">

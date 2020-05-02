@@ -30,7 +30,6 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-bottom: 8px solid #9dddc0;
     position: relative;
-    margin-bottom: -100px;
     z-index: -1;
   }
 
@@ -38,7 +37,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 41.5px 0;
+    padding: 41.5px 0 0 0;
   }
 
   .saying-container {
@@ -73,22 +72,6 @@
         easier for everyone.
       </p>
     </div>
-    <!-- <div class="about-container">
-      <div>
-        <h2>who</h2>
-        <p>{about.who}</p>
-      </div>
-      <div>
-        <h2>grow</h2>
-        <ul class="fa-ul">
-          {#each about.grow as grow}
-            <Bullet>
-              {@html grow}
-            </Bullet>
-          {/each}
-        </ul>
-      </div>
-    </div> -->
   </div>
   <About {about} />
 </section>

@@ -2,20 +2,20 @@ html,
 body {
   position: relative;
   width: 100%;
-  height: 100%;
 }
 
 body {
   color: #333;
   margin: 0;
-  padding: 8px;
+  padding: 0 8px;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   background-color: #404040;
   overflow-x: hidden;
-  margin: 4rem auto;
+  margin: 0 auto;
   max-width: 1200px;
   width: 90%;
+  padding-bottom: 50px;
 }
 p {
   font-family: "Open Sans", sans-serif;
@@ -23,7 +23,6 @@ p {
 }
 a {
   font-family: "Open Sans", sans-serif;
-  color: #cdcdcd;
   text-decoration: None;
 }
 li {
@@ -32,24 +31,6 @@ li {
 
 label {
   display: block;
-}
-
-/* section {
-  padding: 50px;
-  padding-left: 100px;
-} */
-
-input,
-button,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  padding: 0.4em;
-  margin: 0 0 0 0;
-  box-sizing: border-box;
-  /* border: 1px solid #ccc;s */
-  border-radius: 2px;
 }
 
 input:disabled {
@@ -76,6 +57,7 @@ button {
   color: #333;
   background-color: #f4f4f4;
   outline: none;
+  padding: 0;
 }
 
 button:disabled {
@@ -90,16 +72,8 @@ button:focus {
   border-color: #666;
 }
 
-@media (max-width: 1000px) {
-  /* section {
-    padding: 20px;
-    padding-left: 10px;
-  } */
-}
-
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
   body {
     transition: 1s;
-    margin: 25px auto;
   }
-} */
+}

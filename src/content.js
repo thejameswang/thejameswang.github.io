@@ -74,9 +74,9 @@ export default {
       },
       {
         src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
+          "https://res.cloudinary.com/thejameswang/image/upload/v1588433059/thejameswang/Human_Capital_d5objd.jpg",
         alt: "Technology and International Development Lab Logo",
-        positionName: "Undergraduate Researcher",
+        positionName: "Student Ambassador",
         briefDescription:
           "The Technologies and International Development Lab at Georgia Tech researches the practice and the promise of information and communication technologies (ICTs) in social, economic, and political development. Working on the Aggie platform, I work to develop and product manage the web application.",
         name: "Human Capital",
