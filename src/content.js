@@ -216,7 +216,9 @@ export default {
       2018,
       {
         failures: [
-          "Rejected from Stanford University",
+          "Terrible Director of Engineering at Bits of Good",
+          "Rejected: from Stanford and Duke University",
+          "Rejected: 2nd time from Google",
           "Left Neuroscience Major",
           "Rejected: CS1301 and CS1331 TA Positions",
         ],
@@ -231,6 +233,7 @@ export default {
           "Rejected: Winship Summer Scholars Research Program",
           "Waitlist: ION Summer Research Program",
           "Failed Relationships",
+          "2nd time loss at Georgia Brain Bee",
         ],
       },
     ],

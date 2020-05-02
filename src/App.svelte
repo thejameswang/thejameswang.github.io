@@ -3,10 +3,8 @@
   import NavLink from "./components/nav/NavLink.svelte";
   import MenuIcon from "./components/nav/MenuIcon.svelte";
   import Landing from "./routes/Landing.svelte";
-  // import About from "./routes/About.svelte";
   import Work from "./routes/Work.svelte";
   import Resume from "./routes/Resume.svelte";
-  import Goodtimes from "./routes/Goodtimes.svelte";
   import content from "./content";
   export let url = "";
   let mobileNavToggled = false;

@@ -43,16 +43,6 @@
       font-size: 16px;
     }
   }
-
-  @media (max-width: 700px) {
-    h1 {
-      margin-bottom: 0;
-    }
-    .about-header {
-      flex-direction: column;
-      margin-bottom: 41.5px;
-    }
-  }
 </style>
 
 <div class="social-media-container">
