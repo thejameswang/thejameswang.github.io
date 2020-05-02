@@ -1,13 +1,13 @@
 export default {
   about: {
     who:
-      "I’m a current 3rd year CS major at the Georgia Institute of Technology. I’m passionate about the intersection between technology and social good. Currently, I’m pursuing a career in product management because I’ve found it’s the best way to reach my goals of making good easier for everyone.",
+      "I am an aspiring technical product manager who wants to make doing good easier. I currently study Georgia Institute of Technology as a rising 4th year CS major. Over the summer, I'm working as a software engineering intern at Microsoft and the Technology & International Development Lab.",
     grow: [
       "Improve writing ability and write more",
-      "Be a better <span>storyteller</span>",
-      "Become a better ambassador of the <span>social impact space</span>",
+      "Be a better <a href='https://medium.com/pminsider/storytelling-for-product-managers-fc1a758eb303' target='blank_'>storyteller</a>",
+      "Become a better ambassador of the <a href='https://ssir.org/articles/entry/how_tech_can_maximize_social_impact' target='blank_'>social impact space</a>",
       "Code more often and learn more tools",
-      "<span>Read</span> with a purpose",
+      "<a href='https://medium.com/the-year-of-the-looking-glass/always-be-learning-a4ed3fe09f26' target='blank_'>Read</a> with a purpose",
     ],
     social: [
       {
@@ -38,6 +38,13 @@ export default {
         alt: "Instagram Logo",
         link: "https://instagram.com/thejameswang",
       },
+    ],
+    funFacts: [
+      '📸 I love portrait <a href="https://flickr.com/people/145227047@N06/" target="blank_">photography</a>',
+      "📑 I love <a href='https://www.notion.so/' target='blank_'>Notion</a>",
+      "🏓 I play a mean game of ping pong",
+      "🎾 I'm pretty good at tennis too",
+      "🏛 I love the <a href='https://en.wikipedia.org/wiki/The_West_Wing' target='blank_'>West Wing</a>",
     ],
   },
   work: {

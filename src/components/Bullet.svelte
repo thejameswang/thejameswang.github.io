@@ -5,12 +5,12 @@
     max-width: 700px;
   }
 
-  :global(a) {
+  :global(li a) {
     color: #9dddc0;
-    transition: 0.2s;
+    transition: 0.5s;
   }
 
-  :global(a):hover {
+  :global(li a):hover {
     color: #56dda0;
   }
 

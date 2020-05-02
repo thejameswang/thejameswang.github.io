@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 41.5px 0 0 0;
+    padding: 90px 0 0 0;
   }
 
   .saying-container {
@@ -67,7 +67,7 @@
     </div>
     <div class="saying-container">
       <p>
-        I am an aspiring technical product manager who wants to make doing
+        I work with people, organizations, and technology to make
         <span class="highlight-good underline">good</span>
         easier for everyone.
       </p>

@@ -67,11 +67,11 @@
 </div>
 <div class="about-container">
   <div>
-    <h2>who am i</h2>
+    <h2>who am i 🙆‍♂️</h2>
     <p>{about.who}</p>
   </div>
   <div>
-    <h2>how i grow</h2>
+    <h2>how i grow 💪</h2>
     <ul class="fa-ul">
       {#each about.grow as grow}
         <Bullet>
@@ -81,14 +81,13 @@
     </ul>
   </div>
   <div>
-    <h2>how to find me</h2>
+    <h2>fun facts 🏂</h2>
     <ul class="fa-ul">
-      {#each about.social as social}
+      {#each about.funFacts as funFacts}
         <Bullet>
-          {@html social.text}
+          {@html funFacts}
         </Bullet>
       {/each}
     </ul>
-
   </div>
 </div>

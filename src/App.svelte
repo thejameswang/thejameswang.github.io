@@ -18,7 +18,7 @@
     display: flex;
     /* padding: 20px; */
     justify-content: space-between;
-    padding: 30px 0 15px 0;
+    padding: 64px 0 15px 0;
     /* padding-left: 65px; */
   }
   .nav-container :global(a) {
