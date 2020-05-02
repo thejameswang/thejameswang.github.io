@@ -52,6 +52,24 @@
     color: white;
     margin: 0;
   }
+
+  @media (max-width: 860px) {
+    p {
+      max-width: 280px;
+    }
+
+    a.container {
+      width: 280px;
+      display: flex;
+      transition: 0.5s;
+      /* margin-right: auto; */
+    }
+
+    .img-container {
+      width: 280px;
+      height: 200px;
+    }
+  }
 </style>
 
 <a href={link} class="container" target="_blank">

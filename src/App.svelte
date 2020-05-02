@@ -76,6 +76,7 @@
       opacity: 0;
       z-index: 2;
       align-items: flex-start;
+      padding-top: 0;
     }
 
     /* .nav-container :global(a):before {
@@ -88,7 +89,7 @@
       position: fixed;
       background: #404040;
       width: 100%;
-      padding: 10px 0;
+      padding: 30px 0;
     }
 
     button {

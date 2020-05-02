@@ -25,7 +25,7 @@
   .social-media-container {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 41.5px;
+    margin-bottom: 50px;
     align-items: center;
   }
 
@@ -47,9 +47,6 @@
   @media (max-width: 700px) {
     h1 {
       margin-bottom: 0;
-    }
-    .social-media-container {
-      margin: 0;
     }
     .about-header {
       flex-direction: column;

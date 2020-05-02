@@ -20,8 +20,6 @@
   .projects-container {
     display: flex;
     flex-wrap: wrap;
-
-    /* justify-content: space-between; */
   }
 
   .first-container {
@@ -31,6 +29,8 @@
   .first-container {
     font-size: 18px;
   }
+
+  /* @media (max-width:) */
 </style>
 
 <section class="work-container">

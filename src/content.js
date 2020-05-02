@@ -82,10 +82,10 @@ export default {
       {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1588433059/thejameswang/Human_Capital_d5objd.jpg",
-        alt: "Technology and International Development Lab Logo",
+        alt: "Human Capital Logo",
         positionName: "Student Ambassador",
         briefDescription:
-          "The Technologies and International Development Lab at Georgia Tech researches the practice and the promise of information and communication technologies (ICTs) in social, economic, and political development. Working on the Aggie platform, I work to develop and product manage the web application.",
+          "Human Capital invests in engineers, believing we will be the ones shaping the future. As an ambassador, I help discover those engineers as well as personify the mission of Human Capital.",
         name: "Human Capital",
         link: "https://human.capital",
       },

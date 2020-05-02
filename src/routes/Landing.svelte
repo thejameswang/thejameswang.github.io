@@ -44,16 +44,14 @@
     max-width: 1000px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     h1 {
       font-size: 35px;
+      margin-top: 70px;
     }
     .saying-container p {
       font-size: 20px;
     }
-    /* .landing-container {
-      min-height: 40vh;
-    } */
   }
 </style>
 
