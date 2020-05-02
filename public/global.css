@@ -17,24 +17,19 @@ body {
   width: 90%;
   padding-bottom: 100px;
 }
+
 p {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
 }
+
 a {
   font-family: "Open Sans", sans-serif;
   text-decoration: None;
 }
+
 li {
   color: #fff;
-}
-
-label {
-  display: block;
-}
-
-input:disabled {
-  color: #ccc;
 }
 
 h1 {
@@ -50,6 +45,7 @@ h2 {
   font-size: 35px;
   margin: 20px 0px;
 }
+
 h3 {
   font-family: "Poppins", sans-serif;
 }
@@ -59,18 +55,6 @@ button {
   background-color: #f4f4f4;
   outline: none;
   padding: 0;
-}
-
-button:disabled {
-  color: #999;
-}
-
-button:not(:disabled):active {
-  background-color: #ddd;
-}
-
-button:focus {
-  border-color: #666;
 }
 
 @media (max-width: 800px) {

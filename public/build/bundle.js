@@ -3310,20 +3310,20 @@ var app = (function () {
     			p = element("p");
     			if (img.src !== (img_src_value = /*src*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*alt*/ ctx[3]);
-    			attr_dev(img, "class", "svelte-1x7rncc");
-    			add_location(img, file$5, 76, 4, 1199);
-    			attr_dev(div, "class", "img-container svelte-1x7rncc");
-    			add_location(div, file$5, 75, 2, 1167);
-    			attr_dev(h3, "class", "svelte-1x7rncc");
-    			add_location(h3, file$5, 78, 2, 1230);
-    			attr_dev(h4, "class", "svelte-1x7rncc");
-    			add_location(h4, file$5, 79, 2, 1248);
-    			attr_dev(p, "class", "svelte-1x7rncc");
-    			add_location(p, file$5, 80, 2, 1274);
+    			attr_dev(img, "class", "svelte-1by39f2");
+    			add_location(img, file$5, 74, 4, 1137);
+    			attr_dev(div, "class", "img-container svelte-1by39f2");
+    			add_location(div, file$5, 73, 2, 1105);
+    			attr_dev(h3, "class", "svelte-1by39f2");
+    			add_location(h3, file$5, 76, 2, 1168);
+    			attr_dev(h4, "class", "svelte-1by39f2");
+    			add_location(h4, file$5, 77, 2, 1186);
+    			attr_dev(p, "class", "svelte-1by39f2");
+    			add_location(p, file$5, 78, 2, 1212);
     			attr_dev(a, "href", /*link*/ ctx[4]);
-    			attr_dev(a, "class", "container svelte-1x7rncc");
+    			attr_dev(a, "class", "container svelte-1by39f2");
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$5, 74, 0, 1115);
+    			add_location(a, file$5, 72, 0, 1053);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3511,7 +3511,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (46:4) {#each work.current as project}
+    // (44:4) {#each work.current as project}
     function create_each_block_1$1(ctx) {
     	let current;
     	const project_spread_levels = [/*project*/ ctx[1]];
@@ -3556,14 +3556,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1$1.name,
     		type: "each",
-    		source: "(46:4) {#each work.current as project}",
+    		source: "(44:4) {#each work.current as project}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (52:4) {#each work.old as project}
+    // (50:4) {#each work.old as project}
     function create_each_block$1(ctx) {
     	let current;
     	const project_spread_levels = [/*project*/ ctx[1]];
@@ -3608,7 +3608,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(52:4) {#each work.old as project}",
+    		source: "(50:4) {#each work.old as project}",
     		ctx
     	});
 
@@ -3681,20 +3681,20 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "svelte-1ee8uwk");
-    			add_location(h1, file$6, 36, 2, 490);
-    			attr_dev(p, "class", "first-container svelte-1ee8uwk");
-    			add_location(p, file$6, 37, 2, 509);
-    			attr_dev(h20, "class", "svelte-1ee8uwk");
-    			add_location(h20, file$6, 43, 2, 814);
-    			attr_dev(div0, "class", "projects-container svelte-1ee8uwk");
-    			add_location(div0, file$6, 44, 2, 839);
-    			attr_dev(h21, "class", "svelte-1ee8uwk");
-    			add_location(h21, file$6, 49, 2, 962);
-    			attr_dev(div1, "class", "projects-container svelte-1ee8uwk");
-    			add_location(div1, file$6, 50, 2, 983);
-    			attr_dev(section, "class", "work-container svelte-1ee8uwk");
-    			add_location(section, file$6, 35, 0, 455);
+    			attr_dev(h1, "class", "svelte-o1zui4");
+    			add_location(h1, file$6, 34, 2, 461);
+    			attr_dev(p, "class", "first-container svelte-o1zui4");
+    			add_location(p, file$6, 35, 2, 480);
+    			attr_dev(h20, "class", "svelte-o1zui4");
+    			add_location(h20, file$6, 41, 2, 785);
+    			attr_dev(div0, "class", "projects-container svelte-o1zui4");
+    			add_location(div0, file$6, 42, 2, 810);
+    			attr_dev(h21, "class", "svelte-o1zui4");
+    			add_location(h21, file$6, 47, 2, 933);
+    			attr_dev(div1, "class", "projects-container svelte-o1zui4");
+    			add_location(div1, file$6, 48, 2, 954);
+    			attr_dev(section, "class", "work-container svelte-o1zui4");
+    			add_location(section, file$6, 33, 0, 426);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3892,7 +3892,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (82:12) <Bullet>
+    // (76:12) <Bullet>
     function create_default_slot$2(ctx) {
     	let html_tag;
     	let raw_value = /*failure*/ ctx[5] + "";
@@ -3920,14 +3920,14 @@ var app = (function () {
     		block,
     		id: create_default_slot$2.name,
     		type: "slot",
-    		source: "(82:12) <Bullet>",
+    		source: "(76:12) <Bullet>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (81:10) {#each year[1].failures as failure}
+    // (75:10) {#each year[1].failures as failure}
     function create_each_block_1$2(ctx) {
     	let current;
 
@@ -3974,14 +3974,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1$2.name,
     		type: "each",
-    		source: "(81:10) {#each year[1].failures as failure}",
+    		source: "(75:10) {#each year[1].failures as failure}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (76:2) {#each Resume as year}
+    // (70:2) {#each Resume as year}
     function create_each_block$2(ctx) {
     	let h2;
     	let t0_value = /*year*/ ctx[2][0] + "";
@@ -4018,14 +4018,14 @@ var app = (function () {
     			}
 
     			t2 = space();
-    			attr_dev(h2, "class", "svelte-jt0tb5");
-    			add_location(h2, file$7, 76, 4, 1416);
-    			attr_dev(ul, "class", "fa-ul svelte-jt0tb5");
-    			add_location(ul, file$7, 79, 8, 1505);
-    			attr_dev(div0, "class", "year-container svelte-jt0tb5");
-    			add_location(div0, file$7, 78, 6, 1468);
-    			attr_dev(div1, "class", "suc-fail svelte-jt0tb5");
-    			add_location(div1, file$7, 77, 4, 1439);
+    			attr_dev(h2, "class", "svelte-zq6h7r");
+    			add_location(h2, file$7, 70, 4, 1348);
+    			attr_dev(ul, "class", "fa-ul svelte-zq6h7r");
+    			add_location(ul, file$7, 73, 8, 1437);
+    			attr_dev(div0, "class", "year-container svelte-zq6h7r");
+    			add_location(div0, file$7, 72, 6, 1400);
+    			attr_dev(div1, "class", "suc-fail svelte-zq6h7r");
+    			add_location(div1, file$7, 71, 4, 1371);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -4103,7 +4103,7 @@ var app = (function () {
     		block,
     		id: create_each_block$2.name,
     		type: "each",
-    		source: "(76:2) {#each Resume as year}",
+    		source: "(70:2) {#each Resume as year}",
     		ctx
     	});
 
@@ -4152,18 +4152,18 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "svelte-jt0tb5");
-    			add_location(h1, file$7, 60, 2, 796);
-    			attr_dev(p0, "class", "first-container svelte-jt0tb5");
-    			add_location(p0, file$7, 61, 2, 825);
+    			attr_dev(h1, "class", "svelte-zq6h7r");
+    			add_location(h1, file$7, 54, 2, 728);
+    			attr_dev(p0, "class", "first-container svelte-zq6h7r");
+    			add_location(p0, file$7, 55, 2, 757);
     			attr_dev(a, "href", "https://drive.google.com/file/d/1c8m8yz5qYzgZK2sMbfMnKu9yI1_Z753z/preview");
     			attr_dev(a, "target", "_blank");
-    			attr_dev(a, "class", "svelte-jt0tb5");
-    			add_location(a, file$7, 69, 4, 1241);
-    			attr_dev(p1, "class", "first-container svelte-jt0tb5");
-    			add_location(p1, file$7, 67, 2, 1163);
-    			attr_dev(section, "class", "resume-container svelte-jt0tb5");
-    			add_location(section, file$7, 59, 0, 759);
+    			attr_dev(a, "class", "svelte-zq6h7r");
+    			add_location(a, file$7, 63, 4, 1173);
+    			attr_dev(p1, "class", "first-container svelte-zq6h7r");
+    			add_location(p1, file$7, 61, 2, 1095);
+    			attr_dev(section, "class", "resume-container svelte-zq6h7r");
+    			add_location(section, file$7, 53, 0, 691);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4546,13 +4546,12 @@ var app = (function () {
           },
         ],
       ],
-      GoodTimes: {},
     };
 
     /* src/App.svelte generated by Svelte v3.20.1 */
     const file$8 = "src/App.svelte";
 
-    // (146:4) <Route path="/">
+    // (136:4) <Route path="/">
     function create_default_slot_1$1(ctx) {
     	let current;
     	const landing_spread_levels = [content];
@@ -4597,14 +4596,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$1.name,
     		type: "slot",
-    		source: "(146:4) <Route path=\\\"/\\\">",
+    		source: "(136:4) <Route path=\\\"/\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (116:0) <Router {url}>
+    // (109:0) <Router {url}>
     function create_default_slot$3(ctx) {
     	let nav;
     	let div2;
@@ -4683,25 +4682,25 @@ var app = (function () {
     			t8 = space();
     			create_component(route2.$$.fragment);
     			attr_dev(a0, "href", "/");
-    			add_location(a0, file$8, 124, 8, 2611);
-    			attr_dev(div0, "class", "mobile-inner-nav svelte-agswdj");
-    			add_location(div0, file$8, 123, 6, 2572);
+    			add_location(a0, file$8, 117, 8, 2433);
+    			attr_dev(div0, "class", "mobile-inner-nav svelte-16q2yif");
+    			add_location(div0, file$8, 116, 6, 2394);
     			attr_dev(a1, "href", "/work");
-    			attr_dev(a1, "class", "inner-nav svelte-agswdj");
-    			add_location(a1, file$8, 128, 8, 2750);
+    			attr_dev(a1, "class", "inner-nav svelte-16q2yif");
+    			add_location(a1, file$8, 120, 8, 2518);
     			attr_dev(a2, "href", "/resume");
-    			add_location(a2, file$8, 129, 8, 2804);
-    			attr_dev(div1, "class", "mobile-inner-nav svelte-agswdj");
-    			add_location(div1, file$8, 126, 6, 2657);
-    			attr_dev(div2, "class", "nav-container svelte-agswdj");
+    			add_location(a2, file$8, 121, 8, 2572);
+    			attr_dev(div1, "class", "mobile-inner-nav svelte-16q2yif");
+    			add_location(div1, file$8, 119, 6, 2479);
+    			attr_dev(div2, "class", "nav-container svelte-16q2yif");
     			toggle_class(div2, "mobileNavToggled", /*mobileNavToggled*/ ctx[1]);
-    			add_location(div2, file$8, 117, 4, 2414);
-    			attr_dev(button, "class", "mobile-dropdown-toggle svelte-agswdj");
-    			add_location(button, file$8, 133, 6, 2907);
-    			attr_dev(div3, "class", "mobile-content svelte-agswdj");
-    			add_location(div3, file$8, 132, 4, 2872);
-    			add_location(nav, file$8, 116, 2, 2394);
-    			add_location(div4, file$8, 140, 2, 3109);
+    			add_location(div2, file$8, 110, 4, 2236);
+    			attr_dev(button, "class", "mobile-dropdown-toggle svelte-16q2yif");
+    			add_location(button, file$8, 125, 6, 2675);
+    			attr_dev(div3, "class", "mobile-content svelte-16q2yif");
+    			add_location(div3, file$8, 124, 4, 2640);
+    			add_location(nav, file$8, 109, 2, 2216);
+    			add_location(div4, file$8, 132, 2, 2877);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, nav, anchor);
@@ -4800,7 +4799,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$3.name,
     		type: "slot",
-    		source: "(116:0) <Router {url}>",
+    		source: "(109:0) <Router {url}>",
     		ctx
     	});
 

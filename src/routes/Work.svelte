@@ -29,8 +29,6 @@
   .first-container {
     font-size: 18px;
   }
-
-  /* @media (max-width:) */
 </style>
 
 <section class="work-container">

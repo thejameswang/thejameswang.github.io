@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: column;
     margin-right: 3%;
-    /* margin-right: auto; */
   }
 
   .img-container {
@@ -62,7 +61,6 @@
       width: 280px;
       display: flex;
       transition: 0.5s;
-      /* margin-right: auto; */
     }
 
     .img-container {

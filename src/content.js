@@ -238,5 +238,4 @@ export default {
       },
     ],
   ],
-  GoodTimes: {},
 };

@@ -77,10 +77,6 @@
       padding-top: 0;
     }
 
-    /* .nav-container :global(a):before {
-      transform-origin: center;
-    } */
-
     .mobile-content {
       display: inherit;
       z-index: 2;
@@ -102,9 +98,6 @@
     .mobile-inner-nav {
       display: flex;
       flex-direction: column;
-      /* text-align: center; */
-      /* align-items: center; */
-      /* max-width: auto; */
     }
     .nav-container :global(a) {
       margin: 10px;
@@ -125,7 +118,6 @@
         <a href="/">James Wang</a>
       </div>
       <div class="mobile-inner-nav">
-        <!-- <NavLink to="/me">About 🤗</NavLink> -->
         <a href="/work" class="inner-nav">Work 📍</a>
         <a href="/resume">Failure Resume 📰</a>
       </div>
@@ -139,10 +131,8 @@
     </div>
   </nav>
   <div>
-    <!-- <Route path="me" component={About} {...content} />  -->
     <Route path="work" component={Work} {...content} />
     <Route path="resume" component={Resume} {...content} />
-    <!-- <Route path="goodtimes" component={Goodtimes} {...content} /> -->
     <Route path="/">
       <Landing {...content} />
     </Route>

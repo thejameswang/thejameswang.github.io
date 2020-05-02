@@ -35,12 +35,6 @@
     font-size: 35px;
   }
 
-  h3 {
-    color: #91a6c0;
-    font-size: 25px;
-    margin: 0;
-  }
-
   .fa-ul {
     margin-left: 24px;
   }
