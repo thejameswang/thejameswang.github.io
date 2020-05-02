@@ -4389,23 +4389,13 @@ var app = (function () {
           },
           {
             src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1588433059/thejameswang/Human_Capital_d5objd.jpg",
-            alt: "Human Capital Logo",
-            positionName: "Student Ambassador",
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
+            alt: "Microsoft Logo",
+            positionName: "Incoming Software Developer Intern",
             briefDescription:
-              "Human Capital invests in engineers, believing we will be the ones shaping the future. As an ambassador, I help discover those engineers as well as personify the mission of Human Capital.",
-            name: "Human Capital",
-            link: "https://human.capital",
-          },
-          {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
-            alt: "HackGT Logo",
-            positionName: "Organizer",
-            briefDescription:
-              "HackGT is the largest hackathon in the southeast based at Georgia Tech. Working on the marketing and media team, I help procure the over 5000 applications to the largest hackathon in the southeast. I'm the primary photo editor for all HackGT photos. Formerly, I was a part of the operations team.",
-            name: "HackGT",
-            link: "https://hack.gt/",
+              "I will be joining the One Drive + Sharepoint Storage Platform Team!",
+            name: "Microsoft",
+            link: "https://www.microsoft.com/en-us/",
           },
           {
             src:
@@ -4419,13 +4409,24 @@ var app = (function () {
           },
           {
             src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
-            alt: "Microsoft Logo",
-            positionName: "Incoming Software Developer Intern",
+              "https://res.cloudinary.com/thejameswang/image/upload/v1588433059/thejameswang/Human_Capital_d5objd.jpg",
+            alt: "Human Capital Logo",
+            positionName: "Student Ambassador",
             briefDescription:
-              "I will be joining the One Drive + Sharepoint Storage Platform Team!",
-            name: "Microsoft",
-            link: "https://www.microsoft.com/en-us/",
+              "Human Capital invests in engineers, believing we will be the ones shaping the future. As an ambassador, I help discover those engineers as well as personify the mission of Human Capital.",
+            name: "Human Capital",
+            link: "https://human.capital",
+          },
+
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
+            alt: "HackGT Logo",
+            positionName: "Organizer",
+            briefDescription:
+              "HackGT is the largest hackathon in the southeast based at Georgia Tech. Working on the marketing and media team, I help procure the over 5000 applications to the largest hackathon in the southeast. I'm the primary photo editor for all HackGT photos. Formerly, I was a part of the operations team.",
+            name: "HackGT",
+            link: "https://hack.gt/",
           },
         ],
         old: [
@@ -4485,7 +4486,7 @@ var app = (function () {
             alt: "GT Logo",
             positionName: "CoC Student Assistant",
             briefDescription:
-              "I am a rising 4th year Computer Science Major. I was previously a Neuroscience major, but unfortunately, GT's program was brand new and I thought I could change bureaucracy.",
+              "Working under Paul Shultz, assistant director of development, I help with research and identify prospective companies for the College of Computing Corporate Affiliates Program (CAP), connecting our talented computer science students with companies around the world. Our goal is to alleviate the dire shortage of computing talent in the labor force.",
             name: "The Georgia Institute of Technology",
             link: "https://www.gatech.edu/",
           },
