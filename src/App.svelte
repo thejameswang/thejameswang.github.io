@@ -14,13 +14,10 @@
   .nav-container {
     color: white;
     display: flex;
-    /* padding: 20px; */
     justify-content: space-between;
     padding: 64px 0 15px 0;
-    /* padding-left: 65px; */
   }
   .nav-container :global(a) {
-    /* margin: 20px; */
     position: relative;
     font-size: 25px;
     color: #cdcdcd;
@@ -55,9 +52,11 @@
     margin-left: auto;
     background: none;
   }
-  .inner-nav {
+
+  .inner-nav :global(a) {
     margin-right: 1.5rem;
   }
+
   @media (max-width: 800px) {
     .nav-container {
       position: fixed;
@@ -118,8 +117,8 @@
         <a href="/">James Wang</a>
       </div>
       <div class="mobile-inner-nav">
-        <a href="/work" class="inner-nav">Work 📍</a>
-        <a href="/resume">Failure Resume 📰</a>
+        <NavLink to="/work" class="inner-nav">Work 📍</NavLink>
+        <NavLink to="/resume">Failure Resume 📰</NavLink>
       </div>
     </div>
     <div class="mobile-content">
