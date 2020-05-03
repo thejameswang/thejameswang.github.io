@@ -4369,16 +4369,6 @@ var app = (function () {
           },
           {
             src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Enfin_ai8ho9.jpg",
-            alt: "Enfin Logo",
-            positionName: "Co-Founder",
-            briefDescription:
-              "We believe every dollar you spend has an associated carbon cost. Enfin is the beginning of a fintech application that allows users to take their bank statement data and learn their carbon footprint, allowing for offsetting and alternative carbon methods.",
-            name: "Enfin",
-            link: "http://envfin.herokuapp.com/",
-          },
-          {
-            src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
             alt: "Technology and International Development Lab Logo",
             positionName: "Undergraduate Researcher",
@@ -4439,6 +4429,16 @@ var app = (function () {
               "We connect students with nonprofits and build them custom software. I helped found the first product management and product design team. Recruited over 10 nonprofits, and tripled student membership to 150 students with over 200 applications every semester.",
             name: "Bits of Good",
             link: "bitsofgood.org",
+          },
+          {
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Enfin_ai8ho9.jpg",
+            alt: "Enfin Logo",
+            positionName: "Co-Founder",
+            briefDescription:
+              "We believe every dollar you spend has an associated carbon cost. Enfin is the beginning of a fintech application that allows users to take their bank statement data and learn their carbon footprint, allowing for offsetting and alternative carbon methods.",
+            name: "Enfin",
+            link: "http://envfin.herokuapp.com/",
           },
           {
             src:
@@ -4509,6 +4509,7 @@ var app = (function () {
           {
             failures: [
               "GT College of Computing Executive Director Termination/Club Suspension Letter (Thx Georgia Tech)",
+              "Founded a company, but let it stay around too long only to find another company built it. They built it so well too. Thanks @ Joro.tech",
               "Rejected: KPCB Fellow Final Round: (Nuna plz accept me)",
               "Rejected: Dorm Room Fund Engineering Position",
               "Rejected: Contrary Capital Venture Partner",
