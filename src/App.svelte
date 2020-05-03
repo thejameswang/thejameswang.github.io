@@ -53,7 +53,7 @@
     background: none;
   }
 
-  .inner-nav :global(a) {
+  .mobile-inner-nav :global(a) {
     margin-right: 1.5rem;
   }
 

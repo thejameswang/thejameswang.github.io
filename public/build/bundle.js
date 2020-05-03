@@ -4752,20 +4752,20 @@ var app = (function () {
     			t6 = space();
     			create_component(route2.$$.fragment);
     			attr_dev(a, "href", "/");
-    			add_location(a, file$8, 116, 8, 2367);
-    			attr_dev(div0, "class", "mobile-inner-nav svelte-s4ibng");
-    			add_location(div0, file$8, 115, 6, 2328);
-    			attr_dev(div1, "class", "mobile-inner-nav svelte-s4ibng");
-    			add_location(div1, file$8, 118, 6, 2413);
-    			attr_dev(div2, "class", "nav-container svelte-s4ibng");
+    			add_location(a, file$8, 116, 8, 2374);
+    			attr_dev(div0, "class", "mobile-inner-nav svelte-3a72qt");
+    			add_location(div0, file$8, 115, 6, 2335);
+    			attr_dev(div1, "class", "mobile-inner-nav svelte-3a72qt");
+    			add_location(div1, file$8, 118, 6, 2420);
+    			attr_dev(div2, "class", "nav-container svelte-3a72qt");
     			toggle_class(div2, "mobileNavToggled", /*mobileNavToggled*/ ctx[1]);
-    			add_location(div2, file$8, 109, 4, 2170);
-    			attr_dev(button, "class", "mobile-dropdown-toggle svelte-s4ibng");
-    			add_location(button, file$8, 124, 6, 2629);
-    			attr_dev(div3, "class", "mobile-content svelte-s4ibng");
-    			add_location(div3, file$8, 123, 4, 2594);
-    			add_location(nav, file$8, 108, 2, 2150);
-    			add_location(div4, file$8, 131, 2, 2831);
+    			add_location(div2, file$8, 109, 4, 2177);
+    			attr_dev(button, "class", "mobile-dropdown-toggle svelte-3a72qt");
+    			add_location(button, file$8, 124, 6, 2636);
+    			attr_dev(div3, "class", "mobile-content svelte-3a72qt");
+    			add_location(div3, file$8, 123, 4, 2601);
+    			add_location(nav, file$8, 108, 2, 2157);
+    			add_location(div4, file$8, 131, 2, 2838);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, nav, anchor);

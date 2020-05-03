@@ -201,6 +201,7 @@ export default {
       {
         failures: [
           "GT College of Computing Executive Director Termination/Club Suspension Letter (Thx Georgia Tech)",
+          "Had an idea "
           "Rejected: KPCB Fellow Final Round: (Nuna plz accept me)",
           "Rejected: Dorm Room Fund Engineering Position",
           "Rejected: Contrary Capital Venture Partner",
