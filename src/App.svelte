@@ -6,6 +6,7 @@
   import Work from "./routes/Work.svelte";
   import Resume from "./routes/Resume.svelte";
   import content from "./content";
+  import MLIP from "./routes/Mlip.svelte";
   export let url = "";
   let mobileNavToggled = false;
 </script>
@@ -119,6 +120,7 @@
       <div class="mobile-inner-nav">
         <NavLink to="/work" class="inner-nav">Work 📍</NavLink>
         <NavLink to="/resume">Failure Resume 📰</NavLink>
+        <NavLink to="/MLIP">MLIP 📗</NavLink>
       </div>
     </div>
     <div class="mobile-content">
@@ -132,6 +134,7 @@
   <div>
     <Route path="work" component={Work} {...content} />
     <Route path="resume" component={Resume} {...content} />
+    <Route path="MLIP" component={MLIP} />
     <Route path="/">
       <Landing {...content} />
     </Route>
