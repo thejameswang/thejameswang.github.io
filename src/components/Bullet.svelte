@@ -7,7 +7,7 @@
 
   :global(li a) {
     color: #9dddc0;
-    transition: 0.5s;
+    transition: 0.1s;
   }
 
   :global(li a):hover {

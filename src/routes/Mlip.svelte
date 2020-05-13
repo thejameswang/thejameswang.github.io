@@ -11,9 +11,17 @@
 
   .description-container {
     max-width: 700px;
-    min-width: 700px;
     margin-bottom: 15px;
     margin-right: 15px;
+  }
+
+  .description-container a {
+    transition: 0.1s;
+    color: #9dddc0;
+  }
+
+  .description-container a:hover {
+    color: #56dda0;
   }
 
   .notion-container {
@@ -63,16 +71,33 @@
   <div class="content-container">
     <div class="description-container">
       <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It
-        has roots in a piece of classical Latin literature from 45 BC, making it
-        over 2000 years old. Richard McClintock, a Latin professor at
-        Hampden-Sydney College in Virginia, looked up one of the more obscure
-        Latin words, consectetur, from a Lorem Ipsum passage.
+        A while ago I decided that I was going to start reading and writing a
+        lot more. To help motivate myself, I wanted to make my process public,
+        but after getting through the couple activities, I realized I could do a
+        lot more . . . 😅. I ended up going overboard and started to document
+        all my endeavors + extras.
       </p>
       <p>
-        This book is a treatise on the theory of ethics, very popular during the
-        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-        amet..", comes from a line in section 1.10.32.
+        After I started this monstrosity, I realized other people were doing it
+        as well!
+        <a href="https://www.taniarascia.com/learn/" target="_blank">Tania</a>
+        has a very interesting page for learning in public. She became a
+        <a href="https://www.swyx.io/writing/learn-in-public/" target="_blank">
+          domino
+        </a>
+        to finding
+        <a href="https://learninpublic.com/workbook/" target="_blank">tons</a>
+        of
+        <a
+          href="https://medium.com/@elbaumpj/learn-in-public-7384bcec0cfb"
+          target="_blank">
+          different
+        </a>
+        <a
+          href="http://www.bethkanter.org/bloom-public-learnin/"
+          target="_blank">
+          resources.
+        </a>
       </p>
     </div>
     <a
