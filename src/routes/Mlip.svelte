@@ -14,6 +14,9 @@
     margin-bottom: 15px;
     margin-right: 15px;
   }
+  .description-container p {
+    font-size: 18px;
+  }
 
   .description-container a {
     transition: 0.1s;
@@ -35,12 +38,15 @@
     justify-content: center;
     color: white;
     font-weight: bold;
-    /* min-width: 700px; */
   }
 
   .life-container {
     display: flex;
     align-items: center;
+  }
+
+  :global(.mlip-container span) {
+    color: #9dddc0;
   }
 
   /* .notion-container:hover svg, */

@@ -46,6 +46,16 @@ export default {
       "🎾 I'm pretty good at tennis too",
       "🏛 I love the <a href='https://en.wikipedia.org/wiki/The_West_Wing' target='blank_'>West Wing</a>",
     ],
+    using: [
+      '<b>Computer:</b> 15-inch Macbook Pro (2017)',
+      '<b>Computer:</b> I also built a computer <a href="https://docs.google.com/spreadsheets/d/1oUdx8GToxawU4YMqVFBjJHbVrYJoC47ZPjFubdAJkHg/edit?usp=sharing" target="_blank">with friends</a>',
+      "<b>Notetaking:</b> Notability, but I'm starting to make a <a href='https://www.notion.so/thejameswang/Reading-2dcfc0d3c69245f7953646ea886507e4' target='_blank'>new way for myself</a>",
+      "<b>Text Editor:</b> VSCode",
+      "<b>Emailing:</b> Spark and Outlook",
+      "<b>Calendar:</b> Google Calendar",
+      "<b>Todo List:</b> Todoist and Journaling",
+      "<b>Life Documenting:</b> Notion"
+    ]
   },
   work: {
     current: [
@@ -116,11 +126,11 @@ export default {
         src:
           "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/BoG_uifsvt.jpg",
         alt: "Bits of Good Logo",
-        positionName: "Former Executive Director",
+        positionName: "Former Executive Director, Director of Product, and Director of Engineering",
         briefDescription:
           "We connect students with nonprofits and build them custom software. I helped found the first product management and product design team. Recruited over 10 nonprofits, and tripled student membership to 150 students with over 200 applications every semester.",
         name: "Bits of Good",
-        link: "bitsofgood.org",
+        link: "https://bitsofgood.org",
       },
       {
         src:
