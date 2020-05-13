@@ -81,7 +81,7 @@
         After I started this monstrosity, I realized other people were doing it
         as well!
         <a href="https://www.taniarascia.com/learn/" target="_blank">Tania</a>
-        has a very interesting page for learning in public. She became a
+        has a very interesting page for learning in public. For me, she became a
         <a href="https://www.swyx.io/writing/learn-in-public/" target="_blank">
           domino
         </a>
@@ -98,6 +98,8 @@
           target="_blank">
           resources.
         </a>
+        Eventually, I hope to be one of those big writers and bloggers that are
+        able to help others like they've helped me!
       </p>
     </div>
     <a
