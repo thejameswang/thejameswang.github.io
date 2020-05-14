@@ -8,6 +8,7 @@ https://img.icons8.com/ios/250/DFAB00/yacht.png
 Work Red
 https://img.icons8.com/ios/250/E03E3E/edit.png
 https://img.icons8.com/ios/250/E03E3E/design.png
+https://img.icons8.com/ios/250/E03E3E/waypoint-map.png
 https://img.icons8.com/ios/250/E03E3E/project.png
 https://img.icons8.com/ios/250/E03E3E/medical-history.png
 
