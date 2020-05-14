@@ -7,15 +7,18 @@
 
   :global(li a) {
     color: #9dddc0;
-    transition: 0.5s;
+    transition: 0.1s;
   }
 
   :global(li a):hover {
     color: #56dda0;
   }
 
-  :global(span) {
+  :global(li span) {
     color: #9dddc0;
+  }
+  :global(li b) {
+    color: #7ca1ce;
   }
 
   @media (max-width: 600px) {

@@ -77,4 +77,14 @@
       {/each}
     </ul>
   </div>
+  <div>
+    <h2>What I use 💻</h2>
+    <ul class="fa-ul">
+      {#each about.using as use}
+        <Bullet>
+          {@html use}
+        </Bullet>
+      {/each}
+    </ul>
+  </div>
 </div>

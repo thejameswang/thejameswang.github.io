@@ -56,11 +56,11 @@
   <p class="first-container">
     They say you learn more from your failures than your successes. I see my
     failure résumé as a list of times where I didn't reach where I thought I
-    could have or choices I shouldn't have made. Rather than being
-    disappointed(though maybe a little at the time), I'm proud to be a failure!
+    could have or choices I shouldn't have made. Rather than being disappointed
+    (though maybe a little at the time), I'm proud to be a failure!
   </p>
   <p class="first-container">
-    If you're acutally looking for my Resume,
+    If you're actually looking for my Resume,
     <a
       href="https://drive.google.com/file/d/1c8m8yz5qYzgZK2sMbfMnKu9yI1_Z753z/preview"
       target="_blank">
