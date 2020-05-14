@@ -43,15 +43,34 @@
   .life-container {
     display: flex;
     align-items: center;
+    position: relative;
+  }
+
+  .life-container :global(p):before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom: 8px solid #9dddc0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+  }
+
+  .notion-container:hover :global(p):before {
+    transform: scaleX(1);
   }
 
   :global(.mlip-container span) {
     color: #9dddc0;
   }
-
-  /* .notion-container:hover svg, */
-  .notion-container:hover {
+  .notion-container > svg {
     transition: transform 0.2s;
+  }
+
+  .notion-container:hover > svg {
     transform: scale(1.1);
   }
 
@@ -164,7 +183,6 @@
             9.5918V9.5918Z"
             fill="white" />
         </svg>
-
       </div>
     </a>
   </div>
