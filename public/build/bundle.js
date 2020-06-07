@@ -4519,6 +4519,13 @@ var app = (function () {
             link: "https://www.linkedin.com/in/thejameswang/",
           },
           {
+            name: "Twitter",
+            src:
+              "https://res.cloudinary.com/thejameswang/image/upload/v1591566434/thejameswang/Twitter_jzhgml.png",
+            alt: "Twitter Logo",
+            link: "https://twitter.com/thejameswang_",
+          },
+          {
             name: "Instagram",
             src:
               "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Instagram_xgpog2.png",
