@@ -1,7 +1,6 @@
 export default {
   about: {
-    who:
-      "I am an aspiring technical product manager who wants to make doing good easier. I currently study Georgia Institute of Technology as a rising 4th year CS major. Over the summer, I'm working as a software engineering intern at Microsoft and the Technology & International Development Lab.",
+    who: "I am an aspiring technical product manager who wants to make doing good easier. I currently study Georgia Institute of Technology as a rising 4th year CS major. Over the summer, I'm working as a software engineering intern at Microsoft and the Technology & International Development Lab.",
     grow: [
       "Improve writing ability and write more",
       "Be a better <a href='https://medium.com/pminsider/storytelling-for-product-managers-fc1a758eb303' target='blank_'>storyteller</a>",
@@ -12,29 +11,25 @@ export default {
     social: [
       {
         name: "Email",
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Email_ucg7dj.png",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Email_ucg7dj.png",
         alt: "Email Logo",
         link: "j.wang5441@gmail.com",
       },
       {
         name: "Github",
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Github_uqhbox.png",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Github_uqhbox.png",
         alt: "Github Logo",
         link: "https://github.com/thejameswang",
       },
       {
         name: "Linkedin",
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/LinkedIN_waoczb.png",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/LinkedIN_waoczb.png",
         alt: "Linkedin Logo",
         link: "https://www.linkedin.com/in/thejameswang/",
       },
       {
         name: "Instagram",
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Instagram_xgpog2.png",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Instagram_xgpog2.png",
         alt: "Instagram Logo",
         link: "https://instagram.com/thejameswang",
       },
@@ -47,21 +42,20 @@ export default {
       "🏛 I love the <a href='https://en.wikipedia.org/wiki/The_West_Wing' target='blank_'>West Wing</a>",
     ],
     using: [
-      '<b>Computer:</b> 15-inch Macbook Pro (2017)',
+      "<b>Computer:</b> 15-inch Macbook Pro (2017)",
       '<b>Computer:</b> I also built a computer <a href="https://docs.google.com/spreadsheets/d/1oUdx8GToxawU4YMqVFBjJHbVrYJoC47ZPjFubdAJkHg/edit?usp=sharing" target="_blank">with friends</a>',
       "<b>Notetaking:</b> Notability, but I'm starting to make a <a href='https://www.notion.so/thejameswang/Reading-2dcfc0d3c69245f7953646ea886507e4' target='_blank'>new way for myself</a>",
       "<b>Text Editor:</b> VSCode",
       "<b>Emailing:</b> Spark and Outlook",
       "<b>Calendar:</b> Google Calendar",
       "<b>Todo List:</b> Todoist and Journaling",
-      "<b>Life Documenting:</b> Notion"
-    ]
+      "<b>Life Documenting:</b> Notion",
+    ],
   },
   work: {
     current: [
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1588205861/thejameswang/Hack4Impact_wt6dt6.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588205861/thejameswang/Hack4Impact_wt6dt6.jpg",
         alt: "Hack4Impact Logo",
         positionName: "Director",
         briefDescription:
@@ -70,8 +64,16 @@ export default {
         link: "https://hack4impact.org/",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
+        src: "https://cloudinary.com/console/c-a9cebc8fb0b861a1e450b1ab156ffd/media_library/folders/a2d1323ebd949c1db4497c2161117c0f",
+        alt: "Tesla Energy Logo",
+        positionName: "Technical Program Management Intern",
+        briefDescription:
+          "With 8 chapters nationwide, Hack4Impact is a 501c(3) nonprofit that helps students support their local community nonprofits through technology. I will be working to establish a stronger infrastructure for chapter collaboration and extend the reach of our nonprofit.",
+        name: "Tesla Energy",
+        link: "https://www.tesla.com/energy",
+      },
+      {
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
         alt: "Technology and International Development Lab Logo",
         positionName: "Undergraduate Researcher",
         briefDescription:
@@ -80,8 +82,7 @@ export default {
         link: "http://tid.gatech.edu/",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
         alt: "Microsoft Logo",
         positionName: "Incoming Software Developer Intern",
         briefDescription:
@@ -90,8 +91,7 @@ export default {
         link: "https://www.microsoft.com/en-us/",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
         alt: "Impact Labs Logo",
         positionName: "Organizer and Fellow",
         briefDescription:
@@ -100,8 +100,7 @@ export default {
         link: "https://www.impactlabs.io/",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1588433059/thejameswang/Human_Capital_d5objd.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588433059/thejameswang/Human_Capital_d5objd.jpg",
         alt: "Human Capital Logo",
         positionName: "Student Ambassador",
         briefDescription:
@@ -111,8 +110,7 @@ export default {
       },
 
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
         alt: "HackGT Logo",
         positionName: "Organizer",
         briefDescription:
@@ -123,18 +121,17 @@ export default {
     ],
     old: [
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/BoG_uifsvt.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/BoG_uifsvt.jpg",
         alt: "Bits of Good Logo",
-        positionName: "Former Executive Director, Director of Product, and Director of Engineering",
+        positionName:
+          "Former Executive Director, Director of Product, and Director of Engineering",
         briefDescription:
           "We connect students with nonprofits and build them custom software. I helped found the first product management and product design team. Recruited over 10 nonprofits, and tripled student membership to 150 students with over 200 applications every semester.",
         name: "Bits of Good",
         link: "https://bitsofgood.org",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Enfin_ai8ho9.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Enfin_ai8ho9.jpg",
         alt: "Enfin Logo",
         positionName: "Co-Founder",
         briefDescription:
@@ -143,8 +140,7 @@ export default {
         link: "http://envfin.herokuapp.com/",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
         alt: "Microsoft Logo",
         positionName: "Explore Intern",
         briefDescription:
@@ -153,8 +149,7 @@ export default {
         link: "https://www.microsoft.com/en-us/",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Anora_uo5wt4.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Anora_uo5wt4.jpg",
         alt: "Anora AI Logo",
         positionName: "Software Developer",
         briefDescription:
@@ -163,8 +158,7 @@ export default {
         link: "https://anora.ai/",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/GE_dh2kwe.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/GE_dh2kwe.jpg",
         alt: "General Electric Logo",
         positionName: "Software Development Intern",
         briefDescription:
@@ -173,8 +167,7 @@ export default {
         link: "https://www.ge.com/digital/",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Horizons_gxfmos.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Horizons_gxfmos.jpg",
         alt: "Horizons School of Technology Logo",
         positionName: "Software Developer",
         briefDescription:
@@ -183,8 +176,7 @@ export default {
         link: "https://www.linkedin.com/school/horizons-/",
       },
       {
-        src:
-          "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
         alt: "GT Logo",
         positionName: "CoC Student Assistant",
         briefDescription:
