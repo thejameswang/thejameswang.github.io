@@ -1,5 +1,5 @@
 
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.head.appendChild(r) })(window.document);
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 var app = (function () {
     'use strict';
 
@@ -3462,79 +3462,87 @@ var app = (function () {
 
     function create_fragment$8(ctx) {
     	let a;
-    	let div;
+    	let div0;
     	let img;
     	let img_src_value;
     	let t0;
+    	let div1;
     	let h3;
     	let t1;
     	let t2;
-    	let h4;
+    	let h40;
     	let t3;
     	let t4;
-    	let p;
+    	let h41;
+    	let t5;
 
     	const block = {
     		c: function create() {
     			a = element("a");
-    			div = element("div");
+    			div0 = element("div");
     			img = element("img");
     			t0 = space();
+    			div1 = element("div");
     			h3 = element("h3");
     			t1 = text(/*name*/ ctx[0]);
     			t2 = space();
-    			h4 = element("h4");
-    			t3 = text(/*positionName*/ ctx[5]);
+    			h40 = element("h4");
+    			t3 = text(/*positionName*/ ctx[4]);
     			t4 = space();
-    			p = element("p");
-    			if (img.src !== (img_src_value = /*src*/ ctx[2])) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "alt", /*alt*/ ctx[3]);
-    			attr_dev(img, "class", "svelte-1by39f2");
-    			add_location(img, file$5, 74, 4, 1137);
-    			attr_dev(div, "class", "img-container svelte-1by39f2");
-    			add_location(div, file$5, 73, 2, 1105);
-    			attr_dev(h3, "class", "svelte-1by39f2");
-    			add_location(h3, file$5, 76, 2, 1168);
-    			attr_dev(h4, "class", "svelte-1by39f2");
-    			add_location(h4, file$5, 77, 2, 1186);
-    			attr_dev(p, "class", "svelte-1by39f2");
-    			add_location(p, file$5, 78, 2, 1212);
-    			attr_dev(a, "href", /*link*/ ctx[4]);
-    			attr_dev(a, "class", "container svelte-1by39f2");
+    			h41 = element("h4");
+    			t5 = text(/*year*/ ctx[5]);
+    			if (img.src !== (img_src_value = /*src*/ ctx[1])) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", /*alt*/ ctx[2]);
+    			attr_dev(img, "class", "svelte-1fubprw");
+    			add_location(img, file$5, 12, 4, 293);
+    			attr_dev(div0, "class", "img-container svelte-1fubprw");
+    			add_location(div0, file$5, 11, 2, 261);
+    			attr_dev(h3, "class", "svelte-1fubprw");
+    			add_location(h3, file$5, 15, 4, 357);
+    			attr_dev(h40, "class", "svelte-1fubprw");
+    			add_location(h40, file$5, 16, 4, 377);
+    			attr_dev(h41, "class", "svelte-1fubprw");
+    			add_location(h41, file$5, 17, 4, 405);
+    			attr_dev(div1, "class", "desc-container svelte-1fubprw");
+    			add_location(div1, file$5, 14, 2, 324);
+    			attr_dev(a, "href", /*link*/ ctx[3]);
+    			attr_dev(a, "class", "container svelte-1fubprw");
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$5, 72, 0, 1053);
+    			add_location(a, file$5, 10, 0, 209);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
-    			append_dev(a, div);
-    			append_dev(div, img);
+    			append_dev(a, div0);
+    			append_dev(div0, img);
     			append_dev(a, t0);
-    			append_dev(a, h3);
+    			append_dev(a, div1);
+    			append_dev(div1, h3);
     			append_dev(h3, t1);
-    			append_dev(a, t2);
-    			append_dev(a, h4);
-    			append_dev(h4, t3);
-    			append_dev(a, t4);
-    			append_dev(a, p);
-    			p.innerHTML = /*briefDescription*/ ctx[1];
+    			append_dev(div1, t2);
+    			append_dev(div1, h40);
+    			append_dev(h40, t3);
+    			append_dev(div1, t4);
+    			append_dev(div1, h41);
+    			append_dev(h41, t5);
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*src*/ 4 && img.src !== (img_src_value = /*src*/ ctx[2])) {
+    			if (dirty & /*src*/ 2 && img.src !== (img_src_value = /*src*/ ctx[1])) {
     				attr_dev(img, "src", img_src_value);
     			}
 
-    			if (dirty & /*alt*/ 8) {
-    				attr_dev(img, "alt", /*alt*/ ctx[3]);
+    			if (dirty & /*alt*/ 4) {
+    				attr_dev(img, "alt", /*alt*/ ctx[2]);
     			}
 
     			if (dirty & /*name*/ 1) set_data_dev(t1, /*name*/ ctx[0]);
-    			if (dirty & /*positionName*/ 32) set_data_dev(t3, /*positionName*/ ctx[5]);
-    			if (dirty & /*briefDescription*/ 2) p.innerHTML = /*briefDescription*/ ctx[1];
-    			if (dirty & /*link*/ 16) {
-    				attr_dev(a, "href", /*link*/ ctx[4]);
+    			if (dirty & /*positionName*/ 16) set_data_dev(t3, /*positionName*/ ctx[4]);
+    			if (dirty & /*year*/ 32) set_data_dev(t5, /*year*/ ctx[5]);
+
+    			if (dirty & /*link*/ 8) {
+    				attr_dev(a, "href", /*link*/ ctx[3]);
     			}
     		},
     		i: noop,
@@ -3557,12 +3565,12 @@ var app = (function () {
 
     function instance$8($$self, $$props, $$invalidate) {
     	let { name = "" } = $$props;
-    	let { briefDescription = "" } = $$props;
     	let { src = "" } = $$props;
     	let { alt = "" } = $$props;
     	let { link = "" } = $$props;
     	let { positionName = "" } = $$props;
-    	const writable_props = ["name", "briefDescription", "src", "alt", "link", "positionName"];
+    	let { year = "" } = $$props;
+    	const writable_props = ["name", "src", "alt", "link", "positionName", "year"];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<Project> was created with unknown prop '${key}'`);
@@ -3573,36 +3581,29 @@ var app = (function () {
 
     	$$self.$set = $$props => {
     		if ("name" in $$props) $$invalidate(0, name = $$props.name);
-    		if ("briefDescription" in $$props) $$invalidate(1, briefDescription = $$props.briefDescription);
-    		if ("src" in $$props) $$invalidate(2, src = $$props.src);
-    		if ("alt" in $$props) $$invalidate(3, alt = $$props.alt);
-    		if ("link" in $$props) $$invalidate(4, link = $$props.link);
-    		if ("positionName" in $$props) $$invalidate(5, positionName = $$props.positionName);
+    		if ("src" in $$props) $$invalidate(1, src = $$props.src);
+    		if ("alt" in $$props) $$invalidate(2, alt = $$props.alt);
+    		if ("link" in $$props) $$invalidate(3, link = $$props.link);
+    		if ("positionName" in $$props) $$invalidate(4, positionName = $$props.positionName);
+    		if ("year" in $$props) $$invalidate(5, year = $$props.year);
     	};
 
-    	$$self.$capture_state = () => ({
-    		name,
-    		briefDescription,
-    		src,
-    		alt,
-    		link,
-    		positionName
-    	});
+    	$$self.$capture_state = () => ({ name, src, alt, link, positionName, year });
 
     	$$self.$inject_state = $$props => {
     		if ("name" in $$props) $$invalidate(0, name = $$props.name);
-    		if ("briefDescription" in $$props) $$invalidate(1, briefDescription = $$props.briefDescription);
-    		if ("src" in $$props) $$invalidate(2, src = $$props.src);
-    		if ("alt" in $$props) $$invalidate(3, alt = $$props.alt);
-    		if ("link" in $$props) $$invalidate(4, link = $$props.link);
-    		if ("positionName" in $$props) $$invalidate(5, positionName = $$props.positionName);
+    		if ("src" in $$props) $$invalidate(1, src = $$props.src);
+    		if ("alt" in $$props) $$invalidate(2, alt = $$props.alt);
+    		if ("link" in $$props) $$invalidate(3, link = $$props.link);
+    		if ("positionName" in $$props) $$invalidate(4, positionName = $$props.positionName);
+    		if ("year" in $$props) $$invalidate(5, year = $$props.year);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [name, briefDescription, src, alt, link, positionName];
+    	return [name, src, alt, link, positionName, year];
     }
 
     class Project extends SvelteComponentDev {
@@ -3611,11 +3612,11 @@ var app = (function () {
 
     		init(this, options, instance$8, create_fragment$8, safe_not_equal, {
     			name: 0,
-    			briefDescription: 1,
-    			src: 2,
-    			alt: 3,
-    			link: 4,
-    			positionName: 5
+    			src: 1,
+    			alt: 2,
+    			link: 3,
+    			positionName: 4,
+    			year: 5
     		});
 
     		dispatch_dev("SvelteRegisterComponent", {
@@ -3631,14 +3632,6 @@ var app = (function () {
     	}
 
     	set name(value) {
-    		throw new Error("<Project>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	get briefDescription() {
-    		throw new Error("<Project>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	set briefDescription(value) {
     		throw new Error("<Project>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
 
@@ -3673,6 +3666,14 @@ var app = (function () {
     	set positionName(value) {
     		throw new Error("<Project>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
+
+    	get year() {
+    		throw new Error("<Project>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set year(value) {
+    		throw new Error("<Project>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
     }
 
     /* src/routes/Work.svelte generated by Svelte v3.20.1 */
@@ -3690,7 +3691,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (44:4) {#each work.current as project}
+    // (16:4) {#each work.current as project}
     function create_each_block_1$1(ctx) {
     	let current;
     	const project_spread_levels = [/*project*/ ctx[1]];
@@ -3735,14 +3736,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1$1.name,
     		type: "each",
-    		source: "(44:4) {#each work.current as project}",
+    		source: "(16:4) {#each work.current as project}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (50:4) {#each work.old as project}
+    // (22:4) {#each work.old as project}
     function create_each_block$1(ctx) {
     	let current;
     	const project_spread_levels = [/*project*/ ctx[1]];
@@ -3787,7 +3788,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(50:4) {#each work.old as project}",
+    		source: "(22:4) {#each work.old as project}",
     		ctx
     	});
 
@@ -3852,7 +3853,7 @@ var app = (function () {
 
     			t6 = space();
     			h21 = element("h2");
-    			h21.textContent = "old works";
+    			h21.textContent = "previous works";
     			t8 = space();
     			div1 = element("div");
 
@@ -3860,20 +3861,20 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "svelte-o1zui4");
-    			add_location(h1, file$6, 34, 2, 461);
-    			attr_dev(p, "class", "first-container svelte-o1zui4");
-    			add_location(p, file$6, 35, 2, 480);
-    			attr_dev(h20, "class", "svelte-o1zui4");
-    			add_location(h20, file$6, 41, 2, 785);
-    			attr_dev(div0, "class", "projects-container svelte-o1zui4");
-    			add_location(div0, file$6, 42, 2, 810);
-    			attr_dev(h21, "class", "svelte-o1zui4");
-    			add_location(h21, file$6, 47, 2, 933);
-    			attr_dev(div1, "class", "projects-container svelte-o1zui4");
-    			add_location(div1, file$6, 48, 2, 954);
-    			attr_dev(section, "class", "work-container svelte-o1zui4");
-    			add_location(section, file$6, 33, 0, 426);
+    			attr_dev(h1, "class", "svelte-z37doy");
+    			add_location(h1, file$6, 6, 2, 138);
+    			attr_dev(p, "class", "first-container svelte-z37doy");
+    			add_location(p, file$6, 7, 2, 157);
+    			attr_dev(h20, "class", "svelte-z37doy");
+    			add_location(h20, file$6, 13, 2, 462);
+    			attr_dev(div0, "class", "projects-container svelte-z37doy");
+    			add_location(div0, file$6, 14, 2, 487);
+    			attr_dev(h21, "class", "svelte-z37doy");
+    			add_location(h21, file$6, 19, 2, 610);
+    			attr_dev(div1, "class", "projects-container svelte-z37doy");
+    			add_location(div1, file$6, 20, 2, 636);
+    			attr_dev(section, "class", "work-container svelte-z37doy");
+    			add_location(section, file$6, 5, 0, 103);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4071,7 +4072,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (76:12) <Bullet>
+    // (31:12) <Bullet>
     function create_default_slot$2(ctx) {
     	let html_tag;
     	let raw_value = /*failure*/ ctx[5] + "";
@@ -4099,14 +4100,14 @@ var app = (function () {
     		block,
     		id: create_default_slot$2.name,
     		type: "slot",
-    		source: "(76:12) <Bullet>",
+    		source: "(31:12) <Bullet>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (75:10) {#each year[1].failures as failure}
+    // (30:10) {#each year[1].failures as failure}
     function create_each_block_1$2(ctx) {
     	let current;
 
@@ -4153,14 +4154,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1$2.name,
     		type: "each",
-    		source: "(75:10) {#each year[1].failures as failure}",
+    		source: "(30:10) {#each year[1].failures as failure}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (70:2) {#each Resume as year}
+    // (25:2) {#each Resume as year}
     function create_each_block$2(ctx) {
     	let h2;
     	let t0_value = /*year*/ ctx[2][0] + "";
@@ -4198,13 +4199,13 @@ var app = (function () {
 
     			t2 = space();
     			attr_dev(h2, "class", "svelte-zq6h7r");
-    			add_location(h2, file$7, 70, 4, 1349);
+    			add_location(h2, file$7, 25, 4, 830);
     			attr_dev(ul, "class", "fa-ul svelte-zq6h7r");
-    			add_location(ul, file$7, 73, 8, 1438);
+    			add_location(ul, file$7, 28, 8, 919);
     			attr_dev(div0, "class", "year-container svelte-zq6h7r");
-    			add_location(div0, file$7, 72, 6, 1401);
+    			add_location(div0, file$7, 27, 6, 882);
     			attr_dev(div1, "class", "suc-fail svelte-zq6h7r");
-    			add_location(div1, file$7, 71, 4, 1372);
+    			add_location(div1, file$7, 26, 4, 853);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -4282,7 +4283,7 @@ var app = (function () {
     		block,
     		id: create_each_block$2.name,
     		type: "each",
-    		source: "(70:2) {#each Resume as year}",
+    		source: "(25:2) {#each Resume as year}",
     		ctx
     	});
 
@@ -4319,7 +4320,7 @@ var app = (function () {
     			h1.textContent = "Failure Resume 📰";
     			t1 = space();
     			p0 = element("p");
-    			p0.textContent = "They say you learn more from your failures than your successes. I see my\n    failure résumé as a list of times where I didn't reach where I thought I\n    could have or choices I shouldn't have made. Rather than being disappointed\n    (though maybe a little at the time), I'm proud to be a failure!";
+    			p0.textContent = "They say you learn more from your failures than your successes. I see my\n    failure résumé as a list of times where I didn't reach where I thought I\n    could have or made choices I shouldn't have made. Rather than being\n    disappointed (though maybe a little at the time), I'm proud to be a failure!";
     			t3 = space();
     			p1 = element("p");
     			t4 = text("If you're actually looking for my Resume,\n    ");
@@ -4332,17 +4333,17 @@ var app = (function () {
     			}
 
     			attr_dev(h1, "class", "svelte-zq6h7r");
-    			add_location(h1, file$7, 54, 2, 728);
+    			add_location(h1, file$7, 8, 2, 199);
     			attr_dev(p0, "class", "first-container svelte-zq6h7r");
-    			add_location(p0, file$7, 55, 2, 757);
+    			add_location(p0, file$7, 9, 2, 228);
     			attr_dev(a, "href", "https://drive.google.com/file/d/1c8m8yz5qYzgZK2sMbfMnKu9yI1_Z753z/preview");
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "svelte-zq6h7r");
-    			add_location(a, file$7, 63, 4, 1174);
+    			add_location(a, file$7, 17, 4, 650);
     			attr_dev(p1, "class", "first-container svelte-zq6h7r");
-    			add_location(p1, file$7, 61, 2, 1096);
+    			add_location(p1, file$7, 15, 2, 572);
     			attr_dev(section, "class", "resume-container svelte-zq6h7r");
-    			add_location(section, file$7, 53, 0, 691);
+    			add_location(section, file$7, 7, 0, 162);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4487,8 +4488,7 @@ var app = (function () {
 
     var content = {
       about: {
-        who:
-          "I am an aspiring technical product manager who wants to make doing good easier. I currently study Georgia Institute of Technology as a rising 4th year CS major. Over the summer, I'm working as a software engineering intern at Microsoft and the Technology & International Development Lab.",
+        who: "I am an aspiring technical product manager who wants to make doing good easier. I currently study Georgia Institute of Technology as a rising 4th year CS major. Over the summer, I'm working as a software engineering intern at Microsoft and the Technology & International Development Lab.",
         grow: [
           "Improve writing ability and write more",
           "Be a better <a href='https://medium.com/pminsider/storytelling-for-product-managers-fc1a758eb303' target='blank_'>storyteller</a>",
@@ -4499,29 +4499,25 @@ var app = (function () {
         social: [
           {
             name: "Email",
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Email_ucg7dj.png",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Email_ucg7dj.png",
             alt: "Email Logo",
             link: "j.wang5441@gmail.com",
           },
           {
             name: "Github",
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Github_uqhbox.png",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Github_uqhbox.png",
             alt: "Github Logo",
             link: "https://github.com/thejameswang",
           },
           {
             name: "Linkedin",
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/LinkedIN_waoczb.png",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/LinkedIN_waoczb.png",
             alt: "Linkedin Logo",
             link: "https://www.linkedin.com/in/thejameswang/",
           },
           {
             name: "Instagram",
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Instagram_xgpog2.png",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Instagram_xgpog2.png",
             alt: "Instagram Logo",
             link: "https://instagram.com/thejameswang",
           },
@@ -4534,150 +4530,161 @@ var app = (function () {
           "🏛 I love the <a href='https://en.wikipedia.org/wiki/The_West_Wing' target='blank_'>West Wing</a>",
         ],
         using: [
-          '<b>Computer:</b> 15-inch Macbook Pro (2017)',
+          "<b>Computer:</b> 15-inch Macbook Pro (2017)",
           '<b>Computer:</b> I also built a computer <a href="https://docs.google.com/spreadsheets/d/1oUdx8GToxawU4YMqVFBjJHbVrYJoC47ZPjFubdAJkHg/edit?usp=sharing" target="_blank">with friends</a>',
           "<b>Notetaking:</b> Notability, but I'm starting to make a <a href='https://www.notion.so/thejameswang/Reading-2dcfc0d3c69245f7953646ea886507e4' target='_blank'>new way for myself</a>",
           "<b>Text Editor:</b> VSCode",
           "<b>Emailing:</b> Spark and Outlook",
           "<b>Calendar:</b> Google Calendar",
           "<b>Todo List:</b> Todoist and Journaling",
-          "<b>Life Documenting:</b> Notion"
-        ]
+          "<b>Life Documenting:</b> Notion",
+        ],
       },
       work: {
         current: [
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1588205861/thejameswang/Hack4Impact_wt6dt6.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1588205861/thejameswang/Hack4Impact_wt6dt6.jpg",
             alt: "Hack4Impact Logo",
             positionName: "Director",
             briefDescription:
               "With 8 chapters nationwide, Hack4Impact is a 501c(3) nonprofit that helps students support their local community nonprofits through technology. I will be working to establish a stronger infrastructure for chapter collaboration and extend the reach of our nonprofit.",
             name: "Hack4Impact",
             link: "https://hack4impact.org/",
+            year: "May 2020 — Present",
           },
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
-            alt: "Technology and International Development Lab Logo",
-            positionName: "Undergraduate Researcher",
-            briefDescription:
-              "The Technologies and International Development Lab at Georgia Tech researches the practice and the promise of information and communication technologies (ICTs) in social, economic, and political development. Working on the Aggie platform, I work to develop and product manage the web application.",
-            name: "Technology & International Development Lab",
-            link: "http://tid.gatech.edu/",
-          },
-          {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
-            alt: "Microsoft Logo",
-            positionName: "Incoming Software Developer Intern",
-            briefDescription:
-              "I will be joining the One Drive + Sharepoint Storage Platform Team!",
-            name: "Microsoft",
-            link: "https://www.microsoft.com/en-us/",
-          },
-          {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
             alt: "Impact Labs Logo",
             positionName: "Organizer and Fellow",
             briefDescription:
               "Inspiring and empowering ambitious computer scientists to build a better world. I help with organizing, writing, and photography. I was chosen as a Fellow in 2019.",
             name: "Impact Labs",
             link: "https://www.impactlabs.io/",
+            year: "DEC 2018 — Present",
           },
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1588433059/thejameswang/Human_Capital_d5objd.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1588433059/thejameswang/Human_Capital_d5objd.jpg",
             alt: "Human Capital Logo",
             positionName: "Student Ambassador",
             briefDescription:
               "Human Capital invests in engineers, believing we will be the ones shaping the future. As an ambassador, I help discover those engineers as well as personify the mission of Human Capital.",
             name: "Human Capital",
             link: "https://human.capital",
+            year: "Nov 2019 — Present",
           },
 
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
             alt: "HackGT Logo",
             positionName: "Organizer",
             briefDescription:
               "HackGT is the largest hackathon in the southeast based at Georgia Tech. Working on the marketing and media team, I help procure the over 5000 applications to the largest hackathon in the southeast. I'm the primary photo editor for all HackGT photos. Formerly, I was a part of the operations team.",
             name: "HackGT",
             link: "https://hack.gt/",
+            year: "DEC 2018 — Present",
           },
         ],
         old: [
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/BoG_uifsvt.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1624643886/thejameswang/Tesla_rcfnks.png",
+            alt: "Tesla Energy Logo",
+            positionName: "Technical Program Management Intern",
+            briefDescription:
+              "With 8 chapters nationwide, Hack4Impact is a 501c(3) nonprofit that helps students support their local community nonprofits through technology. I will be working to establish a stronger infrastructure for chapter collaboration and extend the reach of our nonprofit.",
+            name: "Tesla Energy",
+            link: "https://www.tesla.com/energy",
+            year: "Jan 2021 — May 2021",
+          },
+          {
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
+            alt: "Microsoft Logo",
+            positionName: "Incoming Software Developer Intern",
+            briefDescription:
+              "I was a part of the One Drive + Sharepoint Storage Platform Team. I ",
+            name: "Microsoft",
+            link: "https://www.microsoft.com/en-us/",
+            year: "May 2020 — August 2020",
+          },
+          {
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/BoG_uifsvt.jpg",
             alt: "Bits of Good Logo",
-            positionName: "Former Executive Director, Director of Product, and Director of Engineering",
+            positionName:
+              "Executive Director, Director of Product, and Director of Engineering",
             briefDescription:
               "We connect students with nonprofits and build them custom software. I helped found the first product management and product design team. Recruited over 10 nonprofits, and tripled student membership to 150 students with over 200 applications every semester.",
             name: "Bits of Good",
             link: "https://bitsofgood.org",
+            year: "Aug 2017 — May 2020",
           },
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Enfin_ai8ho9.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/TID_Lab_obf4fd.jpg",
+            alt: "Technology and International Development Lab Logo",
+            positionName: "Undergraduate Researcher",
+            briefDescription:
+              "The Technologies and International Development Lab at Georgia Tech researches the practice and the promise of information and communication technologies (ICTs) in social, economic, and political development. Working on the Aggie platform, I work to develop and product manage the web application.",
+            name: "Technology & International Development Lab",
+            link: "http://tid.gatech.edu/",
+            year: "Aug 2019 — Mar 2020",
+          },
+          {
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Enfin_ai8ho9.jpg",
             alt: "Enfin Logo",
             positionName: "Co-Founder",
             briefDescription:
               "We believe every dollar you spend has an associated carbon cost. Enfin is the beginning of a fintech application that allows users to take their bank statement data and learn their carbon footprint, allowing for offsetting and alternative carbon methods.",
             name: "Enfin",
             link: "http://envfin.herokuapp.com/",
+            year: "Jan 2019 — Jan 2020",
           },
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Microsoft_soc4an.jpg",
             alt: "Microsoft Logo",
             positionName: "Explore Intern",
             briefDescription:
               "I was a part of the One Drive Sharepoint Service Fabric team . . . where I don't even know what that means. I created a disaster recovery readiness dashboard, displaying datacenters, clusters, and databases along with metrics to establish current readiness level.",
             name: "Microsoft",
             link: "https://www.microsoft.com/en-us/",
+            year: "May 2019 — Aug 2019",
           },
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Anora_uo5wt4.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Anora_uo5wt4.jpg",
             alt: "Anora AI Logo",
             positionName: "Software Developer",
             briefDescription:
               "We are a startup that aims to serve as a guide through the entire FDA submission process for devices, using artificial intelligence to convert decades of FDA submission history into a guide for your company's success. I helped Redeveloped their web application to reflect a search engine similar to Google. A Full-stack developer who wrote and reviewed code forJS using React, Node, Redux, and AWS.",
             name: "Anora AI",
             link: "https://anora.ai/",
+            year: "Jan 2019 — May 2019",
           },
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/GE_dh2kwe.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/GE_dh2kwe.jpg",
             alt: "General Electric Logo",
             positionName: "Software Development Intern",
             briefDescription:
               "As apart of the Monitoring Team for Coretech Digital, I created a management system to assist BI analysis of monitor metadata and control usage. I established a framework for future improvements such as Internal Self self-service portal, monitoring, and reporting.",
             name: "General Electric Digital",
             link: "https://www.ge.com/digital/",
+            year: "May 2018 — Dec 2018",
           },
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Horizons_gxfmos.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/Horizons_gxfmos.jpg",
             alt: "Horizons School of Technology Logo",
-            positionName: "Software Developer",
+            positionName: "Software Bootcamper",
             briefDescription:
               "Selected to take part in an immersive 1000-hour full stack software engineering course focused on project-based front-end and back-end web and mobile development in JavaScript, HTML, and CSS. Experience using React, React-Native, Redux, Express, MongoDB, SQL, Postgres, among other technologies.",
             name: "Horizons School of Technology",
             link: "https://www.linkedin.com/school/horizons-/",
+            year: "Jan 2018 — May 2018",
           },
           {
-            src:
-              "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
+            src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847531/thejameswang/GT_q6szwt.jpg",
             alt: "GT Logo",
             positionName: "CoC Student Assistant",
             briefDescription:
               "Working under Paul Shultz, assistant director of development, I help with research and identify prospective companies for the College of Computing Corporate Affiliates Program (CAP), connecting our talented computer science students with companies around the world. Our goal is to alleviate the dire shortage of computing talent in the labor force.",
             name: "The Georgia Institute of Technology",
             link: "https://www.gatech.edu/",
+            year: "Aug 2018 — May 2019",
           },
         ],
       },
@@ -4967,7 +4974,7 @@ var app = (function () {
     /* src/App.svelte generated by Svelte v3.20.1 */
     const file$9 = "src/App.svelte";
 
-    // (121:8) <NavLink to="/work" class="inner-nav">
+    // (27:8) <NavLink to="/work" class="inner-nav">
     function create_default_slot_4(ctx) {
     	let t;
 
@@ -4987,14 +4994,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(121:8) <NavLink to=\\\"/work\\\" class=\\\"inner-nav\\\">",
+    		source: "(27:8) <NavLink to=\\\"/work\\\" class=\\\"inner-nav\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (122:8) <NavLink to="/resume">
+    // (28:8) <NavLink to="/resume">
     function create_default_slot_3(ctx) {
     	let t;
 
@@ -5014,14 +5021,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(122:8) <NavLink to=\\\"/resume\\\">",
+    		source: "(28:8) <NavLink to=\\\"/resume\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (123:8) <NavLink to="/MLIP">
+    // (29:8) <NavLink to="/MLIP">
     function create_default_slot_2$1(ctx) {
     	let t;
 
@@ -5041,14 +5048,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$1.name,
     		type: "slot",
-    		source: "(123:8) <NavLink to=\\\"/MLIP\\\">",
+    		source: "(29:8) <NavLink to=\\\"/MLIP\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (138:4) <Route path="/">
+    // (45:4) <Route path="/">
     function create_default_slot_1$1(ctx) {
     	let current;
     	const landing_spread_levels = [content];
@@ -5093,14 +5100,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$1.name,
     		type: "slot",
-    		source: "(138:4) <Route path=\\\"/\\\">",
+    		source: "(45:4) <Route path=\\\"/\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (109:0) <Router {url}>
+    // (14:0) <Router {url}>
     function create_default_slot$3(ctx) {
     	let nav;
     	let div2;
@@ -5214,20 +5221,20 @@ var app = (function () {
     			t8 = space();
     			create_component(route3.$$.fragment);
     			attr_dev(a, "href", "/");
-    			add_location(a, file$9, 117, 8, 2417);
-    			attr_dev(div0, "class", "mobile-inner-nav svelte-3a72qt");
-    			add_location(div0, file$9, 116, 6, 2378);
-    			attr_dev(div1, "class", "mobile-inner-nav svelte-3a72qt");
-    			add_location(div1, file$9, 119, 6, 2463);
-    			attr_dev(div2, "class", "nav-container svelte-3a72qt");
+    			add_location(a, file$9, 23, 8, 704);
+    			attr_dev(div0, "class", "mobile-inner-nav svelte-19ufd4m");
+    			add_location(div0, file$9, 22, 6, 665);
+    			attr_dev(div1, "class", "mobile-inner-nav svelte-19ufd4m");
+    			add_location(div1, file$9, 25, 6, 750);
+    			attr_dev(div2, "class", "nav-container svelte-19ufd4m");
     			toggle_class(div2, "mobileNavToggled", /*mobileNavToggled*/ ctx[1]);
-    			add_location(div2, file$9, 110, 4, 2220);
-    			attr_dev(button, "class", "mobile-dropdown-toggle svelte-3a72qt");
-    			add_location(button, file$9, 126, 6, 2725);
-    			attr_dev(div3, "class", "mobile-content svelte-3a72qt");
-    			add_location(div3, file$9, 125, 4, 2690);
-    			add_location(nav, file$9, 109, 2, 2200);
-    			add_location(div4, file$9, 133, 2, 2927);
+    			add_location(div2, file$9, 15, 4, 502);
+    			attr_dev(button, "class", "mobile-dropdown-toggle svelte-19ufd4m");
+    			add_location(button, file$9, 32, 6, 1012);
+    			attr_dev(div3, "class", "mobile-content svelte-19ufd4m");
+    			add_location(div3, file$9, 31, 4, 977);
+    			add_location(nav, file$9, 14, 2, 482);
+    			add_location(div4, file$9, 40, 2, 1221);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, nav, anchor);
@@ -5364,7 +5371,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$3.name,
     		type: "slot",
-    		source: "(109:0) <Router {url}>",
+    		source: "(14:0) <Router {url}>",
     		ctx
     	});
 

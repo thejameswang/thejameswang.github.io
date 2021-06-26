@@ -11,6 +11,43 @@
   let mobileNavToggled = false;
 </script>
 
+<Router {url}>
+  <nav use:links>
+    <div
+      class="nav-container"
+      class:mobileNavToggled
+      on:click={() => {
+        if (mobileNavToggled) mobileNavToggled = false;
+      }}
+    >
+      <div class="mobile-inner-nav">
+        <a href="/">James Wang</a>
+      </div>
+      <div class="mobile-inner-nav">
+        <NavLink to="/work" class="inner-nav">Work 📍</NavLink>
+        <NavLink to="/resume">Failure Resume 📰</NavLink>
+        <NavLink to="/MLIP">MLIP 📗</NavLink>
+      </div>
+    </div>
+    <div class="mobile-content">
+      <button
+        class="mobile-dropdown-toggle"
+        on:click={() => (mobileNavToggled = !mobileNavToggled)}
+      >
+        <MenuIcon menuToggled={mobileNavToggled} />
+      </button>
+    </div>
+  </nav>
+  <div>
+    <Route path="work" component={Work} {...content} />
+    <Route path="resume" component={Resume} {...content} />
+    <Route path="MLIP" component={MLIP} />
+    <Route path="/">
+      <Landing {...content} />
+    </Route>
+  </div>
+</Router>
+
 <style>
   .nav-container {
     color: white;
@@ -21,7 +58,7 @@
   .nav-container :global(a) {
     position: relative;
     font-size: 25px;
-    color: #cdcdcd;
+    color: #ffffff;
   }
 
   .nav-container :global(a):before {
@@ -67,7 +104,7 @@
       height: 0;
       overflow: hidden;
       display: flex;
-      background: #404040;
+      background: #1f1f1f;
       flex-direction: column;
       justify-content: center;
       transition: height 0.3s, opacity 0.4s;
@@ -81,7 +118,7 @@
       display: inherit;
       z-index: 2;
       position: fixed;
-      background: #404040;
+      background: #1f1f1f;
       width: 100%;
       padding: 30px 0;
     }
@@ -105,38 +142,3 @@
     }
   }
 </style>
-
-<Router {url}>
-  <nav use:links>
-    <div
-      class="nav-container"
-      class:mobileNavToggled
-      on:click={() => {
-        if (mobileNavToggled) mobileNavToggled = false;
-      }}>
-      <div class="mobile-inner-nav">
-        <a href="/">James Wang</a>
-      </div>
-      <div class="mobile-inner-nav">
-        <NavLink to="/work" class="inner-nav">Work 📍</NavLink>
-        <NavLink to="/resume">Failure Resume 📰</NavLink>
-        <NavLink to="/MLIP">MLIP 📗</NavLink>
-      </div>
-    </div>
-    <div class="mobile-content">
-      <button
-        class="mobile-dropdown-toggle"
-        on:click={() => (mobileNavToggled = !mobileNavToggled)}>
-        <MenuIcon menuToggled={mobileNavToggled} />
-      </button>
-    </div>
-  </nav>
-  <div>
-    <Route path="work" component={Work} {...content} />
-    <Route path="resume" component={Resume} {...content} />
-    <Route path="MLIP" component={MLIP} />
-    <Route path="/">
-      <Landing {...content} />
-    </Route>
-  </div>
-</Router>
