@@ -1,6 +1,6 @@
 export default {
   about: {
-    who: "I am an aspiring technical product manager who wants to make doing good easier. I currently study Georgia Institute of Technology as a rising 4th year CS major. Over the summer, I'm working as a software engineering intern at Microsoft and the Technology & International Development Lab.",
+    who: "I am an aspiring product manager who wants to make doing good easier. I resigned from my job for the summer, so I'm in ~recovery~ mode this summer before I start my 5th (hopefully last) year of university. Reach out if you want to chat!",
     grow: [
       "Improve writing ability and write more",
       "Be a better <a href='https://medium.com/pminsider/storytelling-for-product-managers-fc1a758eb303' target='blank_'>storyteller</a>",
@@ -202,13 +202,32 @@ export default {
   },
   Resume: [
     [
+      2021,
+      {
+        failures: [
+          "Never applied to Interact Fellowship this year",
+          "No return offer to Tesla Energy",
+          "Hack4Impact not where it should be when I envisioned the start of my tenure to now",
+          "Socially inactive while in California",
+          "Haven't established anything close to a brand",
+          "Establishing that I'll take a full 5th year in university",
+          "Quit start-up job when it became too hard to handle",
+          "Quit summer internship job",
+        ],
+      },
+    ],
+    [
       2020,
       {
         failures: [
           "Rejected: Interact Fellowship Application",
           "Rejected: Summer 2020 President's Undergraduate Research Award (PURA)",
-          "Rejected: 15 PM Internship Applications",
-          "Rejected: 1 Total PM interview",
+          "Rejected: 10 PM Internship Applications",
+          "Only receieved 3 total full time PM interviews",
+          "Failed full time recruitment for product management positions, forced to do another internship and year of school",
+          "Dropped multi-variable calculus (3rd time) and Physics II",
+          "Became largely inactive with HackGT/Hexlabs",
+          "Didn't send out year in review for Hack4Impact",
         ],
       },
     ],
@@ -227,6 +246,7 @@ export default {
           "Rejected: CS1331 TA Position (Missed Interview)",
           "Thought about consulting",
           "I got a B in Korean 1. Literally everyone in the class got an A but me. It hurts",
+          "Dropped multi-variable calculus (2nd time)",
         ],
       },
     ],
@@ -239,6 +259,7 @@ export default {
           "Rejected: 2nd time from Google",
           "Left Neuroscience Major",
           "Rejected: CS1301 and CS1331 TA Positions",
+          "Dropped multi-variable calculus (1st time)",
         ],
       },
     ],

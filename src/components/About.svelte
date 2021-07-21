@@ -3,48 +3,6 @@
   export let about = {};
 </script>
 
-<style>
-  .about-container {
-    display: flex;
-    flex-direction: column;
-    max-width: 700px;
-  }
-
-  .fa-ul {
-    margin-left: 24px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-
-  a {
-    margin-right: 30px;
-  }
-
-  .social-media-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-    align-items: center;
-  }
-
-  .scale:hover {
-    transform: scale(1.4);
-  }
-
-  .scale {
-    transform: scale(1.2);
-    transition: transform 0.2s;
-  }
-
-  @media (max-width: 600px) {
-    p {
-      font-size: 16px;
-    }
-  }
-</style>
-
 <div class="social-media-container">
   {#each about.social as social}
     <a href={social.link} target="_blank" class="scale">
@@ -88,3 +46,45 @@
     </ul>
   </div>
 </div>
+
+<style>
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+  }
+
+  .fa-ul {
+    margin-left: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  a {
+    margin-right: 30px;
+  }
+
+  .social-media-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
+  .scale:hover {
+    transform: scale(1.4);
+  }
+
+  .scale {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+  }
+
+  @media (max-width: 600px) {
+    p {
+      font-size: 16px;
+    }
+  }
+</style>

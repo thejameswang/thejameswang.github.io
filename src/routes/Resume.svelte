@@ -16,7 +16,7 @@
   <p class="first-container">
     If you're actually looking for my Resume,
     <a
-      href="https://drive.google.com/file/d/1c8m8yz5qYzgZK2sMbfMnKu9yI1_Z753z/preview"
+      href="https://drive.google.com/file/d/1CdWiiL3dTYvhftb4kA_G_jg2-_blM96b/view"
       target="_blank"
     >
       click here

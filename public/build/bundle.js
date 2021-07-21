@@ -2451,11 +2451,11 @@ var app = (function () {
     			t = space();
     			if (default_slot) default_slot.c();
     			attr_dev(i, "class", "fas fa-arrow-right green");
-    			add_location(i, file$2, 32, 4, 403);
+    			add_location(i, file$2, 2, 4, 32);
     			attr_dev(span, "class", "fa-li");
-    			add_location(span, file$2, 31, 2, 378);
-    			attr_dev(li, "class", "svelte-tm3te0");
-    			add_location(li, file$2, 30, 0, 371);
+    			add_location(span, file$2, 1, 2, 7);
+    			attr_dev(li, "class", "svelte-1yuddas");
+    			add_location(li, file$2, 0, 0, 0);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2563,7 +2563,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (49:2) {#each about.social as social}
+    // (7:2) {#each about.social as social}
     function create_each_block_3(ctx) {
     	let a;
     	let img;
@@ -2579,11 +2579,11 @@ var app = (function () {
     			t = space();
     			if (img.src !== (img_src_value = /*social*/ ctx[10].src)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*social*/ ctx[10].alt);
-    			add_location(img, file$3, 50, 6, 767);
+    			add_location(img, file$3, 8, 6, 230);
     			attr_dev(a, "href", a_href_value = /*social*/ ctx[10].link);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "scale svelte-11dhnu5");
-    			add_location(a, file$3, 49, 4, 708);
+    			add_location(a, file$3, 7, 4, 171);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -2612,14 +2612,14 @@ var app = (function () {
     		block,
     		id: create_each_block_3.name,
     		type: "each",
-    		source: "(49:2) {#each about.social as social}",
+    		source: "(7:2) {#each about.social as social}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (64:8) <Bullet>
+    // (22:8) <Bullet>
     function create_default_slot_2(ctx) {
     	let html_tag;
     	let raw_value = /*grow*/ ctx[7] + "";
@@ -2647,14 +2647,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(64:8) <Bullet>",
+    		source: "(22:8) <Bullet>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (63:6) {#each about.grow as grow}
+    // (21:6) {#each about.grow as grow}
     function create_each_block_2(ctx) {
     	let current;
 
@@ -2701,14 +2701,14 @@ var app = (function () {
     		block,
     		id: create_each_block_2.name,
     		type: "each",
-    		source: "(63:6) {#each about.grow as grow}",
+    		source: "(21:6) {#each about.grow as grow}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (74:8) <Bullet>
+    // (32:8) <Bullet>
     function create_default_slot_1(ctx) {
     	let html_tag;
     	let raw_value = /*funFacts*/ ctx[4] + "";
@@ -2736,14 +2736,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(74:8) <Bullet>",
+    		source: "(32:8) <Bullet>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (73:6) {#each about.funFacts as funFacts}
+    // (31:6) {#each about.funFacts as funFacts}
     function create_each_block_1(ctx) {
     	let current;
 
@@ -2790,14 +2790,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(73:6) {#each about.funFacts as funFacts}",
+    		source: "(31:6) {#each about.funFacts as funFacts}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (84:8) <Bullet>
+    // (42:8) <Bullet>
     function create_default_slot$1(ctx) {
     	let html_tag;
     	let raw_value = /*use*/ ctx[1] + "";
@@ -2825,14 +2825,14 @@ var app = (function () {
     		block,
     		id: create_default_slot$1.name,
     		type: "slot",
-    		source: "(84:8) <Bullet>",
+    		source: "(42:8) <Bullet>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (83:6) {#each about.using as use}
+    // (41:6) {#each about.using as use}
     function create_each_block(ctx) {
     	let current;
 
@@ -2879,7 +2879,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(83:6) {#each about.using as use}",
+    		source: "(41:6) {#each about.using as use}",
     		ctx
     	});
 
@@ -3006,25 +3006,25 @@ var app = (function () {
     			}
 
     			attr_dev(div0, "class", "social-media-container svelte-11dhnu5");
-    			add_location(div0, file$3, 47, 0, 634);
-    			add_location(h20, file$3, 56, 4, 877);
+    			add_location(div0, file$3, 5, 0, 97);
+    			add_location(h20, file$3, 14, 4, 340);
     			attr_dev(p, "class", "svelte-11dhnu5");
-    			add_location(p, file$3, 57, 4, 905);
-    			add_location(div1, file$3, 55, 2, 867);
-    			add_location(h21, file$3, 60, 4, 945);
+    			add_location(p, file$3, 15, 4, 368);
+    			add_location(div1, file$3, 13, 2, 330);
+    			add_location(h21, file$3, 18, 4, 408);
     			attr_dev(ul0, "class", "fa-ul svelte-11dhnu5");
-    			add_location(ul0, file$3, 61, 4, 972);
-    			add_location(div2, file$3, 59, 2, 935);
-    			add_location(h22, file$3, 70, 4, 1127);
+    			add_location(ul0, file$3, 19, 4, 435);
+    			add_location(div2, file$3, 17, 2, 398);
+    			add_location(h22, file$3, 28, 4, 590);
     			attr_dev(ul1, "class", "fa-ul svelte-11dhnu5");
-    			add_location(ul1, file$3, 71, 4, 1153);
-    			add_location(div3, file$3, 69, 2, 1117);
-    			add_location(h23, file$3, 80, 4, 1320);
+    			add_location(ul1, file$3, 29, 4, 616);
+    			add_location(div3, file$3, 27, 2, 580);
+    			add_location(h23, file$3, 38, 4, 783);
     			attr_dev(ul2, "class", "fa-ul svelte-11dhnu5");
-    			add_location(ul2, file$3, 81, 4, 1347);
-    			add_location(div4, file$3, 79, 2, 1310);
+    			add_location(ul2, file$3, 39, 4, 810);
+    			add_location(div4, file$3, 37, 2, 773);
     			attr_dev(div5, "class", "about-container svelte-11dhnu5");
-    			add_location(div5, file$3, 54, 0, 835);
+    			add_location(div5, file$3, 12, 0, 298);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3335,23 +3335,23 @@ var app = (function () {
     			t3 = text("I work with people, organizations, and technology to make doing\n        ");
     			span1 = element("span");
     			span1.textContent = "good";
-    			t5 = text("\n        easier for everyone.");
+    			t5 = text("\n        easier for everyone");
     			t6 = space();
     			create_component(about_1.$$.fragment);
-    			attr_dev(span0, "class", "highlight svelte-1hzn560");
-    			add_location(span0, file$4, 62, 8, 1042);
-    			attr_dev(h1, "class", "svelte-1hzn560");
-    			add_location(h1, file$4, 60, 6, 1010);
-    			add_location(div0, file$4, 59, 4, 998);
-    			attr_dev(span1, "class", "highlight-good underline svelte-1hzn560");
-    			add_location(span1, file$4, 68, 8, 1228);
-    			attr_dev(p, "class", "svelte-1hzn560");
-    			add_location(p, file$4, 66, 6, 1144);
-    			attr_dev(div1, "class", "saying-container svelte-1hzn560");
-    			add_location(div1, file$4, 65, 4, 1107);
-    			attr_dev(div2, "class", "landing-container svelte-1hzn560");
-    			add_location(div2, file$4, 58, 2, 962);
-    			add_location(section, file$4, 57, 0, 950);
+    			attr_dev(span0, "class", "highlight svelte-xbov6t");
+    			add_location(span0, file$4, 12, 8, 261);
+    			attr_dev(h1, "class", "svelte-xbov6t");
+    			add_location(h1, file$4, 10, 6, 229);
+    			add_location(div0, file$4, 9, 4, 217);
+    			attr_dev(span1, "class", "highlight-good underline svelte-xbov6t");
+    			add_location(span1, file$4, 18, 8, 447);
+    			attr_dev(p, "class", "svelte-xbov6t");
+    			add_location(p, file$4, 16, 6, 363);
+    			attr_dev(div1, "class", "saying-container svelte-xbov6t");
+    			add_location(div1, file$4, 15, 4, 326);
+    			attr_dev(div2, "class", "landing-container svelte-xbov6t");
+    			add_location(div2, file$4, 8, 2, 181);
+    			add_location(section, file$4, 7, 0, 169);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4199,13 +4199,13 @@ var app = (function () {
 
     			t2 = space();
     			attr_dev(h2, "class", "svelte-zq6h7r");
-    			add_location(h2, file$7, 25, 4, 830);
+    			add_location(h2, file$7, 25, 4, 827);
     			attr_dev(ul, "class", "fa-ul svelte-zq6h7r");
-    			add_location(ul, file$7, 28, 8, 919);
+    			add_location(ul, file$7, 28, 8, 916);
     			attr_dev(div0, "class", "year-container svelte-zq6h7r");
-    			add_location(div0, file$7, 27, 6, 882);
+    			add_location(div0, file$7, 27, 6, 879);
     			attr_dev(div1, "class", "suc-fail svelte-zq6h7r");
-    			add_location(div1, file$7, 26, 4, 853);
+    			add_location(div1, file$7, 26, 4, 850);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -4336,7 +4336,7 @@ var app = (function () {
     			add_location(h1, file$7, 8, 2, 199);
     			attr_dev(p0, "class", "first-container svelte-zq6h7r");
     			add_location(p0, file$7, 9, 2, 228);
-    			attr_dev(a, "href", "https://drive.google.com/file/d/1c8m8yz5qYzgZK2sMbfMnKu9yI1_Z753z/preview");
+    			attr_dev(a, "href", "https://drive.google.com/file/d/1CdWiiL3dTYvhftb4kA_G_jg2-_blM96b/view");
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "svelte-zq6h7r");
     			add_location(a, file$7, 17, 4, 650);
@@ -4488,7 +4488,7 @@ var app = (function () {
 
     var content = {
       about: {
-        who: "I am an aspiring technical product manager who wants to make doing good easier. I currently study Georgia Institute of Technology as a rising 4th year CS major. Over the summer, I'm working as a software engineering intern at Microsoft and the Technology & International Development Lab.",
+        who: "I am an aspiring product manager who wants to make doing good easier. I resigned from my job for the summer, so I'm in ~recovery~ mode this summer before I start my 5th (hopefully last) year of university. Reach out if you want to chat!",
         grow: [
           "Improve writing ability and write more",
           "Be a better <a href='https://medium.com/pminsider/storytelling-for-product-managers-fc1a758eb303' target='blank_'>storyteller</a>",
@@ -4690,13 +4690,32 @@ var app = (function () {
       },
       Resume: [
         [
+          2021,
+          {
+            failures: [
+              "Never applied to Interact Fellowship this year",
+              "No return offer to Tesla Energy",
+              "Hack4Impact not where it should be when I envisioned the start of my tenure to now",
+              "Socially inactive while in California",
+              "Haven't established anything close to a brand",
+              "Establishing that I'll take a full 5th year in university",
+              "Quit start-up job when it became too hard to handle",
+              "Quit summer internship job",
+            ],
+          },
+        ],
+        [
           2020,
           {
             failures: [
               "Rejected: Interact Fellowship Application",
               "Rejected: Summer 2020 President's Undergraduate Research Award (PURA)",
-              "Rejected: 15 PM Internship Applications",
-              "Rejected: 1 Total PM interview",
+              "Rejected: 10 PM Internship Applications",
+              "Only receieved 3 total full time PM interviews",
+              "Failed full time recruitment for product management positions, forced to do another internship and year of school",
+              "Dropped multi-variable calculus (3rd time) and Physics II",
+              "Became largely inactive with HackGT/Hexlabs",
+              "Didn't send out year in review for Hack4Impact",
             ],
           },
         ],
@@ -4715,6 +4734,7 @@ var app = (function () {
               "Rejected: CS1331 TA Position (Missed Interview)",
               "Thought about consulting",
               "I got a B in Korean 1. Literally everyone in the class got an A but me. It hurts",
+              "Dropped multi-variable calculus (2nd time)",
             ],
           },
         ],
@@ -4727,6 +4747,7 @@ var app = (function () {
               "Rejected: 2nd time from Google",
               "Left Neuroscience Major",
               "Rejected: CS1301 and CS1331 TA Positions",
+              "Dropped multi-variable calculus (1st time)",
             ],
           },
         ],

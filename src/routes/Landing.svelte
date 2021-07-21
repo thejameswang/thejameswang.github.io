@@ -5,12 +5,32 @@
   export let about = {};
 </script>
 
+<section>
+  <div class="landing-container">
+    <div>
+      <h1>
+        👋 Hi! I'm
+        <span class="highlight">{name}</span>
+      </h1>
+    </div>
+    <div class="saying-container">
+      <p>
+        I work with people, organizations, and technology to make doing
+        <span class="highlight-good underline">good</span>
+        easier for everyone
+      </p>
+    </div>
+  </div>
+  <About {about} />
+</section>
+
 <style>
   h1 {
     font-family: "Poppins", sans-serif;
     color: #ffffff;
     font-size: 50px;
-    font-weight: 1000;
+    /* font-weight: 200; */
+    font-weight: bold;
     margin-bottom: 0;
   }
 
@@ -19,6 +39,9 @@
   }
   .saying-container p {
     font-size: 35px;
+    /* font-weight: lighter; */
+    font-family: "Open Sans";
+    color: #cdcdcd;
   }
 
   .highlight {
@@ -54,22 +77,3 @@
     }
   }
 </style>
-
-<section>
-  <div class="landing-container">
-    <div>
-      <h1>
-        👋 Hi! I'm
-        <span class="highlight">{name}</span>
-      </h1>
-    </div>
-    <div class="saying-container">
-      <p>
-        I work with people, organizations, and technology to make doing
-        <span class="highlight-good underline">good</span>
-        easier for everyone.
-      </p>
-    </div>
-  </div>
-  <About {about} />
-</section>
