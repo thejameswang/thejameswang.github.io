@@ -1,8 +1,16 @@
+<li>
+  <span class="fa-li">
+    <i class="fas fa-arrow-right green" />
+  </span>
+  <slot />
+</li>
+
 <style>
   li {
     margin-bottom: 5px;
     font-size: 18px;
     max-width: 700px;
+    color: #cdcdcd;
   }
 
   :global(li a) {
@@ -27,10 +35,3 @@
     }
   }
 </style>
-
-<li>
-  <span class="fa-li">
-    <i class="fas fa-arrow-right green" />
-  </span>
-  <slot />
-</li>

@@ -1,18 +1,30 @@
 <script>
   export let name = "";
-  export let briefDescription = "";
+  // export let briefDescription = "";
   export let src = "";
   export let alt = "";
   export let link = "";
   export let positionName = "";
+  export let year = "";
 </script>
+
+<a href={link} class="container" target="_blank">
+  <div class="img-container">
+    <img {src} {alt} />
+  </div>
+  <div class="desc-container">
+    <h3>{name}</h3>
+    <h4>{positionName}</h4>
+    <h4>{year}</h4>
+  </div>
+</a>
 
 <style>
   a.container {
     width: 350px;
     display: flex;
     flex-direction: column;
-    margin-right: 3%;
+    margin-bottom: 25px;
   }
 
   .img-container {
@@ -36,26 +48,33 @@
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 25px;
-    color: #91a6c0;
+    color: #9dddc0;
+    /* letter-spacing: 0.05rem; */
   }
 
-  p {
+  /* p {
     max-width: 350px;
     margin-bottom: 50px;
     color: white;
     font-size: 16px;
-  }
+  } */
 
   h4 {
-    font-size: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
     color: white;
     margin: 0;
+    letter-spacing: 0.05rem;
+  }
+
+  .desc-container {
+    text-align: center;
   }
 
   @media (max-width: 860px) {
-    p {
+    /* p {
       max-width: 280px;
-    }
+    } */
 
     a.container {
       width: 280px;
@@ -69,14 +88,3 @@
     }
   }
 </style>
-
-<a href={link} class="container" target="_blank">
-  <div class="img-container">
-    <img {src} {alt} />
-  </div>
-  <h3>{name}</h3>
-  <h4>{positionName}</h4>
-  <p>
-    {@html briefDescription}
-  </p>
-</a>
