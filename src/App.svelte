@@ -84,10 +84,10 @@
     flex: 2;
   }
 
-  /* .nav-container :global(a):hover:before,
+  .nav-container :global(a):hover:before,
   .nav-container :global(a).active:before {
     transform: scaleX(1);
-  } */
+  }
 
   .mobile-dropdown-toggle {
     margin-left: auto;

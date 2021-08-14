@@ -83,7 +83,7 @@
   ];
 </script>
 
-<section>
+<section class="section-container">
   <h1>Photography 📸</h1>
   <p class="first-container">
     I do portrait photography for fun! Photography is something I love to do
@@ -91,18 +91,30 @@
   </p>
 
   <p class="first-container">You can find my photography on and Flickr!</p>
-
-  <!-- <Images {images} gutter={3} numCols={5} /> -->
+  <p>Testing</p>
+  <Images {images} gutter={3} numCols={5} />
 </section>
 
 <style>
+  .section-container {
+    display: relative;
+    flex-direction: column;
+  }
   .first-container {
     max-width: 700px;
   }
 
+  section {
+    margin-bottom: -1000px;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
   /* p a {
     color: #9dddc0;
-    transition: 0.1s;
+    transition: 0.1s;xR
   }
 
   p a:hover {
