@@ -12,45 +12,6 @@
   let mobileNavToggled = false;
 </script>
 
-<Router {url}>
-  <nav use:links>
-    <div
-      class="nav-container"
-      class:mobileNavToggled
-      on:click={() => {
-        if (mobileNavToggled) mobileNavToggled = false;
-      }}
-    >
-      <div class="mobile-inner-nav">
-        <a href="/">James Wang</a>
-      </div>
-      <div class="mobile-inner-nav">
-        <NavLink to="/work" class="inner-nav">Work 📍</NavLink>
-        <NavLink to="/resume">Failure Resume 📰</NavLink>
-        <NavLink to="/Photography">Photos 📸</NavLink>
-        <NavLink to="/MLIP">MLIP 📗</NavLink>
-      </div>
-    </div>
-    <div class="mobile-content">
-      <button
-        class="mobile-dropdown-toggle"
-        on:click={() => (mobileNavToggled = !mobileNavToggled)}
-      >
-        <MenuIcon menuToggled={mobileNavToggled} />
-      </button>
-    </div>
-  </nav>
-  <div>
-    <Route path="work" component={Work} {...content} />
-    <Route path="resume" component={Resume} {...content} />
-    <Route path="MLIP" component={MLIP} />
-    <Route path="Photography" component={Photography} />
-    <Route path="/">
-      <Landing {...content} />
-    </Route>
-  </div>
-</Router>
-
 <style>
   .nav-container {
     color: white;
@@ -84,8 +45,7 @@
     flex: 2;
   }
 
-  .nav-container :global(a):hover:before,
-  .nav-container :global(a).active:before {
+  .nav-container :global(a):hover:before {
     transform: scaleX(1);
   }
 
@@ -145,3 +105,40 @@
     }
   }
 </style>
+
+<Router {url}>
+  <nav use:links>
+    <div
+      class="nav-container"
+      class:mobileNavToggled
+      on:click={() => {
+        if (mobileNavToggled) mobileNavToggled = false;
+      }}>
+      <div class="mobile-inner-nav">
+        <NavLink to="/">James Wang</NavLink>
+      </div>
+      <div class="mobile-inner-nav">
+        <NavLink to="/work">Work 📍</NavLink>
+        <NavLink to="/resume">Failure Resume 📰</NavLink>
+        <NavLink to="/Photography">Photos 📸</NavLink>
+        <NavLink to="/MLIP">MLIP 📗</NavLink>
+      </div>
+    </div>
+    <div class="mobile-content" style="top: 0">
+      <button
+        class="mobile-dropdown-toggle"
+        on:click={() => (mobileNavToggled = !mobileNavToggled)}>
+        <MenuIcon menuToggled={mobileNavToggled} />
+      </button>
+    </div>
+  </nav>
+  <div>
+    <Route path="work" component={Work} {...content} />
+    <Route path="resume" component={Resume} {...content} />
+    <Route path="MLIP" component={MLIP} />
+    <Route path="Photography" component={Photography} />
+    <Route exact path="/">
+      <Landing {...content} />
+    </Route>
+  </div>
+</Router>
