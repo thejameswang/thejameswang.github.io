@@ -57,7 +57,7 @@ button {
   padding: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 915px) {
   body {
     transition: 1s;
   }
