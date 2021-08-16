@@ -45,7 +45,7 @@
     <Route path="resume" component={Resume} {...content} />
     <Route path="MLIP" component={MLIP} />
     <Route path="Photography" component={Photography} />
-    <Route exact path="/">
+    <Route path="/">
       <Landing {...content} />
     </Route>
   </div>
