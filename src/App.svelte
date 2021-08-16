@@ -22,7 +22,7 @@
       }}
     >
       <div class="mobile-inner-nav">
-        <NavLink to="/">James Wang</NavLink>
+        <a href="/">James Wang</a>
       </div>
       <div class="mobile-inner-nav">
         <NavLink to="/work">Work 📍</NavLink>
@@ -62,20 +62,6 @@
     position: relative;
     font-size: 25px;
     color: #ffffff;
-  }
-
-  .nav-container :global(a):before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    border-bottom: 8px solid #9dddc0;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.5s;
-    margin-bottom: -9px;
   }
 
   .mobile-content {

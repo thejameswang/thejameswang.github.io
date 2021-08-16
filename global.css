@@ -18,6 +18,25 @@ body {
   padding-bottom: 100px;
 }
 
+.nav-container a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-bottom: 8px solid #9dddc0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+  margin-bottom: -9px;
+}
+
+.nav-container a.active:before {
+  transform: scaleX(1);
+}
+
+
 p {
   font-family: "Open Sans", sans-serif;
   color: #cdcdcd;
