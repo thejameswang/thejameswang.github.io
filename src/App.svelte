@@ -7,6 +7,7 @@
   import Resume from "./routes/Resume.svelte";
   import content from "./content";
   import MLIP from "./routes/Mlip.svelte";
+  import Photography from "./routes/Photography.svelte";
   export let url = "";
   let mobileNavToggled = false;
 </script>
@@ -24,12 +25,13 @@
         <a href="/">James Wang</a>
       </div>
       <div class="mobile-inner-nav">
-        <NavLink to="/work" class="inner-nav">Work 📍</NavLink>
+        <NavLink to="/work">Work 📍</NavLink>
         <NavLink to="/resume">Failure Resume 📰</NavLink>
+        <NavLink to="/Photography">Photos 📸</NavLink>
         <NavLink to="/MLIP">MLIP 📗</NavLink>
       </div>
     </div>
-    <div class="mobile-content">
+    <div class="mobile-content" style="top: 0">
       <button
         class="mobile-dropdown-toggle"
         on:click={() => (mobileNavToggled = !mobileNavToggled)}
@@ -42,6 +44,7 @@
     <Route path="work" component={Work} {...content} />
     <Route path="resume" component={Resume} {...content} />
     <Route path="MLIP" component={MLIP} />
+    <Route path="Photography" component={Photography} />
     <Route path="/">
       <Landing {...content} />
     </Route>
@@ -61,28 +64,13 @@
     color: #ffffff;
   }
 
-  .nav-container :global(a):before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    border-bottom: 8px solid #9dddc0;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.5s;
-    margin-bottom: -9px;
-  }
-
   .mobile-content {
     display: none;
     align-items: inherit;
     flex: 2;
   }
 
-  .nav-container :global(a):hover:before,
-  .nav-container :global(a).active:before {
+  .nav-container :global(a):hover:before {
     transform: scaleX(1);
   }
 
@@ -95,7 +83,7 @@
     margin-right: 1.5rem;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 915px) {
     .nav-container {
       position: fixed;
       top: 0;
