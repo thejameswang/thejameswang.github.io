@@ -13,7 +13,7 @@ export default {
         name: "Email",
         src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Email_ucg7dj.png",
         alt: "Email Logo",
-        link: "j.wang5441@gmail.com",
+        link: "mailto:j.wang5441@gmail.com",
       },
       {
         name: "Github",
