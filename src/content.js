@@ -206,12 +206,10 @@ export default {
       {
         failures: [
           "Never applied to Interact Fellowship this year",
-          "No return offer to Tesla Energy",
+          "No return offer to previous internship",
           "Hack4Impact not where it should be when I envisioned the start of my tenure to now",
-          "Socially inactive while in California",
-          "Haven't established anything close to a brand",
-          "Establishing that I'll take a full 5th year in university",
-          "Quit start-up job when it became too hard to handle",
+          "Need to take a 5th year of university",
+          "Quit start-up job",
           "Quit summer internship job",
         ],
       },
