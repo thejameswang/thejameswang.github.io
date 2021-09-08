@@ -28,8 +28,8 @@
       <div class="mobile-inner-nav">
         <NavLink to="/work">Work 📍</NavLink>
         <NavLink to="/resume">Failure Resume 📰</NavLink>
-        <NavLink to="/Photography">Photos 📸</NavLink>
-        <NavLink to="/MLIP">MLIP 📗</NavLink>
+        <NavLink to="/photography">Photos 📸</NavLink>
+        <NavLink to="/mlip">MLIP 📗</NavLink>
       </div>
     </div>
     <div class="mobile-content" style="top: 0">
@@ -44,8 +44,8 @@
   <div>
     <Route path="work" component={Work} {...content} />
     <Route path="resume" component={Resume} {...content} />
-    <Route path="MLIP" component={MLIP} />
-    <Route path="Photography" component={Photography} />
+    <Route path="mlip" component={MLIP} />
+    <Route path="photography" component={Photography} />
     <Route component="{NotFound}" />
     <Route path="/">
       <Landing {...content} />
