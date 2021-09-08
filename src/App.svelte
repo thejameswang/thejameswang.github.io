@@ -8,6 +8,7 @@
   import content from "./content";
   import MLIP from "./routes/Mlip.svelte";
   import Photography from "./routes/Photography.svelte";
+  import NotFound from "./components/NotFound.svelte";
   export let url = "";
   let mobileNavToggled = false;
 </script>
@@ -45,6 +46,7 @@
     <Route path="resume" component={Resume} {...content} />
     <Route path="MLIP" component={MLIP} />
     <Route path="Photography" component={Photography} />
+    <Route component="{NotFound}" />
     <Route path="/">
       <Landing {...content} />
     </Route>
