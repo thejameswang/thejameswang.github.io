@@ -35,7 +35,7 @@ export default {
       },
     ],
     funFacts: [
-      '📸 I love portrait <a href="https://flickr.com/people/145227047@N06/" target="blank_">photography</a>',
+      '📸 I love portrait <a href="/photography" target="blank_">photography</a>',
       "📑 I love <a href='https://www.notion.so/thejameswang/James-s-Lab-ab240025ea9243f2beef15807b3df6d9' target='blank_'>Notion</a>",
       "🏓 I play a mean game of ping pong",
       "🎾 I'm pretty good at tennis too",
