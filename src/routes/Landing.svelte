@@ -5,25 +5,6 @@
   export let about = {};
 </script>
 
-<section>
-  <div class="landing-container">
-    <div>
-      <h1>
-        👋 Hi! I'm
-        <span class="highlight">{name}</span>
-      </h1>
-    </div>
-    <div class="saying-container">
-      <p>
-        I work with people, organizations, and technology to make doing
-        <span class="highlight-good underline">good</span>
-        easier for everyone
-      </p>
-    </div>
-  </div>
-  <About {about} />
-</section>
-
 <style>
   h1 {
     font-family: "Poppins", sans-serif;
@@ -77,3 +58,22 @@
     }
   }
 </style>
+
+<section>
+  <div class="landing-container">
+    <div>
+      <h1>
+        👋 Hi! I'm
+        <span class="highlight">{name}</span>
+      </h1>
+    </div>
+    <div class="saying-container">
+      <p>
+        I work with people, organizations, and technology to make doing
+        <span class="highlight-good underline">good</span>
+        easier for everyone
+      </p>
+    </div>
+  </div>
+  <About {about} />
+</section>
