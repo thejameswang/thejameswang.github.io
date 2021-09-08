@@ -28,8 +28,8 @@
       <div class="mobile-inner-nav">
         <NavLink to="/work">Work 📍</NavLink>
         <NavLink to="/resume">Failure Resume 📰</NavLink>
-        <NavLink to="/Photography">Photos 📸</NavLink>
-        <NavLink to="/MLIP">MLIP 📗</NavLink>
+        <NavLink to="/photography">Photos 📸</NavLink>
+        <NavLink to="/mlip">MLIP 📗</NavLink>
       </div>
     </div>
     <div class="mobile-content" style="top: 0">
