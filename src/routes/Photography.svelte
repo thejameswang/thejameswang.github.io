@@ -2,10 +2,22 @@
   import { Images } from "svelte-images";
   const images = [
     {
+      src: "https://live.staticflickr.com/65535/51376032763_f7b2d4ed82_b.jpg",
+    },
+    {
+      src: "https://live.staticflickr.com/65535/51376808584_097a2c2c22_b.jpg",
+    },
+    {
+      src: "https://live.staticflickr.com/912/42198641661_4595fc42e2_4k.jpg",
+    },
+    {
       src: "https://live.staticflickr.com/65535/49872110977_bfa5070ea1_b.jpg",
     },
     {
       src: "https://live.staticflickr.com/65535/49871263308_1d3e2955df_b.jpg",
+    },
+    {
+      src: "https://live.staticflickr.com/65535/51375306602_5d6384a98d_b.jpg",
     },
     {
       src: "https://live.staticflickr.com/65535/51376104576_6f5d417d62_b.jpg",
@@ -13,15 +25,11 @@
     {
       src: "https://live.staticflickr.com/65535/51376334643_08fe02d60d_b.jpg",
     },
-    {
-      src: "https://live.staticflickr.com/65535/51375306602_5d6384a98d_b.jpg",
-    },
+    
     {
       src: "https://live.staticflickr.com/65535/51375337352_20f7c1f3dc_b.jpg",
     },
-    {
-      src: "https://live.staticflickr.com/65535/51376808584_097a2c2c22_b.jpg",
-    },
+    
     {
       src: "https://live.staticflickr.com/65535/51376303458_811bc9656c_b.jpg",
     },
@@ -34,9 +42,7 @@
     {
       src: "https://live.staticflickr.com/65535/51376538624_1b733b552b_b.jpg",
     },
-    {
-      src: "https://live.staticflickr.com/65535/51376032763_f7b2d4ed82_b.jpg",
-    },
+    
     {
       src: "https://live.staticflickr.com/65535/51375023962_fc444594f0_b.jpg",
     },
@@ -90,6 +96,12 @@
     },
     {
       src: "https://live.staticflickr.com/4334/36447307336_b1ce6ed3fd_b.jpg",
+    },
+    {
+      src: "https://live.staticflickr.com/4791/40045357824_46ab31f819_4k.jpg",
+    },
+    {
+      src: "https://live.staticflickr.com/982/42198650551_20f4628ef8_4k.jpg",
     },
   ];
 </script>
