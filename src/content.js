@@ -1,6 +1,6 @@
 export default {
   about: {
-    who: "I am an aspiring product manager who wants to make doing good easier. I resigned from my job for the summer, so I'm in ~recovery~ mode this summer before I start my 5th (hopefully last) year of university. Reach out if you want to chat!",
+    who: "I am a product-minded software engineer who wants to make doing good easier. I've just graduated from college, and I'm currently recruiting for my first job. I also help lead a nonprofit. Reach out if you want to chat!",
     grow: [
       "Improve writing ability and write more",
       "Be a better <a href='https://medium.com/pminsider/storytelling-for-product-managers-fc1a758eb303' target='blank_'>storyteller</a>",
@@ -11,25 +11,25 @@ export default {
     social: [
       {
         name: "Email",
-        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Email_ucg7dj.png",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1655213105/thejameswang/gmail_a1eizy.png",
         alt: "Email Logo",
         link: "mailto:j.wang5441@gmail.com",
       },
       {
         name: "Github",
-        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Github_uqhbox.png",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1655213329/thejameswang/github_kywwwc.png",
         alt: "Github Logo",
         link: "https://github.com/thejameswang",
       },
       {
         name: "Linkedin",
-        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/LinkedIN_waoczb.png",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1655213105/thejameswang/linkedin_snrkqx.png",
         alt: "Linkedin Logo",
         link: "https://www.linkedin.com/in/thejameswang/",
       },
       {
         name: "Instagram",
-        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588182214/thejameswang/Instagram_xgpog2.png",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1655213105/thejameswang/instagram_ej03ve.png",
         alt: "Instagram Logo",
         link: "https://instagram.com/thejameswang",
       },
@@ -42,7 +42,7 @@ export default {
       "🏛 I love the <a href='https://en.wikipedia.org/wiki/The_West_Wing' target='blank_'>West Wing</a>",
     ],
     using: [
-      "<b>Computer:</b> 15-inch Macbook Pro (2017)",
+      "<b>Computer:</b> 13-inch M1 Macbook Pro (2021)",
       '<b>Computer:</b> I also built a computer <a href="https://docs.google.com/spreadsheets/d/1oUdx8GToxawU4YMqVFBjJHbVrYJoC47ZPjFubdAJkHg/edit?usp=sharing" target="_blank">with friends</a>',
       "<b>Notetaking:</b> Notability, but I'm starting to make a <a href='https://www.notion.so/thejameswang/Reading-2dcfc0d3c69245f7953646ea886507e4' target='_blank'>new way for myself</a>",
       "<b>Text Editor:</b> VSCode",
@@ -65,16 +65,6 @@ export default {
         year: "May 2020 — Present",
       },
       {
-        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
-        alt: "Impact Labs Logo",
-        positionName: "Organizer and Fellow",
-        briefDescription:
-          "Inspiring and empowering ambitious computer scientists to build a better world. I help with organizing, writing, and photography. I was chosen as a Fellow in 2019.",
-        name: "Impact Labs",
-        link: "https://www.impactlabs.io/",
-        year: "DEC 2018 — Present",
-      },
-      {
         src: "https://res.cloudinary.com/thejameswang/image/upload/v1588433059/thejameswang/Human_Capital_d5objd.jpg",
         alt: "Human Capital Logo",
         positionName: "Student Ambassador",
@@ -85,16 +75,6 @@ export default {
         year: "Nov 2019 — Present",
       },
 
-      {
-        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
-        alt: "HackGT Logo",
-        positionName: "Organizer",
-        briefDescription:
-          "HackGT is the largest hackathon in the southeast based at Georgia Tech. Working on the marketing and media team, I help procure the over 5000 applications to the largest hackathon in the southeast. I'm the primary photo editor for all HackGT photos. Formerly, I was a part of the operations team.",
-        name: "HackGT",
-        link: "https://hack.gt/",
-        year: "DEC 2018 — Present",
-      },
     ],
     old: [
       {
@@ -116,6 +96,26 @@ export default {
         name: "Microsoft",
         link: "https://www.microsoft.com/en-us/",
         year: "May 2020 — August 2020",
+      },
+      {
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/HackGT_jr0awt.jpg",
+        alt: "HackGT Logo",
+        positionName: "Organizer",
+        briefDescription:
+          "HackGT is the largest hackathon in the southeast based at Georgia Tech. Working on the marketing and media team, I help procure the over 5000 applications to the largest hackathon in the southeast. I'm the primary photo editor for all HackGT photos. Formerly, I was a part of the operations team.",
+        name: "HackGT",
+        link: "https://hack.gt/",
+        year: "DEC 2018 — DEC 2020",
+      },
+      {
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/Impact_mluxuw.jpg",
+        alt: "Impact Labs Logo",
+        positionName: "Organizer and Fellow",
+        briefDescription:
+          "Inspiring and empowering ambitious computer scientists to build a better world. I help with organizing, writing, and photography. I was chosen as a Fellow in 2019.",
+        name: "Impact Labs",
+        link: "https://www.impactlabs.io/",
+        year: "DEC 2018 — MAY 2020",
       },
       {
         src: "https://res.cloudinary.com/thejameswang/image/upload/v1587847532/thejameswang/BoG_uifsvt.jpg",
@@ -202,12 +202,21 @@ export default {
   },
   Resume: [
     [
+      2022,
+      {
+        failures: [
+          "Rejected: Tech Congress",
+          "No job yet after graduation"
+        ],
+      },
       2021,
       {
         failures: [
           "Never applied to Interact Fellowship this year",
           "No return offer to previous internship",
           "Hack4Impact not where it should be when I envisioned the start of my tenure to now",
+          "Rejected Schmidt Futures APM Program",
+          "Failed several PM Interviews",
           "Need to take a 5th year of university",
           "Quit start-up job",
           "Quit summer internship job",
@@ -269,7 +278,6 @@ export default {
           "Rejected or Never Responded Back: 133 Emory or GT researcher labs to do research with",
           "Rejected: Winship Summer Scholars Research Program",
           "Waitlist: ION Summer Research Program",
-          "Failed Relationships",
           "2nd time loss at Georgia Brain Bee",
         ],
       },

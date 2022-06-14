@@ -6,7 +6,7 @@
 <div class="social-media-container">
   {#each about.social as social}
     <a href={social.link} target="_blank" class="scale">
-      <img src={social.src} alt={social.alt} />
+      <img src={social.src} alt={social.alt} width="30px" />
     </a>
   {/each}
 </div>
@@ -71,6 +71,7 @@
     flex-wrap: wrap;
     margin-bottom: 50px;
     align-items: center;
+    margin-left: 5px;
   }
 
   .scale:hover {
