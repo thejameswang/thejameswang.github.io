@@ -9,9 +9,9 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "path-parse": ">=1.0.7",
     "svelte": "^3.37.0",
-    "vite": "^2.4.4",
-    "path-parse": ">=1.0.7"
+    "vite": "^2.9.12"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
