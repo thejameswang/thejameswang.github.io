@@ -212,11 +212,14 @@ export default {
       2021,
       {
         failures: [
+          "Rejected: 15+ APM positions, failed 4 final interviews, 6 first round interviews",
+          "Rejected: Schmidt Futures APM",
           "Never applied to Interact Fellowship this year",
           "No return offer to previous internship",
           "Hack4Impact not where it should be when I envisioned the start of my tenure to now",
           "Rejected Schmidt Futures APM Program",
           "Failed several PM Interviews",
+          "Nonprofit not where I hoped it would be in terms of success",
           "Need to take a 5th year of university",
           "Quit start-up job",
           "Quit summer internship job",

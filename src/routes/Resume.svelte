@@ -14,14 +14,27 @@
     disappointed (though maybe a little at the time), I'm proud to be a failure!
   </p>
   <p class="first-container">
+    This wasn't my idea! Here are a few resources that inspired me, <a
+      href="https://www.nytimes.com/2019/02/03/smarter-living/failure-resume.html"
+      >NYT</a
+    >,
+    <a
+      href="https://hbr.org/2016/05/write-a-failure-resume-to-learn-what-makes-you-succeed"
+      >HBR</a
+    >,
+    <a href="https://www.nature.com/articles/nj7322-467a">Melanie Stefan</a>,
+    and many people who've since published their failure resumes online!
+  </p>
+  <p class="first-container">
     If you're actually looking for my Resume,
     <a
-      href="https://drive.google.com/file/d/1CdWiiL3dTYvhftb4kA_G_jg2-_blM96b/view"
+      href="https://drive.google.com/file/d/1gTe-b0CE4JXGU59Kc08i89ErjK3EFxS5/view"
       target="_blank"
     >
-      click here
-    </a>
+      click here</a
+    >!
   </p>
+  <p class="first-container"><i>Last Updated: Dec 9, 2021</i></p>
   {#each Resume as year}
     <h2>{year[0]}</h2>
     <div class="suc-fail">
@@ -76,7 +89,7 @@
   }
 
   .first-container {
-    max-width: 700px;
+    max-width: 900px;
   }
 
   .first-container {
