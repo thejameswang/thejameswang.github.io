@@ -55,7 +55,17 @@ export default {
   work: {
     current: [
       {
-        src: "https://res.cloudinary.com/thejameswang/image/upload/v1588205861/thejameswang/Hack4Impact_wt6dt6.jpg",
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1679254737/Workday_kandi7.png",
+        alt: "Workday Logo",
+        positionName: "Senior Associate Software Application Developer",
+        briefDescription:
+          "Workday",
+        name: "Workday",
+        link: "https://www.workday.com/",
+        year: "January 2023 — Present",
+      },
+      {
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1679254929/Hack4Impact_ovcquc.png",
         alt: "Hack4Impact Logo",
         positionName: "Director",
         briefDescription:
@@ -77,6 +87,16 @@ export default {
 
     ],
     old: [
+      {
+        src: "https://res.cloudinary.com/thejameswang/image/upload/v1679254410/Manhattan_Associates_doveso.png",
+        alt: "Manhattan Associates Logo",
+        positionName: "Software Engineer",
+        briefDescription:
+          "Manhattan Associates Description",
+        name: "Manhattan Associates",
+        link: "https://www.manh.com/",
+        year: "July 2022 — December 2022",
+      },
       {
         src: "https://res.cloudinary.com/thejameswang/image/upload/v1624643886/thejameswang/Tesla_rcfnks.png",
         alt: "Tesla Energy Logo",
