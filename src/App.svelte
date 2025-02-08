@@ -11,10 +11,22 @@
   import NotFound from "./components/NotFound.svelte";
   export let url = "";
   let mobileNavToggled = false;
+  let isDarkMode = true;
 </script>
 
 <Router {url}>
   <nav use:links>
+    <button
+      on:click={() => (isDarkMode = !isDarkMode)}
+      style="background: none; border: none; padding: 0; cursor: pointer; 
+          position: absolute; top: 16px; left: 16px;"
+    >
+      <i
+        class={isDarkMode ? "fas fa-moon fa-2x" : "fas fa-sun fa-2x"}
+        style={isDarkMode ? "color: lightgray;" : "color: yellow;"}
+      >
+      </i>
+    </button>
     <div
       class="nav-container"
       class:mobileNavToggled
@@ -23,7 +35,9 @@
       }}
     >
       <div class="mobile-inner-nav">
-        <a href="/">James Wang</a>
+        <a class="bigger" href="/" style={"font-size: 40px"}>🏠</a>
+
+        <!-- <i class="fas fa-moon"></i> -->
       </div>
       <div class="mobile-inner-nav">
         <NavLink to="/work">Work 📍</NavLink>
@@ -64,6 +78,10 @@
     position: relative;
     font-size: 25px;
     color: #ffffff;
+  }
+
+  .bigger a {
+    font-size: 100px;
   }
 
   .mobile-content {
