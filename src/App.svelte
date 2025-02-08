@@ -27,9 +27,9 @@
       </div>
       <div class="mobile-inner-nav">
         <NavLink to="/work">Work 📍</NavLink>
-        <NavLink to="/resume">Failure Resume 📰</NavLink>
+        <!-- <NavLink to="/resume">Failure Resume 📰</NavLink> -->
         <NavLink to="/photography">Photos 📸</NavLink>
-        <NavLink to="/mlip">MLIP 📗</NavLink>
+        <!-- <NavLink to="/mlip">MLIP 📗</NavLink> -->
       </div>
     </div>
     <div class="mobile-content" style="top: 0">
@@ -46,7 +46,7 @@
     <Route path="resume" component={Resume} {...content} />
     <Route path="mlip" component={MLIP} />
     <Route path="photography" component={Photography} />
-    <Route component="{NotFound}" />
+    <Route component={NotFound} />
     <Route path="/">
       <Landing {...content} />
     </Route>
@@ -97,7 +97,9 @@
       background: #1f1f1f;
       flex-direction: column;
       justify-content: center;
-      transition: height 0.3s, opacity 0.4s;
+      transition:
+        height 0.3s,
+        opacity 0.4s;
       opacity: 0;
       z-index: 2;
       align-items: flex-start;
